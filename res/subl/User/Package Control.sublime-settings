@@ -1,0 +1,24 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AutoPEP8",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"CSSLint",
+		"DetectSyntax",
+		"EncodingHelper",
+		"GBK Encoding Support",
+		"Jade",
+		"JsFormat",
+		"MarkdownBuild",
+		"Package Control",
+		"Placeholders",
+		"Python Pep8 Lint",
+		"sublime-jslint",
+		"SublimeCodeIntel",
+		"SublimeExternalCommand",
+		"SublimeLinter",
+		"Tag"
+	]
+}
