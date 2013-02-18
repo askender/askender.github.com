@@ -1,0 +1,27 @@
+[user]
+	name = askender
+	email = askender43@gmail.com
+[alias]
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	glog = log --graph
+	dlog = log --decorate
+	plog = log -p
+	nlog = log --name-status
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = vim
