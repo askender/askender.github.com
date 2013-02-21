@@ -1,31 +1,20 @@
-movie
-时间的风景
+make do  ing
 
-ande
-lyric
-
-anwen
-impress.js
+finish links
+recode thoughts  ing
+clean mind  ing
+write story
 
 
-book
-追风筝的人
-《C Primer Plus》
-
-other
-anwen_game
-anwen-gamestory
-阅读tornado源码 bottle
-阅读 kindle
 
 
-music-soft
-sudo add-apt-repository ppa:me-davidsansome/clementine
-sudo apt-get update
-sudo apt-get install clementine
+ande lyric
+anwen game
+anwen gamestory
+read tornado bottle
+kindle
 
 
-twitter-bootstrap
 last_login
 password_reset_token
 invite
@@ -35,4 +24,8 @@ alert alert-warning
 alert alert-info
 
 
-Raspberry Pi
+http://yue.fm/p9pdw
+
+42qu job
+
+http://liveweave.com/#

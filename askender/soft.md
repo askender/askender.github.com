@@ -5,3 +5,27 @@
 [開源的中文簡繁轉換](http://www.byvoid.com/application/opencc/)
 
 註：本文在linux下通過rime中州韻「朙月拼音」輸入方案錄入。简体繁体的切换很方便，输入中文引号「」『』也很容易。向开发者致敬~
+
+http://jplayer.org/
+
+impress.js
+
+
+music-soft
+sudo add-apt-repository ppa:me-davidsansome/clementine
+sudo apt-get update
+sudo apt-get install clementine
+
+twitter-bootstrap
+
+https://droplr.com/hello
+
+https://www.mongohq.com/home
+
+sudo的SSH-V-我的〜/ .ssh / zola.pem bitnami@204.236.236.251-D 9050-C
+
+http://lfvpn.com/Member/Register.php?f=NN3qAv&SiteID=1
+
+https://github.com/fontello/fontello
+
+https://github.com/FortAwesome/Font-Awesome

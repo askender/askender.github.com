@@ -7,3 +7,4 @@ $ git diff 1b6d "master~2"
 $ git whatchanged --since="2 weeks ago"
 
 git config --global --get-regexp alias
+git diff origin/HEADa
