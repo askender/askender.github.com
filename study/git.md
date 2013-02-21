@@ -8,3 +8,12 @@ $ git whatchanged --since="2 weeks ago"
 
 git config --global --get-regexp alias
 git diff origin/HEADa
+
+提交user.name错误,修正了，真是折腾，记录一下：
+git rebase -i master~2
+    change that pick to edit
+git commit --amend --reset-author  (-C HEAD)
+git rebase --continue
+
+git config --global user.name askender
+git config --global user.email askender43@gmail.com
