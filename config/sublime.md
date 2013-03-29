@@ -18,3 +18,5 @@ Pretty JSON
 Alignment
 FileDiffs
 SideBarEnhancements
+
+GBK Encoding Support

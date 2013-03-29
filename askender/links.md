@@ -1,3 +1,9 @@
+这辈子可能再也不会看到的奇景 | Jackchen Design 1984
+http://www.jackchen.cn/blog/archives/8471.html
+
+http://www.guokr.com/article/392664/ IBM:用超级计算机模拟人脑 | 科技评论主题站 | 果壳网 科技有意思
+
+
 libs
 http://faye.jcoglan.com/
 

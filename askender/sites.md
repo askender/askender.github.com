@@ -1,3 +1,7 @@
+http://www.ted.com/  TED: Ideas worth spreading
+
+
+
 pic
 http://www.desktopnexus.com/
 

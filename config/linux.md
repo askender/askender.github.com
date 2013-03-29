@@ -11,6 +11,12 @@ sudo apt-get install ibus ibus-googlepinyin ibus-sunpinyin
 
 sudo apt-get install ibus-rime
 
+
+sudo add-apt-repository ppa:chromium-daily
+sudo apt-get update
+sudo apt-get install chromium-browser
+sudo apt-get update 
+sudo apt-get upgrade
 chromium-browser
 git
 vim
@@ -118,3 +124,9 @@ vim ~/.vim/snippets/python.snippets
 
 
 sudo apt-get install figlet
+
+netstat -antup
+lsof -i:7071
+
+关闭apache服务
+/etc/init.d/apache2

@@ -6,6 +6,11 @@
 
 註：本文在linux下通過rime中州韻「朙月拼音」輸入方案錄入。简体繁体的切换很方便，输入中文引号「」『』也很容易。向开发者致敬~
 
+
+Fabric：Fabric 是一个自动化工具，它可以完成任意可以由脚本完成的事情，非常适合在本地操作远程——你不需要一次又一次的SSH到远程再进行部署。
+
+
+
 http://jplayer.org/
 
 impress.js
@@ -31,3 +36,14 @@ https://github.com/fontello/fontello
 https://github.com/FortAwesome/Font-Awesome
 
 Basecamp
+
+
+http://www.scons.org/ Java有Ant这个巨火的构建工具，Python的特性允许我们构建更新类型的构建工具，就是scons了。
+
+网络电视：
+SopCast：传说中Linux下最好用的P2P网络电视软件，据说频道还比较全～
+Mud客户端：
+yTin：老牌Mud客户端tintin++的一个改版，具有更好的中文支持能力和一些其他很好的特性。
+
+检查两机器间的带宽状况
+使用iperf这个软件包，并在两台机器上分别执行“iperf -s -f M”和“iperf -c ginger -P 4 -f M -w 256k -t 60”来完成测试
