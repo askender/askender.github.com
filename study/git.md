@@ -1,3 +1,11 @@
+# 创建附注标签
+$ git tag -a v0.1.2 -m "发布0.1.2版本"
+标签发布
+通常的git push不会将标签对象提交到git服务器，我们需要进行显式的操作：
+
+$ git push origin v0.1.2 # 将v0.1.2标签提交到git服务器
+$ git push origin --tags # 将本地所有标签一次性提交到git服务器
+
 git diff "@{yesterday}"
 
 或者一个特定版本与倒数第二个变更之间：

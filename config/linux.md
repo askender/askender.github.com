@@ -130,3 +130,14 @@ lsof -i:7071
 
 关闭apache服务
 /etc/init.d/apache2
+
+
+apt-get install mongodb
+The following extra packages will be installed:
+  libboost-filesystem1.42.0 libboost-program-options1.42.0
+  libboost-system1.42.0 libboost-thread1.42.0 libmozjs2d libnspr4-0d
+  libpcrecpp0 mongodb-clients mongodb-dev mongodb-server
+The following NEW packages will be installed:
+  libboost-filesystem1.42.0 libboost-program-options1.42.0
+  libboost-system1.42.0 libboost-thread1.42.0 libmozjs2d libnspr4-0d
+  libpcrecpp0 mongodb mongodb-clients mongodb-dev mongodb-server

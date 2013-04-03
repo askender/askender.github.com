@@ -1,25 +1,42 @@
-write log keep
-make do keep
-recode thoughts  keep
-clean mind  keep
-anwen shares keep
+keep
+do
+write_log
+write
+clean_mind
 
-read today
-lend book today
-write story today
-4jobs today 12
+watch
+i&f
 
-anwen gamestory someday
-anwen game someday
-ande lyric someday
-last login someday
-password reset someday
-invite someday
+read
+geb
+zfzdr
 
-read zfzdr someday
+anwen
+quwen_game
+share_fun
+anwen_dev
 
-explore
-/connect/douban/callback
+anwen_dev
+today
+password_reset
+connect
+    /connect/douban/callback
+welcome
+someday
+ande_lyric
+last_login
+invite
+
+quwen_game
+thisweek
+story
+quwen_game_dev
+
+
+
+
+
+
 /help/feedback
 
 

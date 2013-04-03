@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+	<title>Impress Tutorial</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="impress.js"></script>
+</head>
+<body>
+	<div id="impress">
+
+<div class="step" data-x="0" data-y="0">
+    This is my first slide
+</div>
+
+<div class="step" data-x="500" data-y="0">
+    This is slide 2
+</div>
+<div class="step" data-x="500" data-y="-400">
+    This is slide 3
+</div>
+
+		<div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+			<q>
+				adasd
+			</q>
+		</div>
+		<div class="step slide" data-x="0" data-y="-1500">
+			<q>
+				adsasd
+			</q>
+		</div>
+
+		<div class="step slide" data-x="1000" data-y="-1500">
+			<q>
+adsa
+			</q>
+		</div>
+
+		<div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+			<span class="try"></span>
+			<h1>
+				aaa<sup>*</sup>
+			</h1>
+			<span class="footnote"> <sup>*</sup>
+				asdasd
+			</span>
+		</div>
+
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p></p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p><big style="font-size:larger"></big> </p>
+    </div>
+
+   <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p> <span style="font-size:smaller"></span> <span class="thoughts"></span></p>
+    </div>
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>它在一个无线大的画布上，展示了 <b class="positioning">定位</b> , <b class="rotating">旋转</b> 和 <b class="scaling">缩放</b> 的特效</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p><b class="imagination">心</b>有多大，<b>舞台</b>就有多大</p>
+    </div>
+
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>想知道更多吗？</p>
+        <q><a href="http://github.com/bartaz/impress.js">查看源码吧</a>, 兄台!</q>
+    </div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>哦，还有一件事情……</p>
+    </div>
+
+    <!--
+        
+        你不仅仅可以再3D空间中定位一个物体，同样的也能在3D中旋转一个物体！
+        所以我们这里沿着X轴旋转-40度（逆时针旋转40度），沿着Y轴旋转10度（顺时针）。
+        
+        当然你也可以沿着z轴旋转`data-rotate-z`——我想你猜到了，这和`data-rotate`是一个效果。
+        
+    -->
+    <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <p><span class="have">你</span> <span class="you">有没有</span> <span class="noticed">注意到</span> <span class="its">它</span> <span class="in">是</span> <b>3D<sup>*</sup></b>的？</p>
+        <span class="footnote">* prezi可没这能力</span>
+    </div>
+
+    <!--
+        
+        我们最后来整理一下所有的属性：
+        
+        * `data-x`, `data-y`, `data-z` —— 它们定义了元素中心在画布的位置，默认是0；
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` —— 它们定义了元素
+            沿着指定轴旋转的角度，默认是0；`data-rotate` 和 `data-rotate-z`是一回事；
+        * `data-scale` —— 定义了元素缩放的比率，默认是1；
+
+        这些值会被impress.js读取并写入CSS的transformation变化，你可以在下面网址查看更多信息：
+        https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<!--
+    
+    Hint其实和impress.js没有半点关系。
+    
+    不过它演示一种创造性的使用impress.js的方法。
+    
+    当某一个场景显示的时候，它会获得`active`类属性（译注：确实，除了上面的present以外还有一个active），
+    同时body元素会有一个`impress-on-ID`（ID就是当前显示的场景的id）的类...
+    听起来很让人迷惑，举个栗子，当我们的第一张幻灯片显示的时候，它的id是`bored`，那么我们的body
+    就有一个叫做`impress-on-bored`的类名。
+    
+    我们就是用这个类来显示下面的Hint，查看一下CSS文件，我们延时的显示了操作方法。
+    
+    ...
+    
+    当然这里面还有一些JavaScript的代码…… 孩子，千万不要再家里模仿这样的做法：）
+    我们只是为了演示对应触摸设备的提示而随便写写的，你应该把这代码写到一个独立的JS文件里，
+    而且这个演示也应该放在HTML里的某个地方，而不是写死在代码里。
+    
+    不过我只是随口说所;)
+    
+-->
+<div class="hint">
+    <p>使用空格或者方向键来移动</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>向左或向右拖动屏幕来移动</p>";
+}
+</script>
+
+
+
+
+
+
+
+
+	<script src="js/impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>

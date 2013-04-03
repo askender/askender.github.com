@@ -6,7 +6,7 @@ def commit():
 
 
 def push():
-    local("git push ae_gh")
+    local("git push blog_ask")
 
 
 def deploy():

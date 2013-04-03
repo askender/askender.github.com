@@ -457,3 +457,99 @@ Vim高级技巧
 乱序排版:
 ggv=^g
 ggv=G
+
+
+VIM是一款功能强大使用方便的文本编辑器。
+
+免费。VIM是开源的
+跨平台。无论windows还是Linux，无论客户端还是服务器
+易用。命令的一致性，可组合
+高效。打开超大文件仍能保持响应快速
+扩展。超过3600款插件供我们选择
+VIM模式
+VIM是有模式的编辑器。
+
+普通模式（Normal） ： 默认模式，此时在编辑器内按下键盘，并不会直接输入
+编辑模式（Insert） ： 按i键进入编辑模式，可以输入
+命令模式（Command） ： 在普通模式下按”:”可以输入命令
+可视模式（Visual） ： 按v键进入，此模式下可以进行选择
+VIM配置
+打开VIM，输入:set runtimepath，可以看到VIM配置环境路径，推荐直接将配置文件放在用户根目录下（~），除非你知道自己在做什么。
+
+目录结构应该是这样：
+
+~/.vimrc # 配置文件
+~/.vim/ # 插件目录
+常用配置说明
+set nocompatible  # 关闭VI兼容模式
+
+\# 编码设置
+let &termencoding=$encoding
+set fileencodings=ucs-bom,utf-8,gbk,cp936,latin1
+
+\# 缩进设置
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set cindent
+
+\# GUI设置（关闭菜单栏和工具栏）
+set guioptions-=T
+set guioptions-=m
+
+\# 状态栏设置
+set laststatus=2
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+
+set nu # 显示行号
+colo darkZ # 主题配色
+set autochdir #自动切换工作目录
+syntax on # 语法高亮
+filetype plugin indent on #开启插件
+set mouse=a # 开启鼠标支持
+set nowrap # 关闭自动折行
+set so=10 # 设置光标距离上下边界的距离
+set hidden # 允许在有未保存的修改时切换缓冲区
+set ruler # 开启右下角光标位置显示
+set showcmd # 在窗口右下角显示完整命令已输入部分
+set cursorline # 高亮光标所在行
+set ignorecase # 忽略大小写匹配
+set incsearch # 开启输入时的搜索
+set magic # 用于模式匹配的，建议开启
+set hlsearch # 搜索关键词高亮
+set cmdheight=2 # 设置命令行高度
+setlocal noswapfile # 关闭临时文件
+set wildmenu # 启用文本模式的菜单
+web前端开发常用插件
+zencoding用于快速书写HTML代码的zencoding插件，它非常优秀，几乎改变了我书写HTML代码的方式
+展开缩写：ctrl + y + ,
+多行缩写：ctrl + y + , 注意星号（*）的作用
+跳转到上（下）个编辑位置：ctrl + y + N(n)
+获取图片的长宽大小： ctrl + y + i
+注释切换：ctrl + y + /
+url生成：ctrl + y + a
+tasklist类似Eclipse中的TODO功能，很方便
+默认 <leader>t 调出，支持 TODO/FIXME/XXX 等标记
+auto_mkdir保存文件到一个不存在的目录结构时，会自动创建目录结构树
+比如键入如下命令保存文件：:w /data/csser.com/vim.file，但实际上/data/csser.com/目录并不存在，不要紧，这款插件自动解决。
+bufferexplorr快速方便查看缓冲区内已打开的文件列表，并可进行切换、删除等操作
+默认<leader>be调出
+JavascriptLintJavascript语法检查工具的vim插件
+默认保存js文件时会进行语法错误检查
+jsbeautify更美观的格式化Javascript代码
+默认<leader>ff调用，必须是已经存在的文件，未保存无效
+matchit 让HTML中也可以通过”%”在标签开始和结束之间跳跃选择
+neocomplcache 效率较高的输入自动提示插件
+Nerd_commenter注释功能增强
+单行注释：<leader>cc
+多行美观注释：<leader>cs
+取消注释：<leader>cu
+Nerd_tree文件浏览器
+我设置的<F3>调出，但很少用
+snipMate代码段补全
+新建一个javascript文件，输入if按<Tab>，有效过，但一般我也用的少
+surround便捷的操作环绕字符
+这个很方便、很强大的插件，写程序还是必备较好
+Tabular可以指定某个符号对齐
+是否看到很多类库的源码中定义变量的=号都是对齐的，用它就很方便了，不用按了<Tab>又空格的。不仅仅等号，其它符号也可有对齐，命令：:Tabularize /=
