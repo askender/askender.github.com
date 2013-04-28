@@ -15,3 +15,5 @@ sudo apt-get install python-wxtools
 sudo apt-get install python-pyxmpp
 
 python -m SimpleHTTPServer
+
+pyglet

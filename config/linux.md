@@ -141,3 +141,13 @@ The following NEW packages will be installed:
   libboost-filesystem1.42.0 libboost-program-options1.42.0
   libboost-system1.42.0 libboost-thread1.42.0 libmozjs2d libnspr4-0d
   libpcrecpp0 mongodb mongodb-clients mongodb-dev mongodb-server
+
+
+sudo apt-get install amule
+sudo apt-get install aria2
+
+sudo killall ibus-daemon
+ibus-daemon -d
+
+sudo killall python
+ibus-daemon -d -x -r

@@ -3,3 +3,5 @@ httpie
 
 http://pycoders-weekly-chinese.readthedocs.org/ 
 
+sudo pip install tornado -U
+pip freeze

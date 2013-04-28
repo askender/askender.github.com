@@ -2,7 +2,10 @@ from fabric.api import local
 
 
 def commit():
-    local("git add -p && git add . && git commit -a")
+    try:
+        local("git add -p && git add . && git commit -a")
+    except:
+        pass
 
 
 def push():

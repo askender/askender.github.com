@@ -8,6 +8,9 @@
  T^T
 o(╯□╰)o
 ^,^
+ѽ
 
 for ande use
 `_` 
+<3 
+✔

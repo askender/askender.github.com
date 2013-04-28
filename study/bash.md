@@ -1,3 +1,5 @@
+cat ~/.bash_history | sed "s|sudo ||g" | cut -d " " -f 1 | sort | uniq -c | sort -n
+
 rsync -avSH ~/tmp 58:/home/lb/
 cconv -f UTF8-CN -t UTF8-TW
 

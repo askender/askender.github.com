@@ -1,3 +1,8 @@
+git 查看某次commit删除的文件
+git whatchanged
+git log --stat
+git show
+
 # 创建附注标签
 $ git tag -a v0.1.2 -m "发布0.1.2版本"
 标签发布
@@ -177,3 +182,12 @@ git remote set-head origin master   # 设置远程仓库的HEAD指向master分�
 
 git branch --set-upstream master origin/master
 git branch --set-upstream develop origin/develop
+
+
+git reset HEAD^  
+git reset --hard origin/master  
+
+
+git reset --soft HEAD^
+
+解释一下，HEAD是当前分支的最新版本。^表示父节点。当前节点的父节点，就是上一次提交的版本。也就是标记为“change file1”的版本。
