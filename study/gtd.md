@@ -1,14 +1,3 @@
-gtd
-========
-
-my three of today
-131415-140000
-egos 2h
-anwen 2h
-read 2h
-must:ec 2h
-
-
 效率极低人群之七大习惯
 1、缺席
 3、做一些无关紧要的事情
