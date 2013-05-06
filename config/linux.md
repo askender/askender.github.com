@@ -151,3 +151,5 @@ ibus-daemon -d
 
 sudo killall python
 ibus-daemon -d -x -r
+
+sudo apt-get install aria2

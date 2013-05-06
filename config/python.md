@@ -1,8 +1,11 @@
-pip install:
+pip install
 e
 virtualenvwrapper
+apt-get install python-setuptools
+aptitude install python3-setuptools
+easy_install3 virtualenv
 
-virtualenv -p /usr/bin/python3.2 .
+virtualenv -p /usr/bin/python3 .
 virtualenv .
 source bin/activate
 

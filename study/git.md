@@ -1,23 +1,18 @@
-git 查看某次commit删除的文件
 git whatchanged
 git log --stat
 git show
 
-# 创建附注标签
-$ git tag -a v0.1.2 -m "发布0.1.2版本"
-标签发布
+git tag -a v0.1.2 -m "发布0.1.2版本"
 通常的git push不会将标签对象提交到git服务器，我们需要进行显式的操作：
-
-$ git push origin v0.1.2 # 将v0.1.2标签提交到git服务器
-$ git push origin --tags # 将本地所有标签一次性提交到git服务器
+git push origin v0.1.2 # 将v0.1.2标签提交到git服务器
+git push origin --tags # 将本地所有标签一次性提交到git服务器
 
 git diff "@{yesterday}"
-
 或者一个特定版本与倒数第二个变更之间：
-$ git diff 1b6d "master~2"
+git diff 1b6d "master~2"
 
 输出结果都是补丁格式，可以用 git apply 来把补丁打上。也可以试一下：
-$ git whatchanged --since="2 weeks ago"
+git whatchanged --since="2 weeks ago"
 
 git config --global --get-regexp alias
 git diff origin/HEADa
@@ -35,14 +30,14 @@ git config --global user.email askender43@gmail.com
 新建develop分支
 Git除了分布式这一大特性外，还大大强化了分支的使用。我们日常的开发工作一般不在master分支上进行，而是最好建立一个develop分支:
 
-$ git checkout -b develop
+git checkout -b develop
 开发时，最好基于develop分支再新建一个特性分支，比如我们要为网站添加一个新功能“标签支持”，就为其新建一个分支tag_support，新功能开发完成之后，将其合并到develop分支上:
 
-$ git checkout develop
-$ git merge tag_support
+git checkout develop
+git merge tag_support
 这就将新功能的代码合并到了开发主分支上，合并过程没有冲突的话，就可以删掉这个分支：
 
-$ git branch -d tag_support
+git branch -d tag_support
 
 
 Git常用命令备忘
