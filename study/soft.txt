@@ -1,0 +1,1 @@
+phantomjs cut.js http://anwensf.com/ a.png

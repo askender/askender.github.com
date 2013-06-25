@@ -1,5 +1,3 @@
-vim.txt
-
 这篇教程写了在不同工作模式下使用VIM的一些基本技巧 -- 即插入模式（insert mode）， 命令模式（command mode）， 存取文件等。目的是帮助刚刚接触VIM的新手更加有效率的使用这个出色的编辑器。
 说明：在这篇文章里面，<C-X>代表Ctrl + X -- 就是按住Ctrl键然后再按X。而且你可以在很多情况下使用 :help command 来获得大部分命令的帮助，这个是VIM的内部帮助文件命令。
 (Edit Section ↓)
@@ -553,3 +551,11 @@ surround便捷的操作环绕字符
 这个很方便、很强大的插件，写程序还是必备较好
 Tabular可以指定某个符号对齐
 是否看到很多类库的源码中定义变量的=号都是对齐的，用它就很方便了，不用按了<Tab>又空格的。不仅仅等号，其它符号也可有对齐，命令：:Tabularize /=
+
+商业化产品可能是有用的，
+但最好的东西往往是免费的，
+空气，水，Vim。
+
+http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/
+http://amix.dk/blog/post/19486
+http://wiki.hotoo.me/Vim.html

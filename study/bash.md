@@ -432,3 +432,4 @@ XON	::
 从另一台电脑上得到所有的东西	xon <host> <X-client>
 
 history | awk {'print $2'} | sort | uniq -c | sort -k1 -rn | head
+
