@@ -9,9 +9,9 @@ def commit():
 
 
 def push():
-    local("git push blog_ask")
+    local("git push blog_ask master")
 
 
 def deploy():
     commit()
-    # push()
+    push()
