@@ -1,4 +1,6 @@
 netstat -apn |grep 80
+lsof -i:被占用的端口号
+
 cat ~/.bash_history | sed "s|sudo ||g" | cut -d " " -f 1 | sort | uniq -c | sort -n
 
 rsync -avSH ~/tmp 58:/home/lb/
