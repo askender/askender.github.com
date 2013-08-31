@@ -1,6 +1,6 @@
 % Resume
 % Li Bo
-% 2013.02.20
+% 2013.08.02
 
 
 Education and work experience
@@ -11,7 +11,7 @@ Education and work experience
 2012.02.10--2012.04.27 php programmer in Hangzhou Ruizhen Network Technology Co., Ltd.
 2012.05.08--2012.06.29 php software engineer in Wuhan Sgamer Online Technology Co., Ltd.
 2012.07--2012.08       self-study python and adjust my career direction
-2012.09.10--           python software engineer in Wuhan Optic-Valley Orange Technology Co., Ltd. 
+2012.09.10-- 2012.04   python software engineer in Wuhan Optic-Valley Orange Technology Co., Ltd. 
 ---------------------- ------------------------------------------------
 
 Skills
@@ -39,3 +39,5 @@ Contact:
 
 - Email & Gtalk : askender43@gmail.com
 - Twitter : <https://twitter.com/askenderlee>
+- Blog : <http://askender.com/>
+- Github : <https://github.com/askender>

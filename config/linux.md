@@ -153,3 +153,27 @@ sudo killall python
 ibus-daemon -d -x -r
 
 sudo apt-get install aria2
+
+
+
+sudo npm install -g yo
+sudo npm install -g generator-webapp
+sudo npm install -g yo grunt-cli bower
+sudo npm install -g grunt-init
+
+bower install underscore 
+
+sudo npm install -g generator-angular
+
+PhantomJS
+
+yo angular
+bower install angular-ui
+
+
+grunt test
+grunt server
+grunt  
+ 
+
+sudo pip install flake8

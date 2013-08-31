@@ -45,3 +45,5 @@
 - Email & Gtalk : askender43@gmail.com
 - Twitter : <https://twitter.com/askenderlee>
 - 个人博客：<http://askender.com/>
+- Github : <https://github.com/askender>
+- Aboutme: <http://about.me/askender>
