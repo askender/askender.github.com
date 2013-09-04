@@ -1,14 +1,17 @@
 git config --global user.name "Your Name Comes Here"
 git config --global user.email you@yourdomain.example.com
-git config --list
+git config -l
 git init
-如果作为 Server 存在，那么可以忽略工作目录，以纯代码仓库形式存在
+# 如果作为 Server 存在，那么可以忽略工作目录，以纯代码仓库形式存在
 git --bare init
-可以在~/.gitconfig设置别名
-[alias]
-st = status
-ci = commit -a
-co = checkout
+
+
+git remote add blog_ask git@github.blog_ask:askender/askender.github.com.git
+# Host github.blog_ask
+# User git
+# HostName github.com
+# IdentityFile ~/.ssh/blog_ask
+
 
 git add . 
 git add file1 file2 file3
