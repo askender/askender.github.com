@@ -17,3 +17,4 @@ alias tmux="tmux -2"
 alias ps="ps aux"
 alias fan="cd ~/tools/goagent-82f9ea12f4d0/local/ && ./proxy.py"
 alias viewlb="cd ~/lb && subl ."
+alias gitc='git clone '

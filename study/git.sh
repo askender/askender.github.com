@@ -51,6 +51,7 @@ git stash clear
 git reset HEAD file1  # 取消暂存区的文件快照(即恢复成最后一个提交版本)，这不会影响工作目录的文件修改
 git reset HEAD^  # 将整个项目回溯到以前的某个版本。可以选择的参数包括默认的 "--mixed" 和 "--hard"，"--soft". HEAD是当前分支的最新版本。^表示父节点。当前节点的父节点，就是上一次提交的版本
 git reset -- .  # 从暂存区恢复到工作文件
+git reset HEAD -- file
 
 git checkout -- file1  # 使用暂存区快照恢复工作目录文件，工作目录的文件修改被抛弃
 git checkout HEAD^ file1  # 直接 "签出" 代码仓库中的某个文件版本到工作目录，该操作同时会取消暂存区快照
@@ -99,7 +100,7 @@ git diff --stat  # 仅仅比较统计信息
 git status  # 这个命令在git commit之前有效，表示都有哪些文件发生了改动
 git status -sb
 
-git reset HEAD -- file
+
 
 git show
 git show 5b888  # 使用git show再加上述的commit名称来显式更详细的commit信息
@@ -247,6 +248,9 @@ git branch -d tag_support
 
 git push origin HEAD --force
 
+# http://gitref.org/zh/index.html
 # http://gitbook.liuhui998.com/index.html
 # https://sites.google.com/a/kingofat.com/wiki/git-tutorial
 # http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
+# http://git-scm.com/book/ gfw
+# http://ikandou.com/book/7188000/

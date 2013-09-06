@@ -1,6 +1,5 @@
 sudo apt-get update
 sudo apt-get upgrade
-# sudo apt-get dist-upgrade
 sudo apt-get autoremove
 
 
@@ -10,7 +9,6 @@ sudo apt-get install python-pip
 sudo apt-get install python-dev
 sudo apt-get install curl
 sudo apt-get install git
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 sudo apt-get install mysql-server mysql-client
 sudo apt-get install libmysqld-dev
 sudo apt-get install vim
@@ -22,21 +20,23 @@ sudo apt-get install openssl libssl-dev
 sudo apt-get install openssh-server
 sudo apt-get install nautilus-open-terminal
 sudo apt-get install mysql-workbench
+sudo apt-get install mercurial
+sudo apt-get install xsel
+sudo apt-get install virtualbox
+sudo apt-get install tmux
+sudo apt-get install git-flow
+
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 # http://www.longene.org/forum/viewtopic.php?t=4700
 # sudo apt-get install ia32-libs
-sudo apt-get install mercurial
-sudo apt-get install xsel xclip
+
 # vi ~/.hgrc
 # [ui]
 # Name data to appear in commits
 # username = askender <askender43@gmail.com>
 
-# sudo add-apt-repository ppa:tortoisehg-ppa/releases
-# sudo add-apt-repository ppa:mercurial-ppa/releases
-# sudo apt-get update
-# sudo apt-get install python-nautilus tortoisehg
 
-sudo apt-get install tmux
+
 sudo apt-get install nginx
 sudo apt-get install memchaced
 sudo apt-get install redis
@@ -44,7 +44,7 @@ sudo apt-get install openjdk-7-jdk
 sudo apt-get install mongodb
 
 sudo apt-get install celery
-sudo apt-get install git-flow
+
 sudo apt-get install mosh
 sudo apt-get install subversion
 sudo apt-get install memcached
