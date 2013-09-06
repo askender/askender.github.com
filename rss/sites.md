@@ -8,3 +8,5 @@ geekpark
 ifanr
 http://www.luanxiang.org/blog/
 techweb
+
+https://news.ycombinator.com/

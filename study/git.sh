@@ -78,6 +78,7 @@ git log <file>  # 查看该文件每次提交记录
 git log -p <file>  # 查看每次详细修改内容的diff
 git log -p -2  # 查看最近两次详细修改内容的diff
 git log --stat  # 查看提交统计信息
+git log --oneline --decorate --graph
 
 git blame FILE  # 标注出一个指定的文件里每一行内容的最后修改者，和最后修改时间。
 
@@ -85,17 +86,20 @@ git diff  # 这个命令只在git add之前使用有效。如果已经add了，�
 git diff –cached  # 这个命令在git add之后在git commit之前有效。
 git diff "@{yesterday}"  # 比较当前和昨天的内容
 git diff <file>  # 比较当前文件和暂存区文件差异
-git diff
 git diff <$id1> <$id2>  # 比较两次提交之间的差异
 git diff <branch1>..<branch2> # 在两个分支之间比较
 git diff --staged  # 比较暂存区和版本库差异
 git diff --cached  # 比较暂存区和版本库差异
+git diff HEAD
 git diff --stat  # 仅仅比较统计信息
 
 
 
 
 git status  # 这个命令在git commit之前有效，表示都有哪些文件发生了改动
+git status -sb
+
+git reset HEAD -- file
 
 git show
 git show 5b888  # 使用git show再加上述的commit名称来显式更详细的commit信息
@@ -127,11 +131,13 @@ git checkout master  # 切换到master分区
 git pull . bobworks  # 如果我检查了bob的工作后很满意，就可以用pull来将bobworks分支合并到我的项目中了
 
 # 分支管理
-## checkout
+
+# checkout
 git checkout <branch>  # 切换到某个分支
 git checkout -b <new_branch> # 创建新的分支，并且切换过去
 git checkout -b <new_branch> <branch>  # 基于branch创建新的new_branch
-## branch
+
+# branch
 git branch  # 查看当前分支
 git branch -d experimental  # 删除分支, 使用的是小写的-d，表示“在分支已经合并到主干后删除分支”。
 git branch -D experimental  # 强制删除分支, 表示“不论如何都删除分支”，-D使用在“分支被证明失败”
@@ -142,7 +148,8 @@ git branch <new_branch> # 创建新的分支
 git branch -v  # 查看各个分支最后提交信息
 git branch --merged  # 查看已经被合并到当前分支的分支
 git branch --no-merged  # 查看尚未被合并到当前分支的分支
-## merge
+
+# merge
 git merge experimental  # 合并分支
 
 
