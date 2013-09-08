@@ -68,6 +68,7 @@ sudo pip install git+https://github.com/scrapy/slybot.git
 sudo pip install scrapyd
 sudo pip install bpython
 sudo pip install fabric
+sudo pip install pelican
 
 sudo pip install Celery
 sudo pip install cloudi
