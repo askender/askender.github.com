@@ -39,5 +39,5 @@ THEME = 'themes/pelican-bootstrap3'
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "askender-blog"
 #GOOGLE_ANALYTICS = ""
