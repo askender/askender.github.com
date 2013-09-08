@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'askender'
 SITENAME = u"柏舟志 askender's blog"
-SITEURL = '/blog'
+SITEURL = 'http://blog.askender.com/blog'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -39,5 +39,5 @@ THEME = 'themes/pelican-bootstrap3'
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "askender-blog"
+DISQUS_SITENAME = u"askender-blog"
 #GOOGLE_ANALYTICS = ""
