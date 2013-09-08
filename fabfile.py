@@ -9,7 +9,7 @@ def commit():
 
 
 def push():
-    local("git push blog_ask master")
+    local("git push origin master")
 
 
 def deploy():
