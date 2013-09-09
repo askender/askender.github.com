@@ -26,7 +26,7 @@ def get_weather(city):
 if __name__ == '__main__':
     import platform
     sysstr = platform.system()
-    if(sysstr =="Windows"):
+    if(sysstr == "Windows"):
         info = u'请输入城市中文名:'
         info = info.encode('GBK')  # windows默认的是GBK字体
         cityname = raw_input(info)

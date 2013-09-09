@@ -7,7 +7,6 @@ OUTPUTDIR=$(BASEDIR)/blog
 LOCALCONF=$(BASEDIR)/conf/localconf.py
 PUBLICCONF=$(BASEDIR)/conf/publishconf.py
 
-.PHONY: publish
 
 help:
 	@echo Usage: make [\TARGET\]
@@ -40,8 +39,11 @@ preview:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)
 
+commit:
+	@echo "starting commit"
+	fab commit
 
-deploy: publish
+deploy:
 	@echo "starting deploy"
 	fab deploy
 

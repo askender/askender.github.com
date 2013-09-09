@@ -71,7 +71,10 @@ def _confidence(ups, downs):
 
     z = 1.0  # 1.0 = 85%, 1.6 = 95%
     phat = float(ups) / n
-    return sqrt(phat + z * z / (2 * n) - z * ((phat * (1 - phat) + z * z / (4 * n)) / n)) / (1 + z * z / n)
+    return (
+        sqrt(phat + z * z / (2 * n) - z *
+             ((phat * (1 - phat) + z * z / (4 * n)) / n)) / (1 + z * z / n)
+    )
 
 
 def confidence(ups, downs):
@@ -82,6 +85,7 @@ def confidence(ups, downs):
 
 
 class PostHandler():
+
     def get(self, slug):
         key = "BlogscokeorgPostOne:%s" % slug
         html_main = self.cache.get(key)
@@ -100,10 +104,10 @@ class PostHandler():
         else:
             self.write(html_main)
 
-import time
-
 
 def timeit(func):
+    import time
+
     def warpper():
         start = time.time()
         func()
@@ -122,9 +126,9 @@ def pretty_date(self, time=False):
 
     from datetime import datetime
     now = datetime.now()
-    if type(time) is str or type(time) is unicode:
+    if isinstance(time, str) or isinstance(time, unicode):
         time = datetime.strptime(time, '%Y-%m-%d %H:%M:%S')
-    elif type(time) is int:
+    elif isinstance(time, int):
         diff = now - datetime.fromtimestamp(time)
     elif isinstance(time, datetime):
         diff = now - time
@@ -142,7 +146,7 @@ def pretty_date(self, time=False):
         if second_diff < 60:
             return str(second_diff) + " 秒前"
         if second_diff < 120:
-            return  "1 分钟前"
+            return "1 分钟前"
         if second_diff < 3600:
             return str(second_diff / 60) + " 分钟前"
         if second_diff < 7200:
@@ -162,14 +166,20 @@ def pretty_date(self, time=False):
 
 def content_process(self, content):
     # render content included gist
-    content = re.sub(r'http(s)?:\/\/gist.github.com\/(\d+)(.js)?', r'<script src="http://gist.github.com/\2.js"></script>', content)
+    content = re.sub(
+        r'http(s)?:\/\/gist.github.com\/(\d+)(.js)?',
+        r'<script src="http://gist.github.com/\2.js"></script>',
+        content)
     # render sinaimg pictures
     content = re.sub(r'(http:\/\/\w+.sinaimg.cn\/.*?\.(jpg|gif|png))',
                      r'<img src="\1" />', content)
     # render @ mention links
     content = re.sub(r'@(\w+)(\s|)', r'@<a href="/u/\1">\1</a> ', content)
     # render youku videos
-    content = re.sub(r'http://v.youku.com/v_show/id_(\w+).html', r'<embed src="http://player.youku.com/player.php/sid/\1/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>', content)
+    content = re.sub(
+        r'http://v.youku.com/v_show/id_(\w+).html',
+        r'<embed src="http://player.youku.com/player.php/sid/\1/v.swf" quality="high" width="480" height="400" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>',
+        content)
     return content
 
 
@@ -182,6 +192,7 @@ def find_mentions(content):
 
 
 class ObjectDict(dict):
+
     def __getattr__(self, key):
         if key in self:
             return self[key]
