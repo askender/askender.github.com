@@ -43,7 +43,7 @@ commit:
 	@echo "starting commit"
 	fab commit
 
-deploy:
+deploy: publish
 	@echo "starting deploy"
 	fab deploy
 
