@@ -27,6 +27,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github', 'https://github.com/askender'),
           ('twitter', 'https://twitter.com/askenderlee'),
+          ('envelope', 'mailto:askender@gmail.com'),
           ('rss', '/blog/feeds/all.atom.xml'),
           )
 

@@ -13,7 +13,7 @@ help:
 	@echo TARGET:
 	@echo "    clean    清理临时文件"
 	@echo '    html     generate the web site          '
-	@echo "    preview  start preview"
+	@echo "    watch    start watch"
 	@echo "    deploy   deploy askender"
 	@echo
 
@@ -25,11 +25,11 @@ clean:
 	find . -name '*~' -exec rm -f {} +
 
 html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+
+watch:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-
-
-preview:
-	@echo "starting askender"
+	@echo "start watching askender"
 	python -m SimpleHTTPServer 8004
 
 deploy:

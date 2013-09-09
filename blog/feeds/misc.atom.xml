@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-08T19:33:00+02:00</updated><entry><title>开始用pelican写博客</title><link href="http://blog.askender.com/blog/start_write_with_pelican.html" rel="alternate"></link><updated>2013-09-08T19:33:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-08:start_write_with_pelican.html</id><summary type="html">&lt;p&gt;以后要多写&lt;/p&gt;</summary><category term="pelican"></category><category term="write"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-09T00:00:00+02:00</updated><entry><title>安问130909</title><link href="http://blog.askender.com/blog/anwen_130909.html" rel="alternate"></link><updated>2013-09-09T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-09:anwen_130909.html</id><summary type="html">&lt;p&gt;这个新的博客不对外宣传，只是我的自留地，写写自己的想法，关于安问的思考和进展以后就在这里记录了。
+简单来说，安问其实只是做有趣的信息的收集和展示。干的也许是编辑和设计的活。
+我一直喜欢web的方式，即使是在移动app很流行的今天。web界面上的内容展示我想做到很好的设计。字体，排版，各种细节。
+另外，移动app作为闲散时间更有效利用的方式，最近也想开始尝试做一下。&lt;/p&gt;
+&lt;p&gt;今天下班后在公司的沙发上看完了同事的一本书《设计中的设计》，挺不错，有让人惊艳的作品和图片，文字平实而有启发性。以后可以买一本留着自己翻或者送人。感觉以前喜欢科学、技术和文学上的东西，忽视了与生活更接近的艺术。物化的设计在我之前看来，无非是锦上添花的。上上周末的gurudigger的活动让我认识了两位设计师，也让我重新开始审视设计了。昨天还注册了Dribbble，近距离接触。下面一段是网上看到的这本书作者的一句话。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;我的专业是信息传达，但我觉得信息传达的目的并不是通过强烈的视觉冲击来吸引人们的注意，而是要慢慢地渗透到五官中。在人们还没有注意到其存在时，成熟&lt;/span&gt; &lt;span class="err"&gt;、隐秘、精密、有力的传达已经完成了&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;设计绝不仅仅是制造技术&lt;/span&gt; &lt;span class="err"&gt;…&lt;/span&gt; &lt;span class="err"&gt;设计是从生活中发现新问题的行为。&lt;/span&gt; &lt;span class="err"&gt;—&lt;/span&gt; &lt;span class="err"&gt;原研哉（&lt;/span&gt;&lt;span class="n"&gt;Hara&lt;/span&gt; &lt;span class="n"&gt;Kenya&lt;/span&gt;&lt;span class="err"&gt;）&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="" src="http://a.36krcnd.com/photo/4805a2102c0a5b76ab368fceb6fadf7d.jpeg" /&gt;&lt;/p&gt;
+&lt;p&gt;很喜欢那两个利用“荷叶效应”做的，实际看到应该会很有趣。推荐一看哦&lt;/p&gt;
+&lt;p&gt;关于web设计方面：
+- logo和配色之类的平面设计会请设计师朋友帮忙，专业的就是不一样
+- 打算用一下&lt;a href="http://typo.sofish.de/"&gt;http://typo.sofish.de/&lt;/a&gt;
+- 阅读不可能实时都在线。打算借助html5实现离线的功能
+- 也想将不错的内容生成epub。最近打算研究一下epub3。
+- &lt;a href="http://github.readium.org/viewer.html?book=accessible_epub_3"&gt;http://github.readium.org/viewer.html?book=accessible_epub_3&lt;/a&gt;
+- &lt;a href="https://github.com/readium"&gt;https://github.com/readium&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;用hosts和goagent最近无法访问twitter和播放youtube了，开始要囤积一些解决方案来备用了。信息都无法接收如何吸收和传达？&lt;/p&gt;
+&lt;p&gt;安问的进展在一些琐碎的细节中消隐，做有趣的事情就是进步。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>开始用pelican写博客</title><link href="http://blog.askender.com/blog/start_write_with_pelican.html" rel="alternate"></link><updated>2013-09-08T19:33:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-08:start_write_with_pelican.html</id><summary type="html">&lt;p&gt;以后要多写&lt;/p&gt;</summary><category term="pelican"></category><category term="write"></category></entry></feed>
