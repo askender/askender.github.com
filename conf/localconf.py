@@ -4,18 +4,16 @@ from __future__ import unicode_literals
 
 AUTHOR = u'askender'
 SITENAME = u"柏舟志 askender's blog"
-SITEURL = 'http://blog.askender.com/blog'
+SITEURL = '/blog'
 
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-# FEED_ALL_ATOM = None
-# CATEGORY_FEED_ATOM = None
-# TRANSLATION_FEED_ATOM = None
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
 
 
 # Blogroll
@@ -38,7 +36,4 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'themes/pelican-bootstrap3'
 
-# Following items are often useful when publishing
 
-DISQUS_SITENAME = u"askender-blog"
-#GOOGLE_ANALYTICS = ""

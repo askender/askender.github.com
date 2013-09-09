@@ -4,8 +4,10 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/blog
-CONFFILE=$(BASEDIR)/conf/pelicanconf.py
+LOCALCONF=$(BASEDIR)/conf/localconf.py
+PUBLICCONF=$(BASEDIR)/conf/publishconf.py
 
+.PHONY: publish
 
 help:
 	@echo Usage: make [\TARGET\]
@@ -14,6 +16,7 @@ help:
 	@echo "    clean    清理临时文件"
 	@echo '    html     generate the web site          '
 	@echo "    watch    start watch"
+	@echo "    preview  preview askender"
 	@echo "    deploy   deploy askender"
 	@echo
 
@@ -25,13 +28,21 @@ clean:
 	find . -name '*~' -exec rm -f {} +
 
 html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(LOCALCONF) $(PELICANOPTS)
 
 watch:
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	@echo "start watching askender"
+	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(LOCALCONF) $(PELICANOPTS)
+
+preview:
+	@echo "preview askender at http://localhost:8004"
 	python -m SimpleHTTPServer 8004
 
-deploy:
+publish:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)
+
+
+deploy: publish
 	@echo "starting deploy"
 	fab deploy
+
+

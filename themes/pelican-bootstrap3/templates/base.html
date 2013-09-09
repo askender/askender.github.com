@@ -44,11 +44,8 @@ content="{{ SITEURL }}/static/{{ OPEN_GRAPH_IMAGE }}"/>
 <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css" type="text/css"/>
 {% endif %}
 <link href="{{ SITEURL }}/theme/css/font-awesome.min.css" rel="stylesheet">
-<link href="{{ SITEURL }}/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
 <link href="{{ SITEURL }}/theme/css/pygments.css" rel="stylesheet">
 <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css" type="text/css"/>
-<!-- JavaScript plugins (requires jQuery) -->
-<script src="http://code.jquery.com/jquery.js"></script>
 {% if FEED_ALL_ATOM %}
 <link href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"
 title="{{ SITENAME }} ATOM Feed"/>
@@ -116,6 +113,7 @@ Archives
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
 <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
