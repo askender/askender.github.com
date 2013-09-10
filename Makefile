@@ -39,7 +39,7 @@ preview:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)
 
-commit:
+commit: publish
 	@echo "starting commit"
 	fab commit
 
