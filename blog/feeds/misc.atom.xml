@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-10T00:00:00+02:00</updated><entry><title>安问130910</title><link href="http://blog.askender.com/blog/anwen_130910.html" rel="alternate"></link><updated>2013-09-10T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-10:anwen_130910.html</id><summary type="html">&lt;p&gt;对于安问，今天没有直接的进展。不过万物牵连，其他方面的进展也会影响到安问。今天收获也还不错。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-11T00:00:00+02:00</updated><entry><title>安问130911</title><link href="http://blog.askender.com/blog/anwen_130911.html" rel="alternate"></link><updated>2013-09-11T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-11:anwen_130911.html</id><summary type="html">&lt;p&gt;今天工作上没有太多可说的，下午和大家一起打羽毛球了（想到下个月被收购后就没有这样的运动福利了，还是享受一下最后的好时光吧）&lt;/p&gt;
+&lt;p&gt;之后看了《失控》的后半部分，主要是AI方面的，还提到了GEB。具体的就不多评论了。
+晚上吃饭时同事提到了python的一些库没有java的稳定，也许这就是商业化比开源集市的一些先发优势吧。上家公司同事也聊过linux的稳定。arch折腾累了就跳到mac了。
+前些天大家还想到了新环境怎么用python打败.net, 有人还提出了go策略。
+开源意味着些许的冒险，也许没有强大的利益和商业驱动，但至少换得了自由，也换得了长远来看的优势。&lt;/p&gt;
+&lt;p&gt;也许以后要减少重复造轮子，多参与感兴趣的开源项目&lt;/p&gt;
+&lt;p&gt;今天还装了Sigil，顺便尝试了一下qt5.1&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130910</title><link href="http://blog.askender.com/blog/anwen_130910.html" rel="alternate"></link><updated>2013-09-10T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-10:anwen_130910.html</id><summary type="html">&lt;p&gt;对于安问，今天没有直接的进展。不过万物牵连，其他方面的进展也会影响到安问。今天收获也还不错。&lt;/p&gt;
 &lt;p&gt;白天，依然与爬虫搏斗。生平首次pull request，另外也向scrapy提了两个issue。感觉scrapy和scrapyd的架构还是不够好。真的想自己造一个轮子了。不过目前的还是先用着吧。&lt;/p&gt;
 &lt;p&gt;今天收到我的一个业余项目中外包的设计稿，还不错~ 在这里秀一下
 &lt;img alt="" src="/img/kodui-icon.png" /&gt;
