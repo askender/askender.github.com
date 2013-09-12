@@ -59,16 +59,14 @@ scribe
 sudo pip install requests
 sudo pip install MySQL-python
 sudo pip install sqlalchemy
-sudo pip install scrapy
 sudo pip install flake8
 sudo pip install autopep8
 sudo pip install tornado
-sudo pip install w3lib
-sudo pip install git+https://github.com/scrapy/slybot.git
-sudo pip install scrapyd
 sudo pip install bpython
 sudo pip install fabric
 sudo pip install pelican
+sudo pip install scrapyd
+sudo pip install scrapely
 sudo pip install markdown
 
 sudo pip install Celery
