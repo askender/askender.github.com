@@ -19,6 +19,16 @@
 	dlog = log --decorate
 	plog = log -p
 	nlog = log --name-status
+	d = diff --word-diff --color
+	p = pull
+	dc = diff --color --cached
+	ll = log --pretty=oneline --abbrev-commit --max-count=15
+	review = log -p --max-count=1
+    graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset<%an>' --abbrev-commit --date=relative --max-count=20
+	save = stash save
+    last = log --max-count=1 --stat
+	files = log --name-only
+	fs = log --name-only --oneline[color]
 [color]
 	ui = auto
 	diff = auto
