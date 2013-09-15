@@ -35,6 +35,8 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 # Name data to appear in commits
 # username = askender <askender43@gmail.com>
 
+curl -Lo- https://raw.github.com/yesmeck/tmuxrc/master/bootstrap.sh | bash
+tmux source-file ~/.tmux.conf
 
 
 sudo apt-get install nginx

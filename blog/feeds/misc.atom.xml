@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-12T00:00:00+02:00</updated><entry><title>安问130912</title><link href="http://blog.askender.com/blog/anwen_130912.html" rel="alternate"></link><updated>2013-09-12T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-12:anwen_130912.html</id><summary type="html">&lt;p&gt;今天继续为演讲做准备，将所有东西转移到笔记本上（方便接投影仪）测试了一遍，被一个小问题纠结了很久。仔细寻找线索，终于解决了，得细心啊。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-15T00:00:00+02:00</updated><entry><title>安问130915</title><link href="http://blog.askender.com/blog/anwen_130915.html" rel="alternate"></link><updated>2013-09-15T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-15:anwen_130915.html</id><summary type="html">&lt;p&gt;停了两天没写，刚睡了一觉起来，又到晚上了，来总结和反思一下。&lt;/p&gt;
+&lt;p&gt;前天周五，下午下班后和同事照例游泳和吃饭，雨很大，回来的路上看到一道明亮的闪电将天空切成了两半，回来后为和朋友的项目“果恋鲜”买了域名guolx.com，暂时还不能访问。
+你知道的，在国内，为了网站速度快，还得备案。&lt;/p&gt;
+&lt;p&gt;昨天来公司，有桌椅和沙发，上网更方便，记不清做了什么了，晚上和在gurudigger认识的朋友联系，确定“微比特”这个项目继续，并且以开源和开放的方式做。
+晚上准备回去时看到已经太晚，于是就在公司沙发上过了夜。&lt;/p&gt;
+&lt;p&gt;今天为“酷队”项目改进了一些东西，折腾了很久的前端。
+本打算今天去同学那里也耽搁了，这个周末全宅在公司了，晕。&lt;/p&gt;
+&lt;p&gt;刚看到一篇文章&lt;a href="http://www.huxiu.com/article/20346/1.html"&gt;http://www.huxiu.com/article/20346/1.html&lt;/a&gt;, 提到“比特币也该纳入监管”，估计是哪里有钱都要捞一把，真是让人哭笑不得。&lt;/p&gt;
+&lt;p&gt;刚看了gmail，看到邮件列表里有人发&lt;a href="http://www.tuicool.com/septs"&gt;http://www.tuicool.com/septs&lt;/a&gt;送书活动。之前就关注过这个网站，现在比以前又有很多进展了，注册了一下，转了微博，选了8本书，试试手气~&lt;/p&gt;
+&lt;p&gt;嗯，下午睡之前还看了一篇文章&lt;a href="http://www.ifanr.com/300354"&gt;http://www.ifanr.com/300354&lt;/a&gt;, 已经8个月过去了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://cdn.ifanr.cn/wp-content/uploads/2013/06/Aaron_Swartz.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;之前的文章&lt;a href="http://www.ifanr.com/234104"&gt;http://www.ifanr.com/234104&lt;/a&gt;...
+要有强大的内心，Aaron Swartz未完成的，我们来继续&lt;/p&gt;
+&lt;p&gt;仔细反思一下，感觉自己时间利用效率真的不高。自己有3个与朋友合作的项目，这些我觉得是有价值的尝试。我自己的项目得好好梳理一下了。&lt;/p&gt;
+&lt;p&gt;安问的分支：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安问。主要是内容分享，维护社区氛围&lt;/li&gt;
+&lt;li&gt;安德。自然语言交流，个性化推荐&lt;/li&gt;
+&lt;li&gt;安曲。情节动人的游戏，初期会有一个文字版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大致如此了，以后会分这3个方面来记录进展。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130912</title><link href="http://blog.askender.com/blog/anwen_130912.html" rel="alternate"></link><updated>2013-09-12T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-12:anwen_130912.html</id><summary type="html">&lt;p&gt;今天继续为演讲做准备，将所有东西转移到笔记本上（方便接投影仪）测试了一遍，被一个小问题纠结了很久。仔细寻找线索，终于解决了，得细心啊。
 昨晚离开公司之前翻了十几本《CBN weekly》，喜欢这样制作精良的杂志（回想起以前考研时每天一抱几十本杂志来翻，转眼3年就过去了）。。起身回家时都过了12点了。我知道这样快速翻阅大量页面并不是很高效的做法，但总感觉比浏览网页信息获取效率高。有人说万本杂志不如一本书，也许沉淀更久的东西并不意味着过时。晚上去火车站拿回家的票的时候在看《动物农场》。现在在公司找到了最新的《程序员》，白天翻了一本，是能扩大视野的杂志。
 看完了再写。。。记了一大堆tag，很晚了，该回住处了。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130911</title><link href="http://blog.askender.com/blog/anwen_130911.html" rel="alternate"></link><updated>2013-09-11T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-11:anwen_130911.html</id><summary type="html">&lt;p&gt;今天工作上没有太多可说的，下午和大家一起打羽毛球了（想到下个月被收购后就没有这样的运动福利了，还是享受一下最后的好时光吧）&lt;/p&gt;
 &lt;p&gt;之后看了《失控》的后半部分，主要是AI方面的，还提到了GEB。具体的就不多评论了。
