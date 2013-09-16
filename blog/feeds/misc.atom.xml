@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-16T00:00:00+02:00</updated><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-16T00:00:00+02:00</updated><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。留作备用&lt;/p&gt;
 &lt;p&gt;让机器产生自适应，自学习，自我进化的能力，为了更好的世界。把机器想成生物一样的东西，他们可以形成群落，互相共生，自我进化成更好的机器。 
 　　 
 先做简单的事。学会准确无误地做简单的事。在简单任务的成果之上添加新的活动层级。不要改变简单事物。让新层级像简单层级那样准确无误地工作。 重复以上步骤，无限类推。&lt;/p&gt;
@@ -29,7 +29,7 @@
 同事告诉我，我做的这个东西可以开源，已经问过技术主管了。有些惊喜，也感觉有更多需要做。&lt;/p&gt;
 &lt;p&gt;来公司已经一个月了，经历了很多，我的主要时间还是独立完成scrapy这一块，参与公司的主体项目的时间并不多。一直很希望把这一块做到最好，虽然目前还不太满意。并不确定我做的东西给公司带来了多大价值，目前开源了，我打算继续将这一块推进。&lt;/p&gt;
 &lt;p&gt;附:
-&lt;a href="/slides/zhw_crawler/"&gt;这次演讲的html5-slide演讲幻灯片&lt;/a&gt;&lt;/p&gt;
+&lt;a href="/slides/zhw_crawler/"&gt;zhw_crawler html5-slide演讲幻灯片&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;这次演讲没有多少独创的东西，算是总结吧。&lt;/p&gt;
 &lt;p&gt;参考中提到的有趣的东西（演讲时没有展示）:&lt;/p&gt;
 &lt;ul&gt;

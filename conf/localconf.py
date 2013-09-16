@@ -17,17 +17,20 @@ TRANSLATION_FEED_ATOM = None
 
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-        ('Python.org', 'http://python.org/'),
-        ('Jinja2', 'http://jinja.pocoo.org/'),
-        ('安问-创造和分享美好 毕生的项目 Anwen - Create and share something nice project which spend all my life', 'http://anwensf.com/'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Python.org', 'http://python.org/'),
+    ('Jinja2', 'http://jinja.pocoo.org/'),
+    ('安问 - 创造和分享美好', 'http://anwensf.com/'),
+)
 
 # Social widget
-SOCIAL = (('github', 'https://github.com/askender'),
-          ('twitter', 'https://twitter.com/askenderlee'),
-          ('envelope', 'mailto:askender@gmail.com'),
-          ('rss', '/blog/feeds/all.atom.xml'),
-          )
+SOCIAL = (
+    ('github', 'https://github.com/askender'),
+    ('twitter', 'https://twitter.com/askenderlee'),
+    ('envelope', 'mailto:askender@gmail.com'),
+    ('rss', '/blog/feeds/all.atom.xml'),
+)
 
 DEFAULT_PAGINATION = 10
 
@@ -35,3 +38,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = 'themes/pelican-bootstrap3'
+DISPLAY_CATEGORIES_ON_MENU = False
