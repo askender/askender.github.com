@@ -13,9 +13,11 @@ Who am I? I am thinking... Please wait
 My projects:
 
 - [安问 - 创造和分享美好](http://anwensf.com/)
+- [安问@gurudigger](http://gurudigger.com/ideas/696)
+- [安问@github](https://github.com/anwen/anwen)
 - [关于安问](http://anwensf.com/about)
 - [柏舟博客 askender open blog](http://askender.com/)
-- []()
+- [找好玩-爬虫@github](https://github.com/askender/zhw_crawler)
 
 My slides:
 

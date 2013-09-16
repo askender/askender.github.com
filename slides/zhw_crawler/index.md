@@ -85,8 +85,7 @@
     # 扩展: XPath Helper
     sudo apt-get install python-pip
     sudo pip install scrapy scrapyd tornado requests
-    git clone git@github.com:Kantuban/ota_spider.git
-    git checkout zhw_crawler
+    git clone https://github.com/askender/zhw_crawler
     cd ota_spider/zhw_crawler
     scrapyd
     python manager
