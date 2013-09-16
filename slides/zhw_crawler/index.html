@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js ie6" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8" lang="en">
+<![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <title>zhw_crawler</title>
+
+    <!-- Core and extension CSS files -->
+    <link rel="stylesheet" href="core/deck.core.css">
+    <link rel="stylesheet" href="extensions/goto/deck.goto.css">
+    <!--<link rel="stylesheet" href="extensions/menu/deck.menu.css">
+    -->
+    <link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
+    <link rel="stylesheet" href="extensions/status/deck.status.css">
+    <link rel="stylesheet" href="extensions/hash/deck.hash.css">
+
+    <!-- Theme CSS files (menu swaps these out) -->
+    <link rel="stylesheet" id="style-theme-link" href="themes/style/web-2.0.css">
+    <link rel="stylesheet" id="transition-theme-link" href="themes/transition/horizontal-slide.css">
+
+    <!-- Custom CSS just for this page -->
+    <!--<link rel="stylesheet" href="introduction.css">
+    -->
+    <script src="js/jquery-1.6.4.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="deck-container">
+
+<section class="slide" id="">
+# Getting Started with zhw_crawler<br/>找好玩-爬虫
+</section>
+
+<!--
+<section class="slide no-md" id="no-markdown-slide">
+<h2>This slide is not interpreted as markdown</h2>
+<p>
+    Use this to prevent certain flaws when processing sub slides...
+</p>
+</section>
+-->
+
+<section class="slide" id="">
+## 为什么要有爬虫(网页追逐者)
+
+- 人力收集信息太慢
+- 快速获取需要的特定大量数据
+- rss，接口提供的不够，互联网还不够开放
+- 进行大数据分析，提炼出新的信息
+- 用来进行个性化推荐
+</section>
+
+<section class="slide" id="">
+## 目前爬虫的缺陷
+
+- 版权问题
+- 网站改版，需要调整爬虫
+- 不够智能
+</section>
+
+<section class="slide" id="">
+## 做怎样的爬虫
+
+- 垂直型爬虫（聚焦爬虫）(Focused Crawter）Need: 明确抓取目标
+- URL搜索策略：URL入口，url列表，元爬虫. 网页搜索策略：深度优先、广度优先、最佳优先
+- 对数据的分析与过滤
+- 用运行队列和完成队列来保存不同状态的链接。储存方式：文件，内存，数据库（优点：分布式，抓取状态记录，断点续抓）
+- 增量特性：保持持续不断的抓取，对于抓取到的网页，要定期更新
+</section>
+
+<section class="slide" id="">
+## 通用简单架构
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/WebCrawlerArchitecture.svg/500px-WebCrawlerArchitecture.svg.png)
+</section>
+
+<section class="slide" id="">
+![](http://www.hpiracing.com/assets/images/kits/102117/travel.jpg)
+</section>
+
+<section class="slide" id="">
+## Use Scrapy
+![](https://1.gravatar.com/avatar/4b1f68760dddf81c5cf5da23b592ffe2?d=https%3A%2F%2Fidenticons.github.com%2Fa4ed6fbc3630b41e4fee61ae3f48b6c1.png&s=420)
+</section>
+
+<section class="slide" id="">
+## Scrapy架构
+![](img/scrapy_architecture.png)
+</section>
+
+<section class="slide" id="">
+## 我想解决的问题
+
+- 提供一个普通人也能用的操作傻瓜化的智能爬虫工具
+- 提供命令行，restful-API，web界面的爬虫生成工具，爬虫管理和监控工具
+- 提供一个html5驱动的可视化图表的分析展示界面（考虑用R d3.js three.js）
+- 提供一定的数据精简（reduce）功能
+- 扩展一些机器学习，推荐算法，人工智能的能力
+- 自适应网站改版（scrapely，采用训练的方式来爬取）
+- 良好，操作简单的用户体验
+- 开源，长期维护的社区
+
+        from scrapely import Scraper
+        s = Scraper()
+        url1 = 'http://movie.douban.com/subject/1292063/'
+        data1 = {'name': u'美丽人生 La vita è bella', 'author': u'罗伯托·贝尼尼', 'time': '1997-12-20'}
+        s.train(url1, data1)
+        url4 = 'http://movie.douban.com/subject/1292224/'
+        s.scrape(url4)
+
+</section>
+
+<section class="slide" id="">
+## 目前已经完成
+
+- 爬虫工具初步完成
+- 命令行，restful-API，web界面的爬虫生成，管理和监控（api，json，add-project）
+- middlewares（randomproxy retrylog）（google_cache rotate_useragent）
+- pipelines（filter mongodb mysql）
+- 爬虫框架结构微调
+- 爬虫api修正与整合(已经向scrapy作者pull request)
+- 独立进程实时监控接口(Email SMS)
+</section>
+
+<section class="slide" id="">
+## 下一步打算做
+
+- html5驱动的可视化图表的分析展示（用highcharts.js d3.js）
+- 良好，操作简单的用户体验
+- ...
+</section>
+
+<section class="slide" id="">
+## 开始使用
+
+    sudo apt-get install  chromiun-browser
+    # 扩展: XPath Helper
+    sudo apt-get install python-pip
+    sudo pip install scrapy scrapyd tornado requests
+    git clone git@github.com:Kantuban/ota_spider.git
+    git checkout zhw_crawler
+    cd ota_spider/zhw_crawler
+    scrapyd
+    python manager
+    python -m webbrowser -t "http://localhost:6868"
+
+***have fun***
+</section>
+
+<section class="slide" id="">
+## 参考
+
+- 搜索引擎(nutch、lucene、solr、elasticsearch)
+- 大数据分析处理(Hadoop、Hbase、Pig、Hive、Gora)
+- R:[ggplot2](http://ggplot2.org/) [Why use ggplot2](https://github.com/hadley/ggplot2/wiki/Why-use-ggplot2) [ggplot2-translation](https://github.com/cosname/ggplot2-translation/blob/master/preface.md) [使用ggplot2画图](http://ygc.name/stats/ggplot2.html) [统计之都](http://cos.name/)
+- D3:[The Wealth & Health of Nations](http://bost.ocks.org/mike/nations)
+- TED:[汉斯罗斯林用前所未有的好方法诠释数字统计](http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html)
+- [scrapy](http://scrapy.readthedocs.org/en/latest/) [scrapyd](http://scrapyd.readthedocs.org/en/latest/deploy.html)
+- [《失控：机器、社会系统与经济世界的新生物学(全人类的最终命运和结局)》](http://book.douban.com/subject/5375620/)
+- [大数据时代](http://book.douban.com/subject/20429677/)
+
+<blockquote cite="http://blog.askender.com">Thank people who make wonder</blockquote>
+<p>
+<cite>askender</cite>
+</p>
+</section>
+
+<section class="slide" id="">
+## Nutch
+
+- Nutch诞生于2002年8月，是Apache旗下的一个用Java实现的开源搜索引擎项目
+- 最初是一个搜索引擎，现在是一个网络爬虫。
+- 在Nutch的进化过程中，产生了Hadoop、Tika和Gora三个开源项目
+- Tika使用多种现有的开源内容解析项目来实现从多种格式的文件中提取元数据和结构化文本
+- Gora支持把大数据持久化到多种存储实现
+- Nutch的目标：每月抓取几十亿网页，维护一个索引，每秒上千次的搜索，高质量结果，最小的成本运作
+- Nutch的发展历程： 强调重用，不重新发明轮
+- Nutch的整体架构：插件机制、数据抓取、数据解析、链接分析、建立索引、分布式搜索等。
+</section>
+
+<section class="slide" id=""># Thanks~</section>
+
+<section class="slide" id="">
+## My projects~
+
+- 安问。主要是内容分享，维护社区氛围
+- 安德。自然语言交流，个性化推荐
+- 安曲。情节动人的游戏，初期会有一个文字版本
+- 果恋鲜
+- 微比特 以开源和开放的方式做
+- 酷队
+
+Wish you could join ლ(◕‿◕)ლ
+</section>
+
+<section class="slide" id=""># Thanks * 2</section>
+
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<p class="deck-status">
+<span class="deck-status-current"></span>
+/
+<span class="deck-status-total"></span>
+</p>
+
+<form action="." method="get" class="goto-form">
+<label for="goto-slide">Go to slide:</label>
+<input type="number" name="slidenum" id="goto-slide">
+<input type="submit" value="Go"></form>
+
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+<script src="core/deck.core.js"></script>
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/hash/deck.hash.js"></script>
+<script src="extensions/markdown/Markdown.Converter.js"></script>
+<script src="extensions/markdown/deck.markdown.js"></script>
+<script src="js/test.js"></script>
+</body>
+
+</html>
