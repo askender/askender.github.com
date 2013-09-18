@@ -1,3 +1,41 @@
+cp -frap new/* test/
+scp -r ask@192.168.0.142:/home/ask/ .
+
+递归查找所有Python文件并统计文件行数
+find . -name '*.py' | xargs wc -l
+lsof | grep '/usr/lib'
+
+
+lsof -i
+实时查看本机网络服务的活动状态
+
+curl ifconfig.me
+
+netstat -tlnp
+ctrl-x e
+
+ps aux | sort -nk +4 | tail
+列出头十个最耗内存的进程
+
+curl -u user:pass -d status=”Tweeting from the shell” http://twitter.com/statuses/update.xml
+
+curl -u askender43@gmail.com:pass  https://mail.google.com/mail/feed/atom
+
+vi 保存只有root可以写的文件
+:w !sudo tee %
+
+du -hx --max-depth=1 | sort -rh | head -10
+列出当前目录里最大的10个文件或文件夹
+
+热建alt+. 或 esc+. 可以把上次命令行的参数给重复出来。
+^old^new
+替换前一条命令里的部分字符串
+
+sudo !!
+
+!$是一个特殊的环境变量，它代表了上一个命令的最后一个字符串
+
+
 netstat -apn |grep 80
 lsof -i:被占用的端口号
 uname -a

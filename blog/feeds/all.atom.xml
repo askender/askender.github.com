@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-16T00:00:00+02:00</updated><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。留作备用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-16T00:00:00+08:00</updated><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。留作备用&lt;/p&gt;
 &lt;p&gt;让机器产生自适应，自学习，自我进化的能力，为了更好的世界。把机器想成生物一样的东西，他们可以形成群落，互相共生，自我进化成更好的机器。 
 　　 
 先做简单的事。学会准确无误地做简单的事。在简单任务的成果之上添加新的活动层级。不要改变简单事物。让新层级像简单层级那样准确无误地工作。 重复以上步骤，无限类推。&lt;/p&gt;
@@ -25,7 +25,7 @@
 &lt;p&gt;生物体在其一生中有很大的空间重塑自己。加拿大维多利亚大学的罗伯特•里德指出，生物能通过以下可塑性来回应环境的变化： 形态可塑性（一个生物体可能有不止一种肉体形态。） 生理适应性（一个生物体的组织能改变其自身以适应压力。） 行为灵活性（一个生物体能做一些新的事情或移动到新的地方。） 智能选择（一个生物体能在过去经历的基础上做出选择。） 传统引导（一个生物体能参考或吸取他人的经验） &lt;/p&gt;
 &lt;p&gt;自然选择只能发生在种群或者群集的事物中间。这实际上是一种发生在空间和时间中的乱众现象。这一进程所涉及的种群必定具有以下特点：（1）个体间存在某种特性上的变化；（2）这些特性对个体的生育率、繁殖力或者存活能力带来某些差异；（3）这些特性能够从亲代以某种方式传递给子代。如果具备了这些条件，自然选择就必然会出现，就像6之后必是7，或者硬币必然有正反两面一样。正如进化理论家约翰•恩德尔所说，「自然选择也许不该被称为生物学定律。它发生的原因不是生物学，而是概率论。」 &lt;/p&gt;
 &lt;p&gt;「网络数学」。其中的一些方法有各式各样的非正式名称：并行分布式处理、布尔网络、神经网络、自旋玻璃、细胞自动机、分类系统、遗传算法、群计算，等等。不管是哪一种网络数学，由数千个相互作用的函数所形成的横向因果关系都是其共同要素。它们都试图协调大量同时发生的事件——那种在真实世界中无处不在的非线性事件。 &lt;/p&gt;
-&lt;p&gt;操纵无中生有的造物九律： 分布式状态 自下而上的控制 培养递增收益 模块化生长 边缘最大化 礼待错误 不求目标最优；但求目标众多 谋求持久的不均衡 变自生变 &lt;/p&gt;</summary><category term="ande"></category><category term="AI"></category></entry><entry><title>安问130916</title><link href="http://blog.askender.com/blog/anwen_130916.html" rel="alternate"></link><updated>2013-09-16T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:anwen_130916.html</id><summary type="html">&lt;p&gt;现在下午3点半，刚刚演讲完，惊魂未定。
+&lt;p&gt;操纵无中生有的造物九律： 分布式状态 自下而上的控制 培养递增收益 模块化生长 边缘最大化 礼待错误 不求目标最优；但求目标众多 谋求持久的不均衡 变自生变 &lt;/p&gt;</summary><category term="ande"></category><category term="AI"></category></entry><entry><title>安问130916</title><link href="http://blog.askender.com/blog/anwen_130916.html" rel="alternate"></link><updated>2013-09-16T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:anwen_130916.html</id><summary type="html">&lt;p&gt;现在下午3点半，刚刚演讲完，惊魂未定。
 同事告诉我，我做的这个东西可以开源，已经问过技术主管了。有些惊喜，也感觉有更多需要做。&lt;/p&gt;
 &lt;p&gt;来公司已经一个月了，经历了很多，我的主要时间还是独立完成scrapy这一块，参与公司的主体项目的时间并不多。一直很希望把这一块做到最好，虽然目前还不太满意。并不确定我做的东西给公司带来了多大价值，目前开源了，我打算继续将这一块推进。&lt;/p&gt;
 &lt;p&gt;附:
@@ -41,7 +41,7 @@
 &lt;ul&gt;
 &lt;li&gt;一个html5游戏:&lt;a href="http://lastleaf.mistymiracle.org/index.html"&gt;tomorrow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.ted.com/talks/lang/zh-cn/rick_smolan_tells_the_story_of_a_girl.html"&gt;TED: rick_smolan_tells_the_story_of_a_girl&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130915</title><link href="http://blog.askender.com/blog/anwen_130915.html" rel="alternate"></link><updated>2013-09-15T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-15:anwen_130915.html</id><summary type="html">&lt;p&gt;停了两天没写，刚睡了一觉起来，又到晚上了，来总结和反思一下。&lt;/p&gt;
+&lt;/ul&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130915</title><link href="http://blog.askender.com/blog/anwen_130915.html" rel="alternate"></link><updated>2013-09-15T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-15:anwen_130915.html</id><summary type="html">&lt;p&gt;停了两天没写，刚睡了一觉起来，又到晚上了，来总结和反思一下。&lt;/p&gt;
 &lt;p&gt;前天周五，下午下班后和同事照例游泳和吃饭，雨很大，回来的路上看到一道明亮的闪电将天空切成了两半，回来后为和朋友的项目“果恋鲜”买了域名guolx.com，暂时还不能访问。
 你知道的，在国内，为了网站速度快，还得备案。&lt;/p&gt;
 &lt;p&gt;昨天来公司，有桌椅和沙发，上网更方便，记不清做了什么了，晚上和在gurudigger认识的朋友联系，确定“微比特”这个项目继续，并且以开源和开放的方式做。
@@ -61,15 +61,15 @@
 &lt;li&gt;安德。自然语言交流，个性化推荐&lt;/li&gt;
 &lt;li&gt;安曲。情节动人的游戏，初期会有一个文字版本&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;大致如此了，以后会分这3个方面来记录进展。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130912</title><link href="http://blog.askender.com/blog/anwen_130912.html" rel="alternate"></link><updated>2013-09-12T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-12:anwen_130912.html</id><summary type="html">&lt;p&gt;今天继续为演讲做准备，将所有东西转移到笔记本上（方便接投影仪）测试了一遍，被一个小问题纠结了很久。仔细寻找线索，终于解决了，得细心啊。
+&lt;p&gt;大致如此了，以后会分这3个方面来记录进展。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130912</title><link href="http://blog.askender.com/blog/anwen_130912.html" rel="alternate"></link><updated>2013-09-12T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-12:anwen_130912.html</id><summary type="html">&lt;p&gt;今天继续为演讲做准备，将所有东西转移到笔记本上（方便接投影仪）测试了一遍，被一个小问题纠结了很久。仔细寻找线索，终于解决了，得细心啊。
 昨晚离开公司之前翻了十几本《CBN weekly》，喜欢这样制作精良的杂志（回想起以前考研时每天一抱几十本杂志来翻，转眼3年就过去了）。。起身回家时都过了12点了。我知道这样快速翻阅大量页面并不是很高效的做法，但总感觉比浏览网页信息获取效率高。有人说万本杂志不如一本书，也许沉淀更久的东西并不意味着过时。晚上去火车站拿回家的票的时候在看《动物农场》。现在在公司找到了最新的《程序员》，白天翻了一本，是能扩大视野的杂志。
-看完了再写。。。记了一大堆tag，很晚了，该回住处了。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130911</title><link href="http://blog.askender.com/blog/anwen_130911.html" rel="alternate"></link><updated>2013-09-11T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-11:anwen_130911.html</id><summary type="html">&lt;p&gt;今天工作上没有太多可说的，下午和大家一起打羽毛球了（想到下个月被收购后就没有这样的运动福利了，还是享受一下最后的好时光吧）&lt;/p&gt;
+看完了再写。。。记了一大堆tag，很晚了，该回住处了。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130911</title><link href="http://blog.askender.com/blog/anwen_130911.html" rel="alternate"></link><updated>2013-09-11T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-11:anwen_130911.html</id><summary type="html">&lt;p&gt;今天工作上没有太多可说的，下午和大家一起打羽毛球了（想到下个月被收购后就没有这样的运动福利了，还是享受一下最后的好时光吧）&lt;/p&gt;
 &lt;p&gt;之后看了《失控》的后半部分，主要是AI方面的，还提到了GEB。具体的就不多评论了。
 晚上吃饭时同事提到了python的一些库没有java的稳定，也许这就是商业化比开源集市的一些先发优势吧。上家公司同事也聊过linux的稳定。arch折腾累了就跳到mac了。
 前些天大家还想到了新环境怎么用python打败.net, 有人还提出了go策略。
 开源意味着些许的冒险，也许没有强大的利益和商业驱动，但至少换得了自由，也换得了长远来看的优势。&lt;/p&gt;
 &lt;p&gt;也许以后要减少重复造轮子，多参与感兴趣的开源项目&lt;/p&gt;
-&lt;p&gt;今天还装了Sigil，顺便尝试了一下qt5.1&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130910</title><link href="http://blog.askender.com/blog/anwen_130910.html" rel="alternate"></link><updated>2013-09-10T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-10:anwen_130910.html</id><summary type="html">&lt;p&gt;对于安问，今天没有直接的进展。不过万物牵连，其他方面的进展也会影响到安问。今天收获也还不错。&lt;/p&gt;
+&lt;p&gt;今天还装了Sigil，顺便尝试了一下qt5.1&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130910</title><link href="http://blog.askender.com/blog/anwen_130910.html" rel="alternate"></link><updated>2013-09-10T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-10:anwen_130910.html</id><summary type="html">&lt;p&gt;对于安问，今天没有直接的进展。不过万物牵连，其他方面的进展也会影响到安问。今天收获也还不错。&lt;/p&gt;
 &lt;p&gt;白天，依然与爬虫搏斗。生平首次pull request，另外也向scrapy提了两个issue。感觉scrapy和scrapyd的架构还是不够好。真的想自己造一个轮子了。不过目前的还是先用着吧。&lt;/p&gt;
 &lt;p&gt;今天收到我的一个业余项目中外包的设计稿，还不错~ 在这里秀一下
 &lt;img alt="" src="/img/kodui-icon.png" /&gt;
@@ -77,7 +77,7 @@
 &lt;p&gt;下班吃完饭回公司后，四处逛逛，又发现一本书：KK的&lt;a href="http://book.douban.com/subject/5375620/"&gt;《失控：机器、社会系统与经济世界的新生物学(全人类的最终命运和结局)》&lt;/a&gt;。于是抱过来开始从头开始看。这本书我之前分别在电脑上和kindle上把开头前十分之一看了一篇。由于实在难啃加上懒惰，两次都没有看完。
 纸质书的感觉就是不一样啊~ 封面不错，看了三个半小时，看到456页，看完了前十五章（约占2／3）。感觉KK的厉害不是吹的啊。就在这里随意吐槽一下吧。&lt;/p&gt;
 &lt;p&gt;看书时随手用笔记了一些关键词。就按照这个为线索来说吧。开始将的群体智慧，对于“乒乓”和多人驾驶飞机这两个实验挺感兴趣，希望可以重现一下。之后讲了认知，生态系统。看到桉树有着“浴火重生的种子”，大自然真实神奇啊，居然造出了凤凰的木本植物版。之后讲了囚徒困境之类的非零和多轮游戏，讲得挺好的，（上次同事吃饭也讨论了‘海盗金币’这样类似的实例。推荐一个小说《拓趾星民俗事件》，网上找不到的）。讲了I点和人工自我，以及生态球（不知道现在有没有卖的），生态圈二号（无视以前生物书上的）。讲了一下电子货币（近期也打算做支付系统和BTC）。又讲了各种模拟游戏，还提到了Ender's Game. （有些想实现返古一下的类MUD游戏，之前就一直在想，还写了一篇简单的文档，代号“安曲”，要开始动工了~）。提到了博尔赫斯的图书馆（挺感兴趣，不过看得挺模糊的）。&lt;/p&gt;
-&lt;p&gt;对于这样一本信息量密度超大跳跃性很强的神书来说，上面的线索回顾自然漏掉了很多细节的感触。不过行动就是生命，期待接下来能实践出一些东西吧。期待剩下的内容和KK的其他书。耐心一点观其大略，好像也能吸收一点东西。喜欢这样每天都能读一点有趣东西的感觉。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130909</title><link href="http://blog.askender.com/blog/anwen_130909.html" rel="alternate"></link><updated>2013-09-09T00:00:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-09:anwen_130909.html</id><summary type="html">&lt;p&gt;这个新的博客不对外宣传，只是我的自留地，写写自己的想法，关于安问的思考和进展以后就在这里记录了。
+&lt;p&gt;对于这样一本信息量密度超大跳跃性很强的神书来说，上面的线索回顾自然漏掉了很多细节的感触。不过行动就是生命，期待接下来能实践出一些东西吧。期待剩下的内容和KK的其他书。耐心一点观其大略，好像也能吸收一点东西。喜欢这样每天都能读一点有趣东西的感觉。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安问130909</title><link href="http://blog.askender.com/blog/anwen_130909.html" rel="alternate"></link><updated>2013-09-09T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-09:anwen_130909.html</id><summary type="html">&lt;p&gt;这个新的博客不对外宣传，只是我的自留地，写写自己的想法，关于安问的思考和进展以后就在这里记录了。
 简单来说，安问其实只是做有趣的信息的收集和展示。干的也许是编辑和设计的活。
 我一直喜欢web的方式，即使是在移动app很流行的今天。web界面上的内容展示我想做到很好的设计。字体，排版，各种细节。
 另外，移动app作为闲散时间更有效利用的方式，最近也想开始尝试做一下。&lt;/p&gt;
@@ -97,4 +97,50 @@
 &lt;li&gt;&lt;a href="https://github.com/readium"&gt;https://github.com/readium&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;用hosts和goagent最近无法访问twitter和播放youtube了，开始要囤积一些解决方案来备用了。信息都无法接收如何吸收和传达？&lt;/p&gt;
-&lt;p&gt;安问的进展在一些琐碎的细节中消隐，做有趣的事情就是进步。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>开始用pelican写博客</title><link href="http://blog.askender.com/blog/start_write_with_pelican.html" rel="alternate"></link><updated>2013-09-08T19:33:00+02:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-08:start_write_with_pelican.html</id><summary type="html">&lt;p&gt;以后要多写&lt;/p&gt;</summary><category term="pelican"></category><category term="write"></category></entry></feed>
+&lt;p&gt;安问的进展在一些琐碎的细节中消隐，做有趣的事情就是进步。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>开始用pelican写博客</title><link href="http://blog.askender.com/blog/start_write_with_pelican.html" rel="alternate"></link><updated>2013-09-08T19:33:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-08:start_write_with_pelican.html</id><summary type="html">&lt;p&gt;以后要多写&lt;/p&gt;
+&lt;p&gt;pelican:
+- http://pelican-zh.readthedocs.org/en/latest/zh-cn/settings/
+- http://en.wikipedia.org/wiki/List_of_tz_database_time_zones&lt;/p&gt;</summary><category term="pelican"></category><category term="write"></category></entry><entry><title>130903</title><link href="http://blog.askender.com/blog/130913.html" rel="alternate"></link><updated>2013-09-03T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-03:130913.html</id><summary type="html">&lt;p&gt;现在是130903-0506，昨天九点多就睡了，今天自然醒并早起。是很多年来的第一次。这是我喜欢的作息方式和节奏。明天也要这样。&lt;/p&gt;
+&lt;p&gt;想想今天要做的事情。为朋友的创业项目设计和编码；为公司的项目做出更实用的功能。面对自己内心，好好想想什么是自己想做的事情。&lt;/p&gt;
+&lt;p&gt;先说第一件。其实是有两个朋友分别让我帮他们做。一个已经详尽讨论后正在进行中，一个还在设计阶段。打算分别给他们写一封邮件，有规划的做，而不是一味盲目的编码。另外，前天参与gurudigger的活动，认识了两位设计师。一个是女生，呆过小米，即将去往异国；一个是同组搭档自动男，设计也不错。我决定这次我就把设计上的工作分流出来（不喜欢外包这个词）。&lt;/p&gt;
+&lt;p&gt;第二件。其实做的不算公司的主体项目，是之前觉得并不有趣的爬虫。之前的感觉是：从一般的公司出发，我喜欢内容靠用户原创的产品，外部数据的抓取只是作为分析；从用户的角度，我们并不需要那么多数据，不需要map，只需要reduce。做了两周了，有迷茫时，目前的目标是通用爬虫生成器，让普通用户点点鼠标也能生成爬虫来收集自己感兴趣的东西，更进一步的想法是，为这个爬虫做出信息分析的功能，提供很酷的可视化图表。如果做的好的话，这个东西也要开源出来。google爬虫做得好，而（听说）沃尔玛的大数据信息提取转换为生产力做得更好。 我想，我不再抵制真正的爬虫和大数据，也许是之前所想的也不够大而已，任何工具没有好坏，看使用的人而已。&lt;/p&gt;
+&lt;p&gt;底（第）三件。我自己想要什么。之前一直追求精神上的刺激，好奇心过剩。现在0536，抬头看到刚刚亮起来的天空，我想也许一生做不了什么也不那么遗憾，有悠闲的时间来抬头看到云和不痛的眼睛，以及漫长的可以瞎想的片刻也很不错。这两种想法一直在我脑中争斗，我虽然知道是不伤害自己为前提，常常不小心弄歪了天平的支点。
+同事们讨论十一去骑行环游青岛湖，唯一的问题是担心那边会下雪。这次我是去不了，以后总可以的。也许事情并没有那么多，做好一两件一生就够了。
+想挑一本非技术的好书，在闲暇时间看看。暂时没找到。求推荐。
+悠闲和追寻的平衡点并不难找，亲人朋友和爱好是可以一起的。
+0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
+说明要求子程序作什么；因此，首先应该写一个关于编写子程序目的的精确说明。编写这个说
+明也将帮你更清楚地理解这个子程序。如果在编写这部分说明时感到困难，那说明需要对这个
+子程序在整个软件中的地位和作用作出更深刻的理解。总之，如果感到编写抽象说明时有困难，
+应该想到可能是某一环节出了问题。&lt;/p&gt;
+&lt;p&gt;生命本质上是一种信息，一种形式，而不是具体的物质；生命是物质组成的结果，而不是物质本身；生命是把某些物质以适当的方式组合起来，并从他们的相互作用中涌现的一种动态行为。&lt;/p&gt;
+&lt;p&gt;What would you do if there were no way you could fail? If you were 10 times smarter than the rest of the world?&lt;/p&gt;
+&lt;p&gt;文化类的内容都是有人格属性的，这种属性很难被巨头工业化的流程所复制&lt;/p&gt;
+&lt;p&gt;工作撵跑三个魔鬼：无聊、堕落和贫穷。&lt;/p&gt;
+&lt;p&gt;希尔伯特的誓言: 我庄严地要你回答，宣誓是否能使你用真诚的良心承担如下的许诺和保证：你将勇敢地去捍卫真正的科学，将其开拓，为之添彩；既不为厚禄所驱，亦不为虚名所赶，只求真理的神辉普照大地、发扬光大。&lt;/p&gt;
+&lt;p&gt;我们用cracker这个词来称呼那些坏的，而那些好的才叫做hacker。hackers遵守hacker ethic，而cracker只对违法的事情感兴趣。与优秀的hacker的才能相比，cracker差一大截，这些人只知道如何使用hacker创造的工具和代码，而并不理解其中的原理。&lt;/p&gt;
+&lt;p&gt;贪婪地去获取更多的信息, pause&lt;/p&gt;</summary><category term="list"></category><category term="coding"></category><category term="sayings"></category></entry><entry><title>some sayings</title><link href="http://blog.askender.com/blog/list_sayings.html" rel="alternate"></link><updated>1900-01-01T00:00:00+08:06</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1900-01-01:list_sayings.html</id><summary type="html">&lt;p&gt;人拥有此生此世是不够的，他还需要一个诗意的世界。&lt;/p&gt;
+&lt;p&gt;人生要有趣。&lt;/p&gt;
+&lt;p&gt;如果一个人不会唱，那么全世界的歌对他毫无用处；如果他会唱，那他一定要唱自己的歌。这就是说，诗人这个行当应该取消，每个人都要做自己的诗人。&lt;/p&gt;
+&lt;p&gt;电影《荒野生存》中，主角最后写下了一句话:Happiness only real when shared. 
+我很认同这句话，人是一种社会化的动物，幸福和快乐只有在分享的时候才能感觉到真实。&lt;/p&gt;
+&lt;p&gt;Make your life a story worth telling.&lt;/p&gt;
+&lt;p&gt;与其记忆那么多的东西，还不如好好理解部分的东西&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://v.youku.com/v_show/id_XNDYwMDIzMjQw.html"&gt;TED：理查德布兰森:3万尺高空中的生活&lt;/a&gt; 其中，那个口吃的理查德布兰森说的一句话(21min17sec)很好： “我觉得只要你对人不薄，人们就会回来，并且多次回来。我觉得人生在世信誉为本，这世界很小，而且我觉得最好是做一个讲信誉、待人公正的人……(I think you treat people well, people will come back and come back for more. And I think all you have in life is your reputation, and it's a very small world. And I actually think that the best way of becoming a successful business leader is dealing with people fairly and well,... )”&lt;/p&gt;
+&lt;p&gt;3%的人，在25年间朝着一个方向不懈努力，几乎都成为社会各界的成功人士，其中不乏行业领袖和社会精英；10%的人，他们的短期目标不断地实现，成为各个领域中的专业人士，大都生活在社会的中上层；60%的人，他们安稳地生活与工作，但都没有什么特别成绩，几乎都生活在社会的中下层；剩下27%的人，他们的生活没有目标，过得很不如意，并且常常在抱怨他人，抱怨社会，当然，也抱怨自己。最重要的就是不要去看远方模糊的事，而是做手边清楚的事。&lt;/p&gt;
+&lt;p&gt;一个出于其内心的需要,敢于直面权力者,敢冒一切风险的人,只拥有一个小小的希望:通过他的行动,他将提醒那些当权的人,权力来自何处,权力的起源是什么,他们的职责是什么,也许他会使他们变得多一
+些人性。 -- 伊凡·克里玛&lt;/p&gt;
+&lt;p&gt;There is an intrinsic danger in saying you will push yourself hard "next time". It’s now or never.&lt;/p&gt;
+&lt;p&gt;“只是因为三轮车好学，你就要一辈子骑三轮车吗？” – Douglas Englebart&lt;/p&gt;
+&lt;p&gt;与其做个半成品，不好做好半个产品. Done is better than Perfect!&lt;/p&gt;
+&lt;p&gt;手段的不纯洁，必然导致目的的不纯洁。 --甘地&lt;/p&gt;
+&lt;p&gt;管得最少，就是最好的政府。 -- 大卫·梭罗&lt;/p&gt;
+&lt;p&gt;真正的无知不是知识的缺乏，而是拒绝获取知识。 -- 卡尔·波普尔&lt;/p&gt;
+&lt;p&gt;坚信比谎言更是真理的敌人。 -- 尼采&lt;/p&gt;
+&lt;p&gt;我活在世上，无非是想要明白些道理，遇见些有趣的事。&lt;/p&gt;
+&lt;p&gt;开放是好的，僵化则是恐怖的。&lt;/p&gt;
+&lt;p&gt;不知道当下中国是否有自由主义者，如果没有，我等愿为第一批先行者。&lt;/p&gt;
+&lt;p&gt;Aal izz well&lt;/p&gt;
+&lt;p&gt;出于兴趣，解决某个难题，不管它有没有用，这就是黑客。它们信仰分享（Sharing）、开放（Openness）、民主（Decentralization）、计算机的自由使用（Free access to computers）、进步（World Improvement）的价值观。更详细的在这里&lt;a href="http://www.ruanyifeng.com/blog/2011/04/on_hacker.html"&gt;黑客的含义&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;hacking的本质是：在给定的情况下，探寻非常规的，和被忽视的规律与属性，然后用前所未有的、出人意料的方式来解决问题,带给我们意想不到的技术进步.&lt;/p&gt;
+&lt;p&gt;人们关心的，其实是自己的青春……资讯爆炸永远是个假象，你内心需要的往往总是荒芜。&lt;/p&gt;</summary><category term="list"></category><category term="sayings"></category></entry></feed>

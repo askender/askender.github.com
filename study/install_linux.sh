@@ -4,6 +4,8 @@ sudo apt-get autoremove
 
 
 sudo apt-get install chromium-browser
+sudo apt-get install chromium-codecs-ffmpeg-extra
+sudo apt-get install chromium-codecs-ffmpeg-nonfree
 sudo apt-get install zsh
 sudo apt-get install python-pip
 sudo apt-get install python-dev

@@ -6,7 +6,7 @@ AUTHOR = u'askender'
 SITENAME = u"柏舟志 askender's blog"
 SITEURL = '/blog'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'en'
 
@@ -32,7 +32,7 @@ SOCIAL = (
     ('rss', '/blog/feeds/all.atom.xml'),
 )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
