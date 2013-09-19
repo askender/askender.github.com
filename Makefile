@@ -39,11 +39,11 @@ preview:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)
 
-commit: publish
+commit:
 	@echo "starting commit"
 	fab commit
 
-deploy: publish
+deploy:
 	@echo "starting deploy"
 	fab deploy
 

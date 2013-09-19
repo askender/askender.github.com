@@ -30,3 +30,8 @@ ssh user@remotehost 'cat >> ~/.ssh/authorized_keys' < ~/.ssh/id_rsa.pub
 各位还有什么其它好用的 ssh tips，欢迎不吝指出。
 – EOF –
 转自http://www.gracecode.com/archives/3030/
+
+ssh-keygen -f ~/.ssh/blog_ask
+scp ~/.ssh/blog_ask.pub server_hostname:~/.ssh/
+ssh server_hostname
+cat .ssh/blog_ask.pub >> .ssh/authorized_keys 即可

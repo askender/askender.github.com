@@ -1,6 +1,8 @@
-http://glab.laobubu.net/stt2/
 wolframalpha
+wikipedia
+
+ask.com
+http://www.chacha.com/
+http://glab.laobubu.net/stt2/
 wordnik
 wundergrounds
-
-ask.com http://www.chacha.com/ http://www.wolframalpha.com/ wikipedia

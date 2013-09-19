@@ -11,5 +11,3 @@ AI is try to make the stupid one become smart, imposibble become possible
 
 know joke and humour 
 know code of self and can change it
-
-bach gedeerj
