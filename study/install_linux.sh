@@ -2,7 +2,6 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get autoremove
 
-
 sudo apt-get install chromium-browser
 sudo apt-get install chromium-codecs-ffmpeg-extra
 sudo apt-get install chromium-codecs-ffmpeg-nonfree
@@ -27,6 +26,7 @@ sudo apt-get install xsel
 sudo apt-get install virtualbox
 sudo apt-get install tmux
 sudo apt-get install git-flow
+sudo apt-get install rabbitmq-server
 
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 # http://www.longene.org/forum/viewtopic.php?t=4700
@@ -72,6 +72,7 @@ sudo pip install pelican
 sudo pip install scrapyd
 sudo pip install scrapely
 sudo pip install markdown
+sudo pip install pika
 
 sudo pip install Celery
 sudo pip install cloudi

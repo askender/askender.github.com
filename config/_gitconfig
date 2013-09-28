@@ -29,6 +29,12 @@
     last = log --max-count=1 --stat
 	files = log --name-only
 	fs = log --name-only --oneline[color]
+	# unstages a file. use like 'git unstage filename'
+	unstage = reset HEAD --
+	# resets all uncomitted changes and files
+	abort = reset --hard HEAD
+	# shows diff only for files staged to commit
+	new = diff --cached
 [color]
 	ui = auto
 	diff = auto

@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-16T00:00:00+08:00</updated><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。留作备用&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/misc.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-09-28T00:00:00+08:00</updated><entry><title>安问130928</title><link href="http://blog.askender.com/blog/anwen_130928.html" rel="alternate"></link><updated>2013-09-28T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-28:anwen_130928.html</id><summary type="html">&lt;p&gt;一停又是12天没写。这期间发生了很多事就不回忆了。
+说说对现在有影响的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;帮朋友酷队的项目还在继续，不过拆分为二，变得更专注了，也变得更互联网化了&lt;/li&gt;
+&lt;li&gt;安问的域名备案转移（其实就相当于重新备案还必须去指定地点拍照）终于成功了，不担心突然有一天消失了，不过还是得弄一个国外的vps以防万一&lt;/li&gt;
+&lt;li&gt;被收购后去新的大公司上班，各种限制，没网，回到旧公司上网学习，搬走两天了依然有阿姨来切水果&lt;/li&gt;
+&lt;li&gt;发现九州又回来了，在豆瓣上出了电子版，买了留着有空看&lt;/li&gt;
+&lt;li&gt;给九州发消息说愿意提供技术支持&lt;a href="http://site.douban.com/107554/widget/notes/185904/note/287934079/"&gt;via&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;按照安问相关的项目来说吧&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安问。优质内容分享，维护社区氛围。对手：豆瓣阅读，多看，medium，reddit。这个永远是重点，下面的都是辅助&lt;/li&gt;
+&lt;li&gt;安德。自然语言交流，个性化推荐。对手：siri，人类。可以给安问提供算法支持&lt;/li&gt;
+&lt;li&gt;安曲。情节动人的游戏，初期会有一个文字版本。对手：各种手游，MUD，minecraft。增加安问的趣味性&lt;/li&gt;
+&lt;li&gt;果恋鲜。健康水果生活。对手：易果。安问的生活化版本，o2o试水&lt;/li&gt;
+&lt;li&gt;微比特 以开源和开放的方式做微型比特币（让大众可以亲身体验的有意思的技术）平台，包括交易交流和买东西。对手：无（因为只是为了做着好玩）。可以为安问提供支付支持和硬件支持&lt;/li&gt;
+&lt;li&gt;酷队。活动和组队的平台。对手：豆瓣小组。让安问的人可以线下交流&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;嗯，战线拉得有点长，但我自己的核心就一个，也算目的明确吧。
+以后按照项目主线来每天记录进展。&lt;/p&gt;
+&lt;p&gt;安德：
+安德的思考架构得好好构思一下。另外，程序员中有VPS的数量挺多，可以利用一些闲置的资源。或者利用普通人的闲置电脑。&lt;/p&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>安德与失控</title><link href="http://blog.askender.com/blog/ande_and_out_of_control.html" rel="alternate"></link><updated>2013-09-16T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-09-16:ande_and_out_of_control.html</id><summary type="html">&lt;p&gt;失控里的一些理论与我之前做安德的思路很向，很多东西可以用在安德上。以下来自网友的评论、笔记和书摘。留作备用&lt;/p&gt;
 &lt;p&gt;让机器产生自适应，自学习，自我进化的能力，为了更好的世界。把机器想成生物一样的东西，他们可以形成群落，互相共生，自我进化成更好的机器。 
 　　 
 先做简单的事。学会准确无误地做简单的事。在简单任务的成果之上添加新的活动层级。不要改变简单事物。让新层级像简单层级那样准确无误地工作。 重复以上步骤，无限类推。&lt;/p&gt;
@@ -108,7 +129,48 @@
 同事们讨论十一去骑行环游青岛湖，唯一的问题是担心那边会下雪。这次我是去不了，以后总可以的。也许事情并没有那么多，做好一两件一生就够了。
 想挑一本非技术的好书，在闲暇时间看看。暂时没找到。求推荐。
 悠闲和追寻的平衡点并不难找，亲人朋友和爱好是可以一起的。
-0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
+0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>桉叶桉果--安问设计的价值奖励机制</title><link href="http://blog.askender.com/blog/anwen_anye_anguo.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_anye_anguo.html</id><summary type="html">&lt;p&gt;桉叶桉果--安问设计的价值奖励机制
+初始
+注册用户拥有桉叶，注册时送10叶，桉叶可以兑换为比特币或者人民币。目前1桉叶等效于=0.01RMB
+注册用户同时拥有桉果，初始为0，不可兑换和转送，作为个人的影响力值, 无实际用途。
+奖励
+每个用户都可以对文章进行评价（支持or反对），评论，分享，赞助和收藏。暂时不允许匿名发布文章和评论
+发布文章可以获得10桉叶和10桉果，分享可获得1桉叶和1桉果
+文章获得支持，评论，分享和收藏时，发布者可以获得额外的桉叶和桉果
+每个用户都可以对评论进行评价（支持or反对）
+衡量
+文章排序，参考：阅读数，评论和分享数，（支持-反对）数，赞助和收藏数等
+评论排序，参考：（支持-反对）数，赞助和收藏数等
+算法会不断优化
+补充
+评分员（moderator）可以有额外的文章打分权限，作为紧急调整恶意刷排序的方式或者作为推荐的一个参考值，允许申请成为评分员，评分员的评分会被公开，被认为不公正的评分员会被永久取消评分权限
+由于技术的不稳定性，安问暂时拥有对桉叶桉果的最终解释权，欢迎完善此价值奖励机制&lt;/p&gt;</summary><category term="anwen"></category><category term="design"></category><category term="bitcoin"></category></entry><entry><title>some music</title><link href="http://blog.askender.com/blog/list_music.html" rel="alternate"></link><updated>1980-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1980-01-01:list_music.html</id><summary type="html">&lt;p&gt;如果你被独自带到一个无人岛，你会选择携带哪8首歌曲？
+无人岛唱片&lt;/p&gt;
+&lt;p&gt;听会儿音乐：&lt;/p&gt;
+&lt;p&gt;John Lennon:
+- Imagine &lt;a href="http://www.xiami.com/song/play?ids=/song/playlist/id/1122167/object_name/default/object_id/0"&gt;with lyric&lt;/a&gt;
+- Oh My Love &lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=1957272&amp;sid=1122173&amp;mode=js"&gt;&lt;/script&gt; &lt;a href="http://www.xiami.com/song/play?ids=/song/playlist/id/1122173/object_name/default/object_id/0"&gt;with lyric&lt;/a&gt;
+- &lt;a href="http://www.xiami.com/artist/10312"&gt;John Lennon&lt;/a&gt;&lt;/p&gt;
+&lt;div class="audio"&gt;
+&lt;audio controls="controls"&gt;
+&lt;source src="http://lhtlyybox.googlecode.com/files/m.ogg" type="audio/ogg" /&gt; 
+您的浏览器不支持 audio 标签。
+&lt;/audio&gt;
+星光伴我心--郑中基
+&lt;/div&gt;
+
+&lt;p&gt;Childs
+- &lt;a href="http://music.douban.com/subject/1939243/"&gt;《Yui》&lt;/a&gt;
+- &lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=3473233&amp;mode=js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;德沃夏克
+- Allegro Con Fuoco(第9号交响曲「新世界」第四乐章：如火般热烈的快板) &lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1768984384&amp;mode=js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;帕赫贝尔：
+- D大调卡农(Canon in D)
+&lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1770347936&amp;mode=js"&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;莫扎特的《魔笛》&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=""&gt;&lt;/a&gt; &lt;a href=""&gt;with lyric&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="list"></category><category term="music"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
 说明要求子程序作什么；因此，首先应该写一个关于编写子程序目的的精确说明。编写这个说
 明也将帮你更清楚地理解这个子程序。如果在编写这部分说明时感到困难，那说明需要对这个
 子程序在整个软件中的地位和作用作出更深刻的理解。总之，如果感到编写抽象说明时有困难，
@@ -143,4 +205,5 @@
 &lt;p&gt;Aal izz well&lt;/p&gt;
 &lt;p&gt;出于兴趣，解决某个难题，不管它有没有用，这就是黑客。它们信仰分享（Sharing）、开放（Openness）、民主（Decentralization）、计算机的自由使用（Free access to computers）、进步（World Improvement）的价值观。更详细的在这里&lt;a href="http://www.ruanyifeng.com/blog/2011/04/on_hacker.html"&gt;黑客的含义&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;hacking的本质是：在给定的情况下，探寻非常规的，和被忽视的规律与属性，然后用前所未有的、出人意料的方式来解决问题,带给我们意想不到的技术进步.&lt;/p&gt;
-&lt;p&gt;人们关心的，其实是自己的青春……资讯爆炸永远是个假象，你内心需要的往往总是荒芜。&lt;/p&gt;</summary><category term="list"></category><category term="sayings"></category></entry></feed>
+&lt;p&gt;人们关心的，其实是自己的青春……资讯爆炸永远是个假象，你内心需要的往往总是荒芜。&lt;/p&gt;
+&lt;p&gt;专制制度下只有两种人：一种是哑子，一种是骗子。我看今天的中国就是少数骗子在统治多数哑子。--王亚南&lt;/p&gt;</summary><category term="list"></category><category term="sayings"></category></entry></feed>
