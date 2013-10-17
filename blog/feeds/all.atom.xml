@@ -191,22 +191,23 @@ python代码遵循pep8规范
 同事们讨论十一去骑行环游青岛湖，唯一的问题是担心那边会下雪。这次我是去不了，以后总可以的。也许事情并没有那么多，做好一两件一生就够了。
 想挑一本非技术的好书，在闲暇时间看看。暂时没找到。求推荐。
 悠闲和追寻的平衡点并不难找，亲人朋友和爱好是可以一起的。
-0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>桉叶桉果--安问设计的价值奖励机制</title><link href="http://blog.askender.com/blog/anwen_anye_anguo.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_anye_anguo.html</id><summary type="html">&lt;p&gt;桉叶桉果--安问设计的价值奖励机制
-初始
-注册用户拥有桉叶，注册时送10叶，桉叶可以兑换为比特币或者人民币。目前1桉叶等效于=0.01RMB
-注册用户同时拥有桉果，初始为0，不可兑换和转送，作为个人的影响力值, 无实际用途。
-奖励
-每个用户都可以对文章进行评价（支持or反对），评论，分享，赞助和收藏。暂时不允许匿名发布文章和评论
-发布文章可以获得10桉叶和10桉果，分享可获得1桉叶和1桉果
-文章获得支持，评论，分享和收藏时，发布者可以获得额外的桉叶和桉果
-每个用户都可以对评论进行评价（支持or反对）
-衡量
-文章排序，参考：阅读数，评论和分享数，（支持-反对）数，赞助和收藏数等
-评论排序，参考：（支持-反对）数，赞助和收藏数等
-算法会不断优化
-补充
-评分员（moderator）可以有额外的文章打分权限，作为紧急调整恶意刷排序的方式或者作为推荐的一个参考值，允许申请成为评分员，评分员的评分会被公开，被认为不公正的评分员会被永久取消评分权限
-由于技术的不稳定性，安问暂时拥有对桉叶桉果的最终解释权，欢迎完善此价值奖励机制&lt;/p&gt;</summary><category term="anwen"></category><category term="design"></category><category term="bitcoin"></category></entry><entry><title>我每天使用的互联网服务</title><link href="http://blog.askender.com/blog/my_everyday_webservice.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:my_everyday_webservice.html</id><summary type="html">&lt;p&gt;更偏向于用同时有web版的服务。
+0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>桉叶桉果--安问设计的价值奖励机制</title><link href="http://blog.askender.com/blog/anwen_anye_anguo.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_anye_anguo.html</id><summary type="html">&lt;p&gt;桉叶桉果--安问设计的价值奖励机制&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注册用户拥有桉叶，注册时送10叶，桉叶可以兑换为比特币或者人民币。目前1桉叶等效于=0.01RMB&lt;/li&gt;
+&lt;li&gt;注册用户同时拥有桉果，初始为0，不可兑换和转送，作为个人的影响力值, 无实际用途。&lt;/li&gt;
+&lt;li&gt;每个用户都可以对文章进行评价（支持or反对），评论，分享，赞助和收藏, 发布文章可以获得10桉叶和10桉果，分享可获得1桉叶和1桉果&lt;/li&gt;
+&lt;li&gt;文章获得支持，评论，分享和收藏时，发布者可以获得额外的桉叶和桉果&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安问本身是一个开放的平台，在这里报酬的支付也会被透明公开&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;文章排序，参考：阅读数，评论和分享数，（支持-反对）数，赞助和收藏数等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;评论排序，参考：（支持-反对）数，赞助和收藏数等&lt;/li&gt;
+&lt;li&gt;算法会不断优化&lt;/li&gt;
+&lt;li&gt;评分员（moderator）可以有额外的文章打分权限，作为紧急调整恶意刷排序的方式或者作为推荐的一个参考值，允许申请成为评分员，评分员的评分会被公开，被认为不公正的评分员会被永久取消评分权限&lt;/li&gt;
+&lt;li&gt;由于技术的不稳定性，安问暂时拥有对桉叶桉果的最终解释权，欢迎完善此价值奖励机制&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="anwen"></category><category term="design"></category><category term="bitcoin"></category></entry><entry><title>我每天使用的互联网服务</title><link href="http://blog.askender.com/blog/my_everyday_webservice.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:my_everyday_webservice.html</id><summary type="html">&lt;p&gt;更偏向于用同时有web版的服务。
 做一个列表记录一下。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://mail.google.com/"&gt;https://mail.google.com/&lt;/a&gt;&lt;/li&gt;
