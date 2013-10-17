@@ -5,7 +5,8 @@ Slug: useful_api
 Summary: 
 
 
-baidu music
+music
+
 - http://mp3.baidu.com/dev/api/?tn=getinfo&ct=0&ie=utf-8&word=song&format=json
 - http://mp3.baidu.com/dev/api/?tn=getinfo&ct=0&ie=utf-8&word=song+singer&format=json
 - http://mp3.baidu.com/dev/api/?tn=getinfo&ct=0&ie=utf-8&word=song+singer+album&format=json
