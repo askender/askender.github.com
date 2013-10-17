@@ -24,4 +24,3 @@ last_login
 game_story
 quwen_game_dev
 tech
-ande_lyric
