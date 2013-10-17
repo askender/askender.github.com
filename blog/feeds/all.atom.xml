@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-10-12T00:00:00+08:00</updated><entry><title>安问131012</title><link href="http://blog.askender.com/blog/anwen_131012.html" rel="alternate"></link><updated>2013-10-12T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-10-12:anwen_131012.html</id><summary type="html">&lt;p&gt;公司刚被收购，一时没有任务安排，只能自己学习技术，顺便自己也写写博客，尽力写成技术博客吧。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-10-17T00:00:00+08:00</updated><entry><title>安问技术架构</title><link href="http://blog.askender.com/blog/anwen_tech_architecture.html" rel="alternate"></link><updated>2013-10-17T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-10-17:anwen_tech_architecture.html</id><summary type="html">&lt;p&gt;从前向后说吧。
+安问的技术架构目前用在3个正在使用中的项目中
+架构也在不断更新中（本文持续更新中）&lt;/p&gt;
+&lt;p&gt;目前用户能接触到的用户界面有：
+web网站（基于twitter bootstrap3）
+android app（基于web view简单包装）
+接下来打算扩展用户界面的方向：
+更多平台的app（使用phonegap封装，目前已经做出demo）
+以及跨平台的桌面端（linux mac win8 考虑使用PyQt QT最新版本已经能打包成移动应用）（优先级低）&lt;/p&gt;
+&lt;p&gt;设计方面，请专业的设计师设计（朋友或者在专业的设计平台上征集）&lt;/p&gt;
+&lt;p&gt;前端技术方面：
+更偏向于使用html5相关技术（html5 css3）
+javascript方面，目前主要使用jquery，以后会转向backbone或者angularjs，使用mvc框架和自动构建工具（已经开始使用grunt）
+css目前采用less写好后编译
+css和js均自动格式化后合并压缩&lt;/p&gt;
+&lt;p&gt;前后通信方面：
+目前主要采用后台渲染html模板。采用ajax
+实时通知和聊天部分采用websocket
+目前已经提供了restful-api，但没有使用，以后会逐步全部转为前后端完全分离的restful无状态方式&lt;/p&gt;
+&lt;p&gt;后端：
+目前主要采用python，使用fackbook开发的tornado异步高并发框架
+最新的tornado已经支持非常简单的异步和协程特性，无需使用greenlet的方式
+采用supervisor进行进程管理和监控，unittest进行单元测试
+不排除以后访问量大的时候采用golang&lt;/p&gt;
+&lt;p&gt;数据库方面：
+最早使用mysql，转向sqlite，之后主要使用mongodb文档化nosql数据库
+目前采用了mongokit（缺点是还没有py3版本，优点是简单无附加），mongoengine（支持py3，用户多，目前仅在一个项目中使用） 以后也可能使用non-blocking的motor&lt;/p&gt;
+&lt;p&gt;缓存方面：
+早期使用的memcache，目前由于访问量不大，暂时没有缓存层，可以随时加上
+以后可能会在部分场景使用redis&lt;/p&gt;
+&lt;p&gt;负载均衡：
+目前采用haproxy和nginx&lt;/p&gt;
+&lt;p&gt;部署：
+采用fabric和git hook自动化部署&lt;/p&gt;
+&lt;p&gt;运维：
+目前的服务器端可运行在多个平台（有一个项目就是运行在本地的win7下面），主要还是部署在阿里云的vps上&lt;/p&gt;
+&lt;p&gt;分布式：
+目前有多台vps，分布式的支持很容易做到，但还没做，有需求时会做。目前是开启了多个进程，服务更新时可以做到无间断。&lt;/p&gt;
+&lt;p&gt;代码风格：
+代码保持结构和风格清晰，有简明的文档，
+python代码遵循pep8规范
+有一定的代码洁癖，定期review和重构&lt;/p&gt;
+&lt;p&gt;项目管理：
+所有项目都使用trello和gmail进行任务调度，进度监控和多方合作&lt;/p&gt;
+&lt;p&gt;技术趋势：
+使用略成熟但cutting eage，处于社区活跃期的开源技术，并向开源社区及时反馈&lt;/p&gt;
+&lt;p&gt;团队：
+目前主要是通过互联网协作，以后会吸引更多人参与开发，并给予更多报酬&lt;/p&gt;
+&lt;p&gt;注：以上三个项目指：安问，和朋友合作的另外一个创业项目，以及给家里的小店做的进销存和客户积分管理系统（也是bs架构，windows下本地运行）&lt;/p&gt;</summary><category term="tech"></category></entry><entry><title>安问131012</title><link href="http://blog.askender.com/blog/anwen_131012.html" rel="alternate"></link><updated>2013-10-12T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-10-12:anwen_131012.html</id><summary type="html">&lt;p&gt;公司刚被收购，一时没有任务安排，只能自己学习技术，顺便自己也写写博客，尽力写成技术博客吧。&lt;/p&gt;
 &lt;p&gt;先说说新东家，人数比前公司多了三百倍，反应肯定会慢，技术上为了稳定只有保守，而且技术上是用的非开源的，我们这个使用开源技术的团队要融合进来得花很久。这个公司用到技术，但还是一个服务型的公司，技术和互联网思路上落后是肯定要被在很多方面超越的。目前的思路是偏大数据提供服务的，对UGC的不够重视在我看来总是不够好。&lt;/p&gt;
 &lt;p&gt;再说说自己，之前做的一个工具依赖一个框架scrapy，做到一定程度，框架已经是限制，反倒不如完全自己写。但现在对这个的需求暂时还没有，先略过。
 目前主要使用python，业余一个人做web应用，于是需要全栈开发。但这样做出来的总不够好。前端上是自己瞎折腾，设计上也没确定思路。

@@ -45,7 +45,7 @@ add:
 
 co:
 	@echo "starting commit"
-	git add . && git commit -am 'new'
+	git commit -am 'new'
 
 deploy:
 	@echo "starting deploy"
