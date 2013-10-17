@@ -230,14 +230,6 @@ python代码遵循pep8规范
 &lt;li&gt;Oh My Love &lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=1957272&amp;sid=1122173&amp;mode=js"&gt;&lt;/script&gt; &lt;a href="http://www.xiami.com/song/play?ids=/song/playlist/id/1122173/object_name/default/object_id/0"&gt;with lyric&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.xiami.com/artist/10312"&gt;John Lennon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="audio"&gt;
-&lt;audio controls="controls"&gt;
-&lt;source src="http://lhtlyybox.googlecode.com/files/m.ogg" type="audio/ogg" /&gt; 
-您的浏览器不支持 audio 标签。
-&lt;/audio&gt;
-星光伴我心--郑中基
-&lt;/div&gt;
-
 &lt;p&gt;Childs&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://music.douban.com/subject/1939243/"&gt;《Yui》&lt;/a&gt;&lt;/li&gt;
@@ -245,13 +237,20 @@ python代码遵循pep8规范
 &lt;/ul&gt;
 &lt;p&gt;德沃夏克&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Allegro Con Fuoco(第9号交响曲「新世界」第四乐章：如火般热烈的快板) &lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1768984384&amp;mode=js"&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;li&gt;Allegro Con Fuoco(第9号交响曲「新世界」第四乐章：如火般热烈的快板)&lt;/li&gt;
+&lt;li&gt;&lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1768984384&amp;mode=js"&gt;&lt;/script&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;帕赫贝尔：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;D大调卡农(Canon in D)
-&lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1770347936&amp;mode=js"&gt;&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="list"></category><category term="music"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
+&lt;li&gt;D大调卡农(Canon in D)&lt;/li&gt;
+&lt;li&gt;&lt;script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&amp;sid=1770347936&amp;mode=js"&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;郑中基&lt;/p&gt;
+&lt;p&gt;星光伴我心
+&lt;audio controls="controls"&gt;
+&lt;source src="http://lhtlyybox.googlecode.com/files/m.ogg" type="audio/ogg" /&gt; 
+您的浏览器不支持 audio 标签。
+&lt;/audio&gt;&lt;/p&gt;</summary><category term="list"></category><category term="music"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
 说明要求子程序作什么；因此，首先应该写一个关于编写子程序目的的精确说明。编写这个说
 明也将帮你更清楚地理解这个子程序。如果在编写这部分说明时感到困难，那说明需要对这个
 子程序在整个软件中的地位和作用作出更深刻的理解。总之，如果感到编写抽象说明时有困难，
