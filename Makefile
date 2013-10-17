@@ -39,7 +39,11 @@ preview:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)
 
-commit:
+add:
+	@echo "starting add"
+	git add .
+
+co:
 	@echo "starting commit"
 	fab commit
 

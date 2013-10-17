@@ -254,3 +254,17 @@ git push origin HEAD --force
 # http://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
 # http://git-scm.com/book/ gfw
 # http://ikandou.com/book/7188000/
+
+# VERSION_NUMBER
+git rev-list master | sort | wc -l | awk '{print $1}'
+# VERSION_HASH
+git rev-list master | head -1
+
+
+# cd /path/to/project.git
+# touch git-daemon-export-ok
+# 执行git daemon命令，设置你要Export出的项目目录的父目录，例如工程的代码地址是：/opt/git/project的话，则示例代码如下：
+git daemon --reuseaddr --base-path=/opt/git/ /opt/git/
+# 告知对方你的机器的IP，然后在对方的机器，用下列命令即可检出你的代码：
+git checkout git://your_ip_address/project
+# 如果对方有更新，只需要 git pull 一下。

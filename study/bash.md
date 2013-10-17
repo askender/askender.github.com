@@ -478,3 +478,6 @@ XON	::
 history | awk {'print $2'} | sort | uniq -c | sort -k1 -rn | head
 
 export ANDROID_HOME=/home/ask/tools/adt-bundle-linux-x86-20130522/sdk
+
+# for mac
+alias tree='find . -type d | ls -lARG'
