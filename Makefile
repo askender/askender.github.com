@@ -51,4 +51,4 @@ deploy:
 	@echo "starting deploy"
 	fab deploy
 
-
+all: publish add co deploy
