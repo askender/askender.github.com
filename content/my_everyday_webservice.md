@@ -1,7 +1,7 @@
-Title: 每天使用的互联网服务
+Title: 我每天使用的互联网服务
 Date: 2011-01-01
 Tags: log, list
-Slug: webservice_everyday_of_mime
+Slug: my_everyday_webservice
 Summary: 
 
 更偏向于用同时有web版的服务。
