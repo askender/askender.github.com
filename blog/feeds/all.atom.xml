@@ -158,7 +158,13 @@
 算法会不断优化
 补充
 评分员（moderator）可以有额外的文章打分权限，作为紧急调整恶意刷排序的方式或者作为推荐的一个参考值，允许申请成为评分员，评分员的评分会被公开，被认为不公正的评分员会被永久取消评分权限
-由于技术的不稳定性，安问暂时拥有对桉叶桉果的最终解释权，欢迎完善此价值奖励机制&lt;/p&gt;</summary><category term="anwen"></category><category term="design"></category><category term="bitcoin"></category></entry><entry><title>api</title><link href="http://blog.askender.com/blog/useful_api.html" rel="alternate"></link><updated>2000-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2000-01-01:useful_api.html</id><summary type="html">&lt;p&gt;baidu music
+由于技术的不稳定性，安问暂时拥有对桉叶桉果的最终解释权，欢迎完善此价值奖励机制&lt;/p&gt;</summary><category term="anwen"></category><category term="design"></category><category term="bitcoin"></category></entry><entry><title>每天使用的互联网服务</title><link href="http://blog.askender.com/blog/webservice_everyday_of_mime.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:webservice_everyday_of_mime.html</id><summary type="html">&lt;p&gt;更偏向于用同时有web版的服务。
+做一个列表记录一下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mail.google.com/"&gt;https://mail.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cloud.feedly.com/"&gt;http://cloud.feedly.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://trello.com/"&gt;https://trello.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="log"></category><category term="list"></category></entry><entry><title>api</title><link href="http://blog.askender.com/blog/useful_api.html" rel="alternate"></link><updated>2000-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2000-01-01:useful_api.html</id><summary type="html">&lt;p&gt;baidu music
 - http://mp3.baidu.com/dev/api/?tn=getinfo&amp;amp;ct=0&amp;amp;ie=utf-8&amp;amp;word=song&amp;amp;format=json
 - http://mp3.baidu.com/dev/api/?tn=getinfo&amp;amp;ct=0&amp;amp;ie=utf-8&amp;amp;word=song+singer&amp;amp;format=json
 - http://mp3.baidu.com/dev/api/?tn=getinfo&amp;amp;ct=0&amp;amp;ie=utf-8&amp;amp;word=song+singer+album&amp;amp;format=json
