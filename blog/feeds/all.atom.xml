@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2013-10-22T00:00:00+08:00</updated><entry><title>安问131022</title><link href="http://blog.askender.com/blog/anwen_131022.html" rel="alternate"></link><updated>2013-10-22T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2013-10-22:anwen_131022.html</id><summary type="html">&lt;p&gt;安问发展计划&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;重新开始，至少每天写一篇（计划和进度）&lt;/li&gt;
-&lt;li&gt;寻求更多人的加入和反馈，不仅仅只先做自己认为不错的功能（之前是闷者做，接下来会高调一点）&lt;/li&gt;
-&lt;li&gt;更快速的迭代（每天都至少发布一点）&lt;/li&gt;
+&lt;li&gt;重新开始，至少每天写一篇（计划和进度.）&lt;/li&gt;
+&lt;li&gt;寻求更多人的加入和反馈，不仅仅只先做自己认为不错的功能（之前是闷者做，接下来会高调一点.）&lt;/li&gt;
+&lt;li&gt;更快速的迭代（每天都至少发布一点.）&lt;/li&gt;
 &lt;li&gt;更清晰的说明（安问的使命和终极目标，即将更新）&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -217,7 +217,21 @@ python代码遵循pep8规范
 同事们讨论十一去骑行环游青岛湖，唯一的问题是担心那边会下雪。这次我是去不了，以后总可以的。也许事情并没有那么多，做好一两件一生就够了。
 想挑一本非技术的好书，在闲暇时间看看。暂时没找到。求推荐。
 悠闲和追寻的平衡点并不难找，亲人朋友和爱好是可以一起的。
-0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>桉叶桉果--安问设计的价值奖励机制</title><link href="http://blog.askender.com/blog/anwen_anye_anguo.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_anye_anguo.html</id><summary type="html">&lt;p&gt;桉叶桉果--安问设计的价值奖励机制&lt;/p&gt;
+0552了，好饿，大致如此，先吃东西去了。&lt;/p&gt;</summary><category term="log"></category></entry><entry><title>安问使命（每夜构建版）</title><link href="http://blog.askender.com/blog/anwen_aim_nightly_build.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_aim_nightly_build.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;安问致力于创造和分享有趣有价值东西&lt;/li&gt;
+&lt;li&gt;有趣的互联网内容的分享与个性化推荐，我们正在开发“安链”，发现全世界的精彩（131026上线）&lt;/li&gt;
+&lt;li&gt;全心的安问文章分享，“安文”改版&lt;/li&gt;
+&lt;li&gt;cc版权的音乐（安听）&lt;/li&gt;
+&lt;li&gt;cc视频（安闻）&lt;/li&gt;
+&lt;li&gt;安问报酬机制（即将付出）&lt;/li&gt;
+&lt;li&gt;更好的使用体验&lt;/li&gt;
+&lt;li&gt;优化个性化算法&lt;/li&gt;
+&lt;li&gt;致力于优质内容的发现&lt;/li&gt;
+&lt;li&gt;同时也提供一个交流平台&lt;/li&gt;
+&lt;li&gt;安德人工只能&lt;/li&gt;
+&lt;li&gt;安曲多人游戏&lt;/li&gt;
+&lt;li&gt;互联网自由精神&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="anwen"></category><category term="log"></category></entry><entry><title>桉叶桉果--安问设计的价值奖励机制</title><link href="http://blog.askender.com/blog/anwen_anye_anguo.html" rel="alternate"></link><updated>2011-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2011-01-01:anwen_anye_anguo.html</id><summary type="html">&lt;p&gt;桉叶桉果--安问设计的价值奖励机制&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;注册用户拥有桉叶，注册时送10叶，桉叶可以兑换为比特币或者人民币。目前1桉叶等效于=0.01RMB&lt;/li&gt;
 &lt;li&gt;注册用户同时拥有桉果，初始为0，不可兑换和转送，作为个人的影响力值, 无实际用途。&lt;/li&gt;
