@@ -271,7 +271,121 @@ python代码遵循pep8规范
 &lt;p&gt;"abc" * 0 // ""
 "abc"+"abcww"&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="study"></category><category term="coding"></category></entry><entry><title>some music</title><link href="http://blog.askender.com/blog/list_music.html" rel="alternate"></link><updated>1980-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1980-01-01:list_music.html</id><summary type="html">&lt;p&gt;如果你被独自带到一个无人岛，你会选择携带哪8首歌曲？
+&lt;/ul&gt;
+&lt;p&gt;"google".reverse
+"Hello" map (&lt;em&gt;.toUpper) // 相当于 "Hello".toUpperCase
+"hello"=="Hello".toLowerCase()
+"101".toInt
+List("1","2","3") map (&lt;/em&gt;.toInt)
+List("1","2","3") map Integer.parseInt&lt;/p&gt;
+&lt;p&gt;val msg = java.text.MessageFormat.format(
+    "At {1,time} on {1,date}, there was {2} on planet {0}.",
+    "Hoth", new java.util.Date(), "a disturbance in the Force")&lt;/p&gt;
+&lt;p&gt;"my name is %s, age is %d." format ("james", 30)
+"%s-%d：%1$s is %2$d." format ("james", 30)&lt;/p&gt;
+&lt;p&gt;// Null
+// Trait，其唯一实例为null，是AnyRef的子类，&lt;em&gt;不是&lt;/em&gt; AnyVal的子类
+// Nothing
+// Trait，所有类型（包括AnyRef和AnyVal）的子类，没有实例
+// None
+// Option的两个子类之一，另一个是Some，用于安全的函数返回值
+// Unit
+// 无返回值的函数的类型，和java的void对应
+// Nil
+// 长度为0的List&lt;/p&gt;
+&lt;p&gt;val s1,s2 = "hello"
+val s3 = new String("hello")
+s1==s3 // true 值相同
+s1 eq s3 // false 不是同一个引用&lt;/p&gt;
+&lt;p&gt;def p(map:Map[Int,Int]) = println(map get 3 getOrElse "...")
+p(Map(1-&amp;gt;100,2-&amp;gt;200)) // ...
+p(Map(1-&amp;gt;100,3-&amp;gt;300)) // 300&lt;/p&gt;
+&lt;p&gt;def f(v:Any) = v match {
+    case null =&amp;gt; "null"
+    case i:Int =&amp;gt; i*100
+    case s:String =&amp;gt; s
+    case _ =&amp;gt; "others"
+}&lt;/p&gt;
+&lt;p&gt;def fac(n:Int) = ((1:BigInt) to n).product
+def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }&lt;/p&gt;
+&lt;p&gt;1 to 11 by 2
+(1 to 3) forall (0&amp;lt;)
+def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
+更scalable的写法：
+def sum(L: Seq[Int]) = L.foldLeft(0)(&lt;em&gt; + &lt;/em&gt;)
+def sum(L: List[Int]) = (0/:L){&lt;em&gt; + &lt;/em&gt;}
+def multiply(L: Seq[Int]) = L.foldLeft(1)(&lt;em&gt; * &lt;/em&gt;)
+// def multiply(L: List[Int]) = (1/:L){&lt;em&gt; * &lt;/em&gt;}
+multiply(Seq(1,2,3,4,5)) // 120
+multiply(1 until 5+1) // 120
+List(1,2,3,4,5).scanLeft(0)(&lt;em&gt;+&lt;/em&gt;)
+1 to 10 by 2 take 3 // Range(1, 3, 5)
+1 to 10 by 2 drop 3 // Range(7, 9)
+1 to 10 by 2 splitAt 2 // (Range(1, 3),Range(5, 7, 9))&lt;/p&gt;
+&lt;p&gt;range(1,10,2)[::2]&lt;/p&gt;
+&lt;p&gt;1 to 10 takeWhile (n=&amp;gt;n&lt;em&gt;n&amp;lt;25) // (1, 2, 3, 4)
+1 to 10 dropWhile (n=&amp;gt;n&lt;/em&gt;n&amp;lt;25) // (5,6,7,8,9,10)
+List(1,0,1,0) span (&lt;em&gt;&amp;gt;0) // ((1), (0,1,0))
+List(1,0,1,0) partition (&lt;/em&gt;&amp;gt;0) // ((1,1),(0,0))&lt;/p&gt;
+&lt;p&gt;('a' to 'z').slice(0,10).foreach(println)
+type JDate = java.util.Date
+// 函数中的泛型
+def foo&lt;a href="a:T"&gt;T&lt;/a&gt; = println("value is " + a)
+List(1.0, 3, 6.2, 2.3, 0).sortWith(&lt;em&gt;&amp;lt;&lt;/em&gt;)
+@specialized  // ?
+Curry化 // ?
+tail-recursive会被优化成循环，所以没有堆栈溢出的问题
+协变和逆变(co-|contra-)variance // ?
+元素合并进List用::
+val list2 = "a"::"b"::"c"::Nil // Nil是必须的
+val list3 = list2 ++ list1
+IndexSeq的缺省实现是Vector:
+IndexSeq(1,2,3) // Vector(1, 2, 3)
+('0' to '9') ++ ('A' to 'Z')
+(1 to 5).toList
+def fib(a: Int, b: Int): Stream[Int] = a #:: fib(b,  a+b)
+val fibs = fib(1, 1).take(7).toList // List(1, 1, 2, 3, 5, 8, 13)
+Stream.range(1,50000000).filter(&lt;em&gt;%13==0)(1) // 26
+val ms = collection.mutable.Stack()
+ms.push(1,3,5).push(7) // Stack(7, 5, 3, 1)
+ms.head // 7
+ms.pop // 7, ms = Stack(5,3,1)
+val mq = collection.mutable.Queue&lt;a href=""&gt;Int&lt;/a&gt;
+mq += (1,3,5)
+mq ++= List(7,9) // Queue(1, 3, 5, 7, 9)
+mq dequeue // 1, mq= Queue(3, 5, 7, 9)
+mq clear // Queue()
+List("a","b","c").map(s=&amp;gt; s.toUpperCase()) // 方式1
+List("a","b","c").map(&lt;/em&gt;.toUpperCase())     // 方式2, 类似于Groovy的it
+List(1,3,5,7,9) splitAt 2 // (List(1, 3),List(5, 7, 9))
+List(1,3,5,7,9) groupBy (5&amp;lt;) // Map((true,List(7, 9)), (false,List(1, 3, 5)))
+List(1,2,3,4,5).exists(&lt;em&gt;%3==0) // true
+List(1,3,2,0,5,9,7).sorted //  List(0, 1, 2, 3, 5, 7, 9)
+List(1,3,2,0,5,9,7).sortWith(&lt;/em&gt;&amp;gt;&lt;em&gt;) // List(9, 7, 5, 3, 2, 1, 0)
+List("abc", "cb", "defe", "z").sortBy(&lt;/em&gt;.size) // List(z, cb, abc, defe)
+List((1,'c'), (1,'b'), (2,'a')) .sortBy(&lt;em&gt;._2) // List((2,a), (1,b), (1,c))
+def uniq&lt;a href="l:List[T]"&gt;T&lt;/a&gt; = l.distinct
+val a = List(100,200,300)
+a.indices // (0,1,2)
+a.zipWithIndex // ((100,0), (200,1), (300,2))
+(a.indices) zip a // ((0,100), (1,200), (2,300))
+List(100,200,300,400,500) slice (2,4)
+val v1 = List(1,2,3,4)
+v1.updated(3,10) // List(1, 2, 3, 10), v1还是List(1, 2, 3, 4)
+1 to 5 contains 3 // true, 后一个参数是1个元素
+1 to 5 containsSlice (2 to 4) // true, 后一个参数是1个集合
+(1 to 5) startsWith (1 to 3) // true 后一个参数是1个集合
+(1 to 5) endsWith (4 to 5)
+(List(1,2,3) corresponds List(4,5,6)) (&lt;/em&gt;&amp;lt;_) // true，长度相同且每个对应项符合判断条件
+List(1,2,3,4) intersect List(4,3,6) // 交集 = List(3, 4)
+List(1,2,3,4) diff List(4,3,6) // A-B = List(1, 2)
+List(1,2,3,4) union List(4,3,6) // A+B = List(1, 2, 3, 4, 4, 3, 6)
+// 相当于
+List(1,2,3,4) ++ List(4,3,6) // A+B = List(1, 2, 3, 4, 4, 3, 6)
+val a = Array(100,200,300) // a(0)=100, a(1)=200, a(3)=300
+a(0) // 100, 相当于a.apply(0)
+val t1 = ("a","b","c") // t1._1="a", t1._2="b", t1._3="c"
+List(1,2,3).zip(List(100,200,300)).toMap&lt;/p&gt;</summary><category term="study"></category><category term="coding"></category></entry><entry><title>some music</title><link href="http://blog.askender.com/blog/list_music.html" rel="alternate"></link><updated>1980-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1980-01-01:list_music.html</id><summary type="html">&lt;p&gt;如果你被独自带到一个无人岛，你会选择携带哪8首歌曲？
 无人岛唱片&lt;/p&gt;
 &lt;p&gt;听会儿音乐：&lt;/p&gt;
 &lt;p&gt;John Lennon:&lt;/p&gt;
@@ -300,7 +414,7 @@ python代码遵循pep8规范
 &lt;ul&gt;
 &lt;li&gt;星光伴我心&lt;/li&gt;
 &lt;li&gt;&lt;audio controls="controls"&gt;&lt;source src="http://lhtlyybox.googlecode.com/files/m.ogg" type="audio/ogg" /&gt;您的浏览器不支持 audio 标签。&lt;/audio&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="list"></category><category term="music"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
+&lt;/ul&gt;</summary><category term="list"></category><category term="music"></category></entry><entry><title>some bash</title><link href="http://blog.askender.com/blog/list_bash.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_bash.html</id><summary type="html">&lt;p&gt;sort -n test.txt | uniq&lt;/p&gt;</summary><category term="list"></category><category term="bash"></category></entry><entry><title>some coding sayings</title><link href="http://blog.askender.com/blog/list_coding_sayings.html" rel="alternate"></link><updated>1970-01-01T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,1970-01-01:list_coding_sayings.html</id><summary type="html">&lt;p&gt;编写工作应该从抽象到具体。一个子程序最抽象的部分便是最开始的注释部分，这部分将
 说明要求子程序作什么；因此，首先应该写一个关于编写子程序目的的精确说明。编写这个说
 明也将帮你更清楚地理解这个子程序。如果在编写这部分说明时感到困难，那说明需要对这个
 子程序在整个软件中的地位和作用作出更深刻的理解。总之，如果感到编写抽象说明时有困难，
