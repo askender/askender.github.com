@@ -14,3 +14,5 @@ Summary:
 - <http://anwensf.com/about>
 - <http://anwensf.com/ande>
 - 微信：askender （公众帐号正在申请中）
+- twitter: <https://twitter.com/askenderlee>
+- 微博：<http://weibo.com/askender>
