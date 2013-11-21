@@ -15,7 +15,6 @@ sudo apt-get install libmysqld-dev
 sudo apt-get install vim
 sudo apt-get install python-software-properties g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
 sudo apt-get install nodejs
 sudo apt-get install openssl libssl-dev
 sudo apt-get install openssh-server
@@ -26,6 +25,7 @@ sudo apt-get install xsel
 sudo apt-get install virtualbox
 sudo apt-get install tmux
 sudo apt-get install git-flow
+sudo apt-get install ttf-wqy-microhei
 sudo apt-get install rabbitmq-server
 
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
@@ -163,22 +163,22 @@ db.blogComments.update
 
 
 zookeeper client连接
-cd /home/admin/zookeeper/zookeeper-3.4.5 
+cd /home/admin/zookeeper/zookeeper-3.4.5
 
-sudo bin/zkCli.sh -server localhost:2182 
+sudo bin/zkCli.sh -server localhost:2182
 
 1.安装zope.interface
 pip install zope.interface
 
 2.安装kazoo
-pip install kazoo 
+pip install kazoo
 http://kazoo.readthedocs.org/en/latest/basic_usage.html
 
 
 http://rdc.taobao.com/team/jm/archives/1232
 
 anwen google
-find .|xargs grep -ri "base64.encodestring" -l 
+find .|xargs grep -ri "base64.encodestring" -l
 
 
 sudo apt-get install libsnappy-dev
@@ -209,7 +209,7 @@ sudo apt-get install ibus-rime
 sudo add-apt-repository ppa:chromium-daily
 sudo apt-get update
 sudo apt-get install chromium-browser
-sudo apt-get update 
+sudo apt-get update
 sudo apt-get upgrade
 chromium-browser
 git
@@ -342,7 +342,7 @@ sudo npm install -g generator-webapp
 sudo npm install -g yo grunt-cli bower
 sudo npm install -g grunt-init
 
-bower install underscore 
+bower install underscore
 
 sudo npm install -g generator-angular
 
@@ -354,7 +354,7 @@ bower install angular-ui
 
 grunt test
 grunt server
-grunt  
+grunt
  
 
 sudo pip install flake8

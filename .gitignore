@@ -3,3 +3,6 @@
 *.pyc
 
 tmp
+.sublime-project.sublime-workspace
+.idea
+

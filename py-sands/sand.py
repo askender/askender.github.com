@@ -10,7 +10,7 @@ import settings
 import smtplib
 
 
-def generate_recovery_link(self, user):
+def generate_recovery_link(user):
     expired = datetime.now() + timedelta(days=1)
     token = md5(
         str(user.id) + expired.strftime("%H:%M:%S %m/%d/%Y")).hexdigest()
@@ -33,7 +33,7 @@ def send_recovery_mail(self, user, url):
     smtp_server.quit()
 
 
-def connect_smtp_server(self, email_host, email_port, user, password):
+def connect_smtp_server(email_host, email_port, user, password):
     smtp_server = smtplib.SMTP('%s:%s' % (email_host, email_port))
     smtp_server.starttls()
     smtp_server.login(user, password)
@@ -111,11 +111,12 @@ def timeit(func):
     def warpper():
         start = time.time()
         func()
-        print "used:", time.time() - start
+        print("used:", time.time() - start)
+
     return warpper
 
 
-def pretty_date(self, time=False):
+def pretty_date(time=False):
     """
     Get a datetime object or a int() Epoch timestamp and return a
     pretty string like 'an hour ago', 'Yesterday', '3 months ago',
@@ -128,6 +129,7 @@ def pretty_date(self, time=False):
     now = datetime.now()
     if isinstance(time, str) or isinstance(time, unicode):
         time = datetime.strptime(time, '%Y-%m-%d %H:%M:%S')
+        diff = now - time
     elif isinstance(time, int):
         diff = now - datetime.fromtimestamp(time)
     elif isinstance(time, datetime):
@@ -164,7 +166,7 @@ def pretty_date(self, time=False):
     return str(day_diff / 365) + " 天前"
 
 
-def content_process(self, content):
+def content_process(content):
     # render content included gist
     content = re.sub(
         r'http(s)?:\/\/gist.github.com\/(\d+)(.js)?',

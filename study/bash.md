@@ -237,7 +237,7 @@ BC	::
 CANCEL	::
 取消一个刚开始启动的打印的作业	cancel <jobid> ( jobid可以由lpstat -o输出)
 CASE in ESAC	::
-sh/bash/ksh中的case语句	 
+sh/bash/ksh中的case语句
 CC	::
 编译一个C文件file.c	cc -o <outfile> <infile>
 CHGRP	::
@@ -256,7 +256,7 @@ CRYPT	::
 使用一个口令加密一个文件	crypt password < infile > cryptfile
 解密一个被上面命令加密了的文件	crypt password < cryptfile > cleanfile
 CSH	::
-最好的Berkley shell	 
+最好的Berkley shell
 CUT	::
 从last 命令的输出中得到hostname字段	last | cut -c11-40
 DATE	::
@@ -302,7 +302,7 @@ FIND	::
 查找所有的man目录	find / -type d -print | egrep ‘.*/(catman|man)$’
 查找所有有写权限的目录	find / -type d -perm -002 -print
 GAWK	::
-GNU版本的nawk	 
+GNU版本的nawk
 GREP	::
 以某个正规表达式查找包含其的文件行	grep ‘[a-z][0-9]‘ <file>
 查找不包含指定正则表达式的文件行	grep -v ‘^From’ <file>
@@ -313,11 +313,11 @@ GREP	::
 HINV	::
 命令显示系统硬件的详细列表，包括：CPU类型、内存大小、所有的磁盘设备。	hinv -v
 IF then else ENDIF	::
-csh/tcsh中的if 语句	 
+csh/tcsh中的if 语句
 IF then else FI	::
 sh/bash/ksh 中的if 语句	if [[ condition ]];then commands;fi
 KSH	::
-Korn shell. (ksh88)	 
+Korn shell. (ksh88)
 LN	::
 创建一个硬链接文件a链接到文件A	ln a B
 创建一个符号链接文件a链接到文件A	ln -s a B
@@ -344,7 +344,7 @@ MOUNT	::
 挂载一个光驱到目录/cdrom	mount /dev/cdrom /cdrom
 挂载一个磁盘分区到目录 /usr	mount /dev/dsk/c0t3d0s5 /usr
 NAWK	::
-增强版的 awk	 
+增强版的 awk
 NL	::
 以带行号的方式输出文件	nl -bt -nln <file>
 NOHUP	::
@@ -361,7 +361,7 @@ PERL	::
 Perl脚本语言的解释器
 PR	::
 把一个文件做成可打印的格式（76行一页）	pr -l76 -h”title” <filename>
- 	 
+
 REGCMP	::
 从一个文件中编译正则表达式	regcmp <file>
 文件内容示例	varname “^[a-z].*[0-9.*$"
@@ -392,7 +392,7 @@ SORT	::
 以数字顺序把文件的每一行排序	sort -n <file>
 反向排序	sort -r <file>
 排序时对于重复项只保留一个	sort -u <file>
- 	 
+
 SPELL	::
 检查拼写错误	spell <file>
 检查拼写错误，但是忽略okfile中包含的单词	spell +<okfile> <file>

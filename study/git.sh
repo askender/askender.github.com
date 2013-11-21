@@ -268,3 +268,23 @@ git daemon --reuseaddr --base-path=/opt/git/ /opt/git/
 # 告知对方你的机器的IP，然后在对方的机器，用下列命令即可检出你的代码：
 git checkout git://your_ip_address/project
 # 如果对方有更新，只需要 git pull 一下。
+
+
+
+工作流程
+
+生成你的公钥和私钥,将公钥发给git仓库管理员
+克隆一个仓库
+检出一个远程分支到本地分支
+在本地分支上进行开发工作并提交
+将你的提交推送到远程仓库
+要经常更新你的本地分支 git pull
+对于开发人员，不要在develop分支上直接开发，创建feature分支并publish协同开发。
+对于开发人员，要经常合并常规开发分支develop到你的feature分支上，以降低冲突的积累。
+第7、8条参照git-flow分支模型来规划。
+使用 Git 的一些基本守则：
+当要commit/提交patch时：
+
+使用 git diff --check 检查行尾有没有多余的空白
+每个 commit 只改一件事情。如果一个文档有多个变更，使用 git add --patch 只选择文档中的部分变更进入 stage
+写清楚 commit message
