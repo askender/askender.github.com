@@ -3,32 +3,40 @@ sudo apt-get upgrade
 sudo apt-get autoremove
 
 sudo apt-get install chromium-browser
-sudo apt-get install chromium-codecs-ffmpeg-extra
-sudo apt-get install chromium-codecs-ffmpeg-nonfree
+sudo apt-get install git
 sudo apt-get install zsh
+sudo apt-get install curl
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+
 sudo apt-get install python-pip
 sudo apt-get install python-dev
-sudo apt-get install curl
-sudo apt-get install git
+
+
+sudo apt-get install nautilus-open-terminal
+sudo apt-get install tmux
+
 sudo apt-get install mysql-server mysql-client
 sudo apt-get install libmysqld-dev
-sudo apt-get install vim
+
 sudo apt-get install python-software-properties g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get install nodejs
 sudo apt-get install openssl libssl-dev
 sudo apt-get install openssh-server
-sudo apt-get install nautilus-open-terminal
+
 sudo apt-get install mysql-workbench
 sudo apt-get install mercurial
 sudo apt-get install xsel
 sudo apt-get install virtualbox
-sudo apt-get install tmux
+
 sudo apt-get install git-flow
 sudo apt-get install ttf-wqy-microhei
 sudo apt-get install rabbitmq-server
 
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+# sudo apt-get install chromium-codecs-ffmpeg-nonfree
+
+
 # http://www.longene.org/forum/viewtopic.php?t=4700
 # sudo apt-get install ia32-libs
 
@@ -358,3 +366,8 @@ grunt
  
 
 sudo pip install flake8
+
+sudo fdisk -l
+sudo umount /dev/sdb
+sudo mkfs.vfat -I /dev/sdb
+
