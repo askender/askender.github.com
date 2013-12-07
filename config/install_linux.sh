@@ -2,15 +2,17 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get autoremove
 
-sudo apt-get install chromium-browser
 sudo apt-get install git
-sudo apt-get install zsh
-sudo apt-get install curl
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-
-
+sudo apt-get install make
 sudo apt-get install python-pip
 sudo apt-get install python-dev
+sudo apt-get install curl
+sudo apt-get install nginx
+
+
+sudo apt-get install chromium-browser
+sudo apt-get install zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 
 
 sudo apt-get install nautilus-open-terminal
@@ -49,7 +51,6 @@ curl -Lo- https://raw.github.com/yesmeck/tmuxrc/master/bootstrap.sh | bash
 tmux source-file ~/.tmux.conf
 
 
-sudo apt-get install nginx
 sudo apt-get install memchaced
 sudo apt-get install redis
 sudo apt-get install openjdk-7-jdk
@@ -68,12 +69,16 @@ sudo apt-get install emacs
 Thrift
 scribe
 
+sudo pip install tornado
+sudo pip install pycurl
+sudo pip install supervisor
+
+
 sudo pip install requests
 sudo pip install MySQL-python
 sudo pip install sqlalchemy
 sudo pip install flake8
 sudo pip install autopep8
-sudo pip install tornado
 sudo pip install bpython
 sudo pip install fabric
 sudo pip install pelican
@@ -85,7 +90,6 @@ sudo pip install pika
 sudo pip install Celery
 sudo pip install cloudi
 sudo pip install tox
-sudo pip install supervisor
 sudo pip install virtualenv
 sudo pip install pymmseg
 sudo pip install web.py
@@ -233,7 +237,6 @@ autojump
 zsh
 oh-my-zsh
 openssh-server
-supervisor
 sudo su root
 echo_supervisord_conf > /etc/supervisord.conf
 

@@ -49,6 +49,7 @@ co:
 
 deploy:
 	@echo "starting deploy"
-	fab deploy
+	git push origin master
+	# fab deploy
 
 all: publish add co deploy
