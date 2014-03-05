@@ -1,35 +1,96 @@
+打开/前往
+
+⌘T   前往文件
+⌘⌃P  前往项目
+⌘R   前往 method
+⌘⇧P  命令提示
+⌃G   前往行
+⌃ `  python 控制台
+编辑
+
+⌘L   选择行 (重复按下将下一行加入选择)
+⌘D   选择词 (重复按下时多重选择相同的词进行多重编辑)
+⌃⇧M  选择括号内的内容
+⌘⇧↩  在当前行前插入新行
+⌘↩   在当前行后插入新行
+⌃⇧K  删除行
+⌘KK  从光标处删除至行尾
+⌘K⌫  从光标处删除至行首
+⌘⇧D  复制(多)行
+⌘J   合并(多)行
+⌘KU  改为大写
+⌘KL  改为小写
+⌘ /  注释
+⌘⌥ /   块注释
+⌘Y   恢复或重复
+⌘⇧V  粘贴并自动缩进
+⌃ space  自动完成(重复按下选择下一个提示)
+⌃M   跳转至对应的括号
+XML/HTML
+
+⌘⇧A  选择标签内的内容
+⌘⌥ .   闭合当前标签
+查找/替换
+
+⌘F   查找
+⌘⌥F  替换
+⌘⌥G  查找下一个符合当前所选的内容
+⌘⌃G  查找所有符合当前所选的内容进行多重编辑
+⌘⇧F  在所有打开的文件中进行查找
+拆分窗口/标签页
+
+⌘⌥1  单列
+⌘⌥2  双列
+⌘⌥5  网格 (4组)
+⌃[1,2,3,4]   焦点移动至相应组
+⌃⇧[1,2,3,4]  将当前文件移动至相应组
+⌘[1,2,3…]  选择相应标签页
+书签
+
+⌘F2  添加/去除书签
+F2   下一个书签
+⇧F2  前一个书签
+⌘⇧F2   清除书签
+标记
+
+⌘K space   设置标记
+⌘KW  从光标位置删除至标记
+⌘KA  从光标位置选择至标记
+⌘KG  清除标记
+
+
 Ctrl+L 选择整行（按住-继续选择下行）
-Ctrl+KK 从光标处删除至行尾 
-Ctrl+Shift+K 删除整行 
-Ctrl+Shift+D 复制光标所在整行，插入在该行之前 
-Ctrl+J 合并行（已选择需要合并的多行时） 
-Ctrl+KU 改为大写 
-Ctrl+KL 改为小写 
-Ctrl+D 选词 （按住-继续选择下个相同的字符串） 
-Ctrl+M 光标移动至括号内开始或结束的位置 
-Ctrl+Shift+M 选择括号内的内容（按住-继续选择父括号） 
-Ctrl+/ 注释整行（如已选择内容，同“Ctrl+Shift+/”效果） 
-Ctrl+Shift+/ 注释已选择内容 
-Ctrl+Space 自动完成（win与系统快捷键冲突，需修改） 
-Ctrl+Z 撤销 
-Ctrl+Y 恢复撤销 
+Ctrl+KK 从光标处删除至行尾
+Ctrl+Shift+K 删除整行
+Ctrl+Shift+D 复制光标所在整行，插入在该行之前
+Ctrl+J 合并行（已选择需要合并的多行时）
+Ctrl+KU 改为大写
+Ctrl+KL 改为小写
+Ctrl+D 选词 （按住-继续选择下个相同的字符串）
+Ctrl+M 光标移动至括号内开始或结束的位置
+Ctrl+Shift+M 选择括号内的内容（按住-继续选择父括号）
+Ctrl+/ 注释整行（如已选择内容，同“Ctrl+Shift+/”效果）
+Ctrl+Shift+/ 注释已选择内容
+Ctrl+Space 自动完成（win与系统快捷键冲突，需修改）
+Ctrl+Z 撤销
+Ctrl+Y 恢复撤销
 Ctrl+Shift+V 粘贴并自动缩进（其它兄弟写的，实测win系统自动缩进无效）
-Ctrl+M 光标跳至对应的括号 
-Alt+. 闭合当前标签 
-Ctrl+Shift+A 选择光标位置父标签对儿 
-Ctrl+Shift+[ 折叠代码 
-Ctrl+Shift+] 展开代码 
-Ctrl+KT 折叠属性 
-Ctrl+K0 展开所有 
-Ctrl+U 软撤销 
-Ctrl+T 词互换 
-Tab 缩进 
-Shift+Tab 去除缩进 
-Ctrl+Shift+UP 与上行互换 
-Ctrl+Shift+DOWN 与下行互换 
-Ctrl+K Backspace 从光标处删除至行首 
-Ctrl+Enter 插入行后 
-Ctrl+Shift Enter 插入行前 
+Ctrl+M 光标跳至对应的括号
+Alt+. 闭合当前标签
+Ctrl+Shift+A 选择光标位置父标签对儿
+Ctrl+Shift+[ 折叠代码
+Ctrl+Shift+] 展开代码
+Ctrl+KT 折叠属性
+Ctrl+K0 展开所有
+Ctrl+U 软撤销
+Ctrl+T 词互换
+Tab 缩进
+Shift+Tab 去除缩进
+Ctrl+Shift+UP 与上行互换
+Ctrl+Shift+DOWN 与下行互换
+Ctrl+K Backspace 从光标处删除至行首
+Ctrl+Enter 插入行后
+Ctrl+Shift Enter 插入行前
 F9 行排序（按a-z）
 
 http://cloudaice.com/subline-text2-shortcuts/
@@ -40,7 +101,7 @@ sudo apt-get install sublime-text
 按Ctrl+`调出console
 粘贴以下代码到底部命令行并回车：
 import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
- 
+
 subl plugins:
 SublimeLinter
 AutoPEP8
@@ -143,7 +204,7 @@ After this plugin you can hit ‘command + shift + r’ on any window in Sublime
           【7】Ctrl+M:移到所匹配的对应的括号去。(Matching Bracket
 
 
-四：多行编辑  
+四：多行编辑
 这是Sublime text 2的一个特色。
 
           【1】Ctrl+Shift+Down:加上下面的一行

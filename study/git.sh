@@ -59,6 +59,9 @@ git checkout "@{10 minutes ago}"  # 直接"签出"10分钟之前代码仓库中�
 git checkout "@{5}"  # 直接 "签出" 倒数第五次保存的某个文件版本到工作目录，该操作同时会取消暂存区快照
 git checkout  -- <file>  # 抛弃工作区修改
 git checkout  .  # 抛弃工作区修改
+
+git checkout -b t1 origin/t1 
+
 git revert SHA1_HASH  # 还原特定哈希值对应的提交。该还原记录作为一个新的提交
 
 

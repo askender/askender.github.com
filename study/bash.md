@@ -1,3 +1,10 @@
+将进程按占用内存大小排序:
+ps -aux|awk '{print $4"\t"$11}'|grep -v MEM|sort -r|less
+
+sudo fdisk -l
+sudo umount /dev/sdb
+sudo mkfs.vfat -I /dev/sdb
+
 cp -frap new/* test/
 scp -r ask@192.168.0.142:/home/ask/ .
 

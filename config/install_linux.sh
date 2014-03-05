@@ -2,39 +2,70 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get autoremove
 
+# sudo add-apt-repository ppa:chromium-daily
+# sudo add-apt-repository ppa:nginx/stable
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-add-repository ppa:swi-prolog/stable
+
 sudo apt-get install git
-sudo apt-get install make
-sudo apt-get install python-pip
-sudo apt-get install python-dev
-sudo apt-get install curl
-sudo apt-get install nginx
-
-
 sudo apt-get install chromium-browser
 sudo apt-get install zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-
-
+sudo apt-get install curl
 sudo apt-get install nautilus-open-terminal
-sudo apt-get install tmux
-
-sudo apt-get install mysql-server mysql-client
-sudo apt-get install libmysqld-dev
-
+sudo apt-get install sublime-text
+sudo apt-get install sublime-text-installer
+sudo apt-get install virtualbox
+sudo apt-get install virtualbox-guest-additions-iso
+sudo apt-get install oracle-java7-installer
+sudo apt-get install vim
+sudo apt-get install redis
+sudo apt-get install mongodb
+sudo apt-get install build-essential python-dev
+sudo apt-get install make
+sudo apt-get install python-pip
+sudo apt-get install python-imaging
+sudo apt-get install gparted
 sudo apt-get install python-software-properties g++ make
-sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get install nodejs
+sudo apt-get install tmux
+sudo apt-get install xfonts-wqy
+sudo apt-get install xfce4-terminal
+sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
+sudo apt-get install cmake
+sudo apt-get install libboost-all-dev
+sudo apt-get install ttf-wqy-microhei
+sudo apt-get install flashplugin-nonfree
+sudo apt-get install unzip
+sudo apt-get install unrar
+sudo apt-get install swi-prolog
+sudo apt-get install sqlitebrowser
+
+sudo npm install -g npm
+sudo npm install -g less
+sudo npm install -g coffee-script
+sudo npm install -g uglify-js
+
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+sudo vim /etc/redis/redis.conf
+
+sudo apt-get install nginx
+sudo apt-get install mysql-server
+sudo apt-get install mysql-workbench
+sudo apt-get install libmysqld-dev
+sudo apt-get install php5
+sudo apt-get install php5-cli php5-cgi php5-fpm php5-mcrypt php5-mysql
+
 sudo apt-get install openssl libssl-dev
 sudo apt-get install openssh-server
 
-sudo apt-get install mysql-workbench
 sudo apt-get install mercurial
 sudo apt-get install xsel
-sudo apt-get install virtualbox
 
 sudo apt-get install git-flow
-sudo apt-get install ttf-wqy-microhei
 sudo apt-get install rabbitmq-server
+
 
 # sudo apt-get install chromium-codecs-ffmpeg-nonfree
 
@@ -52,9 +83,7 @@ tmux source-file ~/.tmux.conf
 
 
 sudo apt-get install memchaced
-sudo apt-get install redis
 sudo apt-get install openjdk-7-jdk
-sudo apt-get install mongodb
 
 sudo apt-get install celery
 
@@ -69,16 +98,19 @@ sudo apt-get install emacs
 Thrift
 scribe
 
+sudo pip install flake8
+sudo pip install autopep8
 sudo pip install tornado
 sudo pip install pycurl
 sudo pip install supervisor
+sudo pip install -U numpy
+sudo pip install -U pyyaml nltk
+sudo python -m nltk.downloader -d /usr/share/nltk_data all
 
 
 sudo pip install requests
 sudo pip install MySQL-python
 sudo pip install sqlalchemy
-sudo pip install flake8
-sudo pip install autopep8
 sudo pip install bpython
 sudo pip install fabric
 sudo pip install pelican
@@ -124,15 +156,7 @@ mkvirtualenv venv
 workon venv
 deactivate
 
-sudo npm install -g grunt-cli
-sudo npm install -gd dtrace-provider
-sudo npm install -gd restify
-sudo npm install -gd express
-sudo npm install -g npm
-sudo npm install -g less
-sudo npm install -g coffee-script
-sudo npm install -g uglify-js
-npm link dtrace-provider
+
 
 mesos
 ketama
@@ -141,9 +165,7 @@ ketama
 
 ptpq
 
-release_now = prompt('是否现在就发布所有服务器[y|n]?', default='y', validate=r'^[y|Y|n|N]{1}$')
-if release_now.upper() == 'Y':
-    release_lion()
+
 
 Cassandra
 Spark
@@ -218,15 +240,7 @@ sudo apt-get install ibus ibus-googlepinyin ibus-sunpinyin
 sudo apt-get install ibus-rime
 
 
-sudo add-apt-repository ppa:chromium-daily
-sudo apt-get update
-sudo apt-get install chromium-browser
-sudo apt-get update
-sudo apt-get upgrade
-chromium-browser
-git
-vim
-nautilus-open-terminal
+
 python-dev
 rhythmbox
 subversion
@@ -246,10 +260,7 @@ haproxy
 
 
 
-sudo apt-get install python-software-properties python g++ make
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs npm
+
 
 sudo add-apt-repository ppa:cheleb/blender-svn
 sudo apt-get update
@@ -267,7 +278,6 @@ tftpy
 pyansn1
 rsa
 rq times logbook python-dateutil
-pip install --upgrade autopep8
 
 
 ## alias
@@ -348,14 +358,9 @@ sudo apt-get install aria2
 
 
 
-sudo npm install -g yo
-sudo npm install -g generator-webapp
-sudo npm install -g yo grunt-cli bower
-sudo npm install -g grunt-init
+
 
 bower install underscore
-
-sudo npm install -g generator-angular
 
 PhantomJS
 
@@ -368,9 +373,13 @@ grunt server
 grunt
  
 
-sudo pip install flake8
 
-sudo fdisk -l
-sudo umount /dev/sdb
-sudo mkfs.vfat -I /dev/sdb
+subl
+autopep8
 
+# C:\Program Files\Oracle\VirtualBox\VBoxManage.exe modifyhd "G:\ub1310\ub1310.vdi" --resize 10240
+
+sudo mount -o remount /
+mkdir ~/share
+sudo mount -t vboxsf share ~/share
+/etc/fstab

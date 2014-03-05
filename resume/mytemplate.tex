@@ -1,4 +1,5 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$]{$documentclass$}
+\usepackage{longtable} % 解决 Environment longtable undefined 问题
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -13,7 +14,7 @@
 % \usepackage{fontspec}
 % \setmainfont{WenQuanYi Micro Hei}
 % \setmonofont{WenQuanYi Micro Hei Mono}
- 
+
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -46,8 +47,8 @@ $if(mathfont)$
 $endif$
 
 \usepackage{fancyhdr}
-% \pagestyle{empty}                   % 不设置页眉页脚            
-\pagestyle{fancy}                  % 设置页眉   
+% \pagestyle{empty}                   % 不设置页眉页脚
+\pagestyle{fancy}                  % 设置页眉
 \pagenumbering{arabic}
 \lhead{\itshape $title$}
 \chead{}
