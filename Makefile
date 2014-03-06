@@ -13,10 +13,11 @@ help:
 	@echo
 	@echo TARGET:
 	@echo "    clean    清理临时文件"
-	@echo '    html     generate the web site          '
+	@echo '    html     generate local site'
 	@echo "    watch    start watch"
 	@echo "    preview  preview askender"
 	@echo "    deploy   deploy askender"
+	@echo "    all      all askender"
 	@echo
 
 
@@ -41,7 +42,7 @@ publish:
 
 add:
 	@echo "starting add"
-	git add .
+	git add -A
 
 co:
 	@echo "starting commit"
