@@ -18,6 +18,8 @@ http://api.map.baidu.com/direction/v1/routematrix?output=json&origins=%E5%A4%A9%
 http://api.map.baidu.com/location/ip?ak=F454f8a5efe5e577997931cc01de3974&ip=202.198.16.3&coor=bd09ll
 http://api.map.baidu.com/telematics/v3/weather?location=%E5%8C%97%E4%BA%AC&output=json&ak=E4805d16520de693a3fe707cdc962045
 
+http://freegeoip.net/json/google.com
+
 music
 
 - http://mp3.baidu.com/dev/api/?tn=getinfo&ct=0&ie=utf-8&word=song&format=json
