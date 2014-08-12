@@ -29,5 +29,7 @@ Summary:
 
 哪一样都很好。时间足够你爱，又是一次进入盛夏之门。在这个脑机前夜。
 
-随手分享一个刚看到的链接: <http://www.wcsfa.com/scfbox-2149.html>   故事开始。
+随手分享一个刚看到的链接: <http://www.wcsfa.com/scfbox-2149.html>
+
+故事开始。
 
