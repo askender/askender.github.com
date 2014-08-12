@@ -5,7 +5,6 @@ Slug: about
 Summary:
 
 
-
 Who am I? I am thinking... Please wait
 
 一切刚刚开始. 不要惊慌
@@ -36,8 +35,6 @@ I'm also on:
 - [Twitter](https://twitter.com/askenderlee)
 - [Email](mailto:askender@gmail.com)
 - [about.me](http://about.me/askender)
-- []()
-- []()
 - []()
 
 

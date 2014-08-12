@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2014-03-14T00:00:00+08:00</updated><entry><title>140314 - 随意记录</title><link href="http://blog.askender.com/blog/140306_wander_write.html" rel="alternate"></link><updated>2014-03-14T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2014-03-14:140306_wander_write.html</id><summary type="html">&lt;p&gt;几个在做的应用：
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog</title><link href="http://blog.askender.com/blog/" rel="alternate"></link><link href="http://blog.askender.com/blog/feeds/all.atom.xml" rel="self"></link><id>http://blog.askender.com/blog/</id><updated>2014-08-12T00:00:00+08:00</updated><entry><title>来上海一年记</title><link href="http://blog.askender.com/blog/sh_one_year.html" rel="alternate"></link><updated>2014-08-12T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2014-08-12:sh_one_year.html</id><summary type="html">&lt;p&gt;已经一年了。还是记录一下，算是旧的篇章的终结吧。&lt;/p&gt;
+&lt;p&gt;以下是一些流水账，好久没写字，已经不会写文章了。（写完才发现，不是为别人写的）&lt;/p&gt;
+&lt;p&gt;去年7月底来到上海，想加入一家不错的互联网公司，一起做一点什么事情。八月加入一家创业公司，十月公司被收购，工作上转向做自然语言处理。十一月经历了人生的一件大事。&lt;/p&gt;
+&lt;p&gt;这12个月中，参加了几次活动，算是记忆深刻的事情了。分别是：happy-project-day,  pycon, 黑客马拉松，gdg-festival, 以及最近一个月的 delta-startup-camp, 和上周末的第二次黑马以及随后的音乐现场。 我觉得这些活动才让我感觉到这个城市的精彩。&lt;/p&gt;
+&lt;p&gt;说说活动吧，认识的一些人都在做着自己的事情，让人觉得还有那么多不一样的精彩。这些活动都是偏技术的，也有各行各业的人来参加。除了上周末的那个安静小酒吧的音乐声，又让世界回到舒缓的节奏。&lt;/p&gt;
+&lt;p&gt;短暂的合作和相逢让人觉得美好。而当一个人的时候，是安问。安问是我已经开始3年的项目，很虚的东西，无非是分享一些东西。开始是文章，但停滞了好久。最近在做一个活动的APP，在我心底也认为是安问的分支。&lt;/p&gt;
+&lt;p&gt;我的世界开始于对车来车往的318国道的注视，随后是阅读和科幻的梦幻，之后是浮沉在想做出产品却总被技术和经济消磨的互联网潮水中。&lt;/p&gt;
+&lt;p&gt;一直打算写点字，却每次开电脑就是技术和浏览各种文章。今天如果不是因为一件事，也许现在我正在纠结代码或者写天使投资的文档。&lt;/p&gt;
+&lt;p&gt;白天一个人来到我的一个沉默科幻群里又迅速离开，他说他是被动的人等不到群爆发，就走了。
+于是和群里的朋友聊了几句。一个朋友说已经投身科幻。&lt;/p&gt;
+&lt;p&gt;上面的文字写的支离破碎，也许只是记录给自己看吧。&lt;/p&gt;
+&lt;p&gt;于是不再纠结于是去写代码还是文档还是看书还是写下刚想到的一个科幻点子。&lt;/p&gt;
+&lt;p&gt;哪一样都很好。时间足够你爱，又是一次进入盛夏之门。在这个脑机前夜。&lt;/p&gt;
+&lt;p&gt;随手分享一个刚看到的链接: &lt;a href="http://www.wcsfa.com/scfbox-2149.html"&gt;http://www.wcsfa.com/scfbox-2149.html&lt;/a&gt;   故事开始。&lt;/p&gt;</summary><category term="log"></category><category term="life"></category></entry><entry><title>七月流火</title><link href="http://blog.askender.com/blog/july_ice_fire.html" rel="alternate"></link><updated>2014-07-16T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2014-07-16:july_ice_fire.html</id><summary type="html">&lt;p&gt;转眼七月已经过半，又是4个多月没写任何东西了。&lt;/p&gt;
+&lt;p&gt;说说最近在做的事情，目前以自然语言为主，打算发布andenlp。&lt;/p&gt;
+&lt;p&gt;其他的一些小事情：
+- 知识库构建
+- web架构改进 anke
+- app框架开发 anpe
+- 打算清理博客&lt;/p&gt;
+&lt;p&gt;一些更小的事情：
+改进排版
+&lt;a href="http://lab.lepture.com/yue.css/"&gt;http://lab.lepture.com/yue.css/&lt;/a&gt;
+&lt;a href="http://typo.sofi.sh/"&gt;http://typo.sofi.sh/&lt;/a&gt;
+设计
+https://dribbble.com/&lt;/p&gt;
+&lt;p&gt;计划
+发布 andenlp&lt;/p&gt;</summary><category term="log"></category><category term="work"></category></entry><entry><title>140314 - 随意记录</title><link href="http://blog.askender.com/blog/140306_wander_write.html" rel="alternate"></link><updated>2014-03-14T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:blog.askender.com/blog,2014-03-14:140306_wander_write.html</id><summary type="html">&lt;p&gt;几个在做的应用：
 美食 旅行
 搜索 翻墙
 知识 问答 对话

@@ -15,6 +15,7 @@ help:
 	@echo "    clean    清理临时文件"
 	@echo '    html     generate local site'
 	@echo "    watch    start watch"
+	@echo "    publish  start publish"
 	@echo "    preview  preview askender"
 	@echo "    deploy   deploy askender"
 	@echo "    all      all askender"
