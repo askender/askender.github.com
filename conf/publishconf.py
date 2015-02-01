@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.path.join(os.curdir, 'conf'))
 from localconf import *
 
-SITEURL = 'http://blog.askender.com/blog'
+SITEURL = 'http://askender.com/blog'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -21,4 +21,4 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = u"askender-blog"
-#GOOGLE_ANALYTICS = ""
+# GOOGLE_ANALYTICS = ""
