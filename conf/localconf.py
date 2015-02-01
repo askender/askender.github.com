@@ -40,6 +40,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 ABOUT_ME = 'My name is Bo Li, I\'m a free develolper interested in AI, NLP, reading, SciFi, dreaming.'
 
 CUSTOM_CSS = 'theme/css/local.css'
+TAG_CLOUD_MAX_ITEMS = 8
 
 # BOOTSTRAP_THEME = 'united'
 # cerulean 1

@@ -18,15 +18,6 @@ My projects:
 - 雨滴FM 敬请期待
 - [找好玩-爬虫@github](https://github.com/askender/zhw_crawler)
 
-My slides:
-
-- [zhw_crawler html5-slide演讲幻灯片](/slides/zhw_crawler/)
-
-持续更新的资源 resources which will keep update:
-
-- [goagent](/res/goagent.zip)
-- [hosts](/res/hosts)
-- []()
 
 
 I'm also on:
@@ -35,7 +26,6 @@ I'm also on:
 - [Twitter](https://twitter.com/askenderlee)
 - [Email](mailto:askender@gmail.com)
 - [about.me](http://about.me/askender)
-- []()
 
 
 本站所有作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.zh">CC BY-SA 3.0协议</a>进行许可。
