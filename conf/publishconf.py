@@ -8,7 +8,7 @@ from __future__ import unicode_literals
 import os
 import sys
 sys.path.append(os.path.join(os.curdir, 'conf'))
-from localconf import *
+from localconf import *  # noqa
 
 SITEURL = 'http://askender.com/blog'
 RELATIVE_URLS = False
