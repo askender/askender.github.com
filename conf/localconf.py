@@ -18,9 +18,6 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
-    ('Python.org', 'http://python.org/'),
-    ('Jinja2', 'http://jinja.pocoo.org/'),
     ('安问 - 创造和分享美好', 'http://anwensf.com/'),
 )
 
@@ -35,7 +32,17 @@ SOCIAL = (
 DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 THEME = 'themes/pelican-bootstrap3'
 DISPLAY_CATEGORIES_ON_MENU = False
+
+ABOUT_ME = 'My name is Bo Li, I\'m a free develolper interested in AI, NLP, reading, SciFi, dreaming.'
+
+CUSTOM_CSS = 'theme/css/local.css'
+
+# BOOTSTRAP_THEME = 'united'
+# cerulean 1
+# superhero 1
+# united red
+# cyborg black

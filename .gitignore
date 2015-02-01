@@ -1,2 +1,4 @@
 *.pyc
 tmp_*
+
+themes/pelican-bootstrap3
