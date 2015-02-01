@@ -2,25 +2,24 @@ Title: 从零开始学scala
 Date: 1980-01-01
 Tags: study, coding
 Slug: learn_scala_from_zero
-Summary: 
+Summary:
 
 接触过各种编程语言，c, php，python, nodejs，java，go，lisp，其实都只会一点皮毛。一直认为语言得于具体的使用需求联系才能产生作用。
 公司技术选型选定scala，现在学习新的语言scala，希望能更深入些。
 
-先从一份中文资料看起
-<http://qiujj.com/static/Scala-Handbook.htm>
+以下是随意记录，仅仅当做备忘
 
-- 以下是一些摘录，//后面是吐槽
+- <http://qiujj.com/static/Scala-Handbook.htm>
 -  “和别人分享你的知识，那才是永恒之道”——somebody
-- Scala很好玩很有趣 //真是这样的话，我喜欢
+- Scala很好玩很有趣
 - 语言特色能够塑造编程者的思维： C++也能使用抽象基类设计多重继承，但Java的接口引导你走得更远；Java也能设计类型安全的静态方法(final static)，但Scala鼓励你这样做并逐步从OOP到达FP的彼岸，而且来去自如
 - 我们可以很容易地把过程语言、面向对象语言、函数式语言中的代码“翻译”成Scala代码。试想如果我们要把Haskell或者Lisp的某个尾递归算法翻译成Java代码，还得多花点时间；而要把C++的代码翻译成Hashkell，同样也不简单。Scala的混血性给我们的实际使用提供了便利。
 - 适当地选用OOP或者FP，能够使表达相对另一种更加清晰准确
-- 不用象动态语言那样测试代码比业务代码还多 //我目前的几个python小项目中测试代码很少，确实有很多运行中才发现的bug
-- Scala虽然是一门彻头彻底的静态语言，但又具备了现代动态语言的很多方便和灵活 //really?
+- 不用象动态语言那样测试代码比业务代码还多
+- Scala虽然是一门彻头彻底的静态语言，但又具备了现代动态语言的很多方便和灵活
 - Put productivity & creativity back in the hands of developers。其实不仅限于Scala，对于所有的编程语言来说，一门语言是否“好玩”有趣，能否激起创作欲，才是最关键的，这比语言风格、运行速度、工具支持、社区文化都来得重要。
 - val 不可变，相当于const/final，但如果val为数组或者List，val的元素可以赋值
-- val (x,y) = (10, "hello") //like python
+- val (x,y) = (10, "hello") // like python
 - 向函数式风格推进的一个方式，就是尝试不用任何var来定义变量
 - val regex = "(\\d+)/(\\d+)/(\\d+)".r
 - val regex(year, month, day) = "2010/1/13"
@@ -30,15 +29,13 @@ Summary:
 - def i = 10.asInstanceOf[Double]
 - List('A','B','C').map(c=>(c+32).asInstanceOf[Char])
 - val b = 10.isInstanceOf[Int]
-- 而在match ... case 中可以直接判断而不用此方法 //? 等后文
-- 用Any统一了原生类型和引用类型 //不错
 - -3.abs // 3 **
 - -3 max -2 // -2
 - -3 min -2 // -3
 - 1.4.round // 1 四舍五入 **
 - 1.1.ceil // 2.0 天花板 **
 - 1.1.floor // 1.0 地板 **
-- def abs(n: Int): Int = if (n > 0) n else -n 
+- def abs(n: Int): Int = if (n > 0) n else -n
 - def even(n:Int) = 0==(n & 1)
 - def odd(n:Int) = !even(n)
 - BigInt("10000000000000000000000000")
@@ -47,76 +44,67 @@ Summary:
 - "12345" map (_.toInt) // **
 - def  fac(n:Int):BigInt = if (n==0) 1 else fac(n-1)*n
 - fac(1000)
-- println("""|Welcome to Ultamix 3000.  
+- println("""|Welcome to Ultamix 3000.
 -            |Type "HELP" for help.""".stripMargin)
 - "abc" * 0 // ""
 - "abc"+"abcww"
+- "abc" * 0 // ""
+- "abc"+"abcww"
+- "google".reverse
+- "Hello" map (_.toUpper) // 相当于 "Hello".toUpperCase
+- "hello"=="Hello".toLowerCase()
+- "101".toInt
+- List("1","2","3") map (_.toInt)
+- List("1","2","3") map Integer.parseInt
 
-	"abc" * 0 // ""
-	"abc"+"abcww"
+- val msg = java.text.MessageFormat.format(
+-     "At {1,time} on {1,date}, there was {2} on planet {0}.",
+-     "Hoth", new java.util.Date(), "a disturbance in the Force")
 
-"google".reverse
-"Hello" map (_.toUpper) // 相当于 "Hello".toUpperCase
-"hello"=="Hello".toLowerCase()
-"101".toInt
-List("1","2","3") map (_.toInt)
-List("1","2","3") map Integer.parseInt
-
-val msg = java.text.MessageFormat.format(
-    "At {1,time} on {1,date}, there was {2} on planet {0}.",
-    "Hoth", new java.util.Date(), "a disturbance in the Force")
-
-"my name is %s, age is %d." format ("james", 30)
-"%s-%d：%1$s is %2$d." format ("james", 30)
+- "my name is %s, age is %d." format ("james", 30)
+- "%s-%d：%1$s is %2$d." format ("james", 30)
 
 
-// Null
-// Trait，其唯一实例为null，是AnyRef的子类，*不是* AnyVal的子类
-// Nothing
-// Trait，所有类型（包括AnyRef和AnyVal）的子类，没有实例
-// None
-// Option的两个子类之一，另一个是Some，用于安全的函数返回值
-// Unit
-// 无返回值的函数的类型，和java的void对应
-// Nil
-// 长度为0的List
+- Null Trait，其唯一实例为null，是AnyRef的子类，*不是* AnyVal的子类
+- Nothing Trait，所有类型（包括AnyRef和AnyVal）的子类，没有实例
+- None Option的两个子类之一，另一个是Some，用于安全的函数返回值
+- Unit 无返回值的函数的类型，和java的void对应
+- Nil 长度为0的List
 
-val s1,s2 = "hello"
-val s3 = new String("hello")
-s1==s3 // true 值相同
-s1 eq s3 // false 不是同一个引用
+- val s1,s2 = "hello"
+- val s3 = new String("hello")
+- s1==s3 // true 值相同
+- s1 eq s3 // false 不是同一个引用
 
-def p(map:Map[Int,Int]) = println(map get 3 getOrElse "...")
-p(Map(1->100,2->200)) // ...
-p(Map(1->100,3->300)) // 300
+- def p(map:Map[Int,Int]) = println(map get 3 getOrElse "...")
+- p(Map(1->100,2->200)) // ...
+- p(Map(1->100,3->300)) // 300
 
 
-def f(v:Any) = v match {
-    case null => "null"
-    case i:Int => i*100
-    case s:String => s
-    case _ => "others"
-}
+    def f(v:Any) = v match {
+        case null => "null"
+        case i:Int => i*100
+        case s:String => s
+        case _ => "others"
+    }
 
-def fac(n:Int) = ((1:BigInt) to n).product
-def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
+- def fac(n:Int) = ((1:BigInt) to n).product
+- def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
 
-1 to 11 by 2
-(1 to 3) forall (0<)
-def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
-更scalable的写法：
-def sum(L: Seq[Int]) = L.foldLeft(0)(_ + _)
-def sum(L: List[Int]) = (0/:L){_ + _}
-def multiply(L: Seq[Int]) = L.foldLeft(1)(_ * _)
-// def multiply(L: List[Int]) = (1/:L){_ * _}
-multiply(Seq(1,2,3,4,5)) // 120
-multiply(1 until 5+1) // 120
-List(1,2,3,4,5).scanLeft(0)(_+_)
-1 to 10 by 2 take 3 // Range(1, 3, 5)
-1 to 10 by 2 drop 3 // Range(7, 9)
-1 to 10 by 2 splitAt 2 // (Range(1, 3),Range(5, 7, 9))
-
-range(1,10,2)[::2]
+- 1 to 11 by 2
+- (1 to 3) forall (0<)
+- def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
+- 更scalable的写法：
+- def sum(L: Seq[Int]) = L.foldLeft(0)(_ + _)
+- def sum(L: List[Int]) = (0/:L){_ + _}
+- def multiply(L: Seq[Int]) = L.foldLeft(1)(_ * _)
+- // def multiply(L: List[Int]) = (1/:L){_ * _}
+- multiply(Seq(1,2,3,4,5)) // 120
+- multiply(1 until 5+1) // 120
+- List(1,2,3,4,5).scanLeft(0)(_+_)
+- 1 to 10 by 2 take 3 // Range(1, 3, 5)
+- 1 to 10 by 2 drop 3 // Range(7, 9)
+- 1 to 10 by 2 splitAt 2 // (Range(1, 3),Range(5, 7, 9))
 
 1 to 10 takeWhile (n=>n*n<25) // (1, 2, 3, 4)
 1 to 10 dropWhile (n=>n*n<25) // (5,6,7,8,9,10)

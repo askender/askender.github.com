@@ -2,13 +2,12 @@ Title: some music
 Date: 1980-01-01
 Tags: list, music
 Slug: list_music
-Summary: 
+Summary:
 
 如果你被独自带到一个无人岛，你会选择携带哪8首歌曲？
 无人岛唱片
 
-听会儿音乐：
-
+听会儿音乐吧
 
 John Lennon:
 
@@ -32,8 +31,3 @@ Childs
 
 - D大调卡农(Canon in D)
 - <script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1770347936&mode=js"></script>
-
-郑中基
-
-- 星光伴我心
-- <audio controls="controls"><source src="http://lhtlyybox.googlecode.com/files/m.ogg" type="audio/ogg" />您的浏览器不支持 audio 标签。</audio>

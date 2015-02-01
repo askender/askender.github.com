@@ -4,10 +4,11 @@ Tags: list, book
 Slug: list_book
 Summary:
 
+随手记一些书
 
 庄子
+西游记
+Programming Erlang
 中国哲学史大纲
 为什么出发
-『长日留痕』，『西游论心』+ 『西游记』，
-『Programming Erlang』，
-『中国哲学史大纲』
+长日留痕

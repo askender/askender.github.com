@@ -4,6 +4,8 @@ Tags: list, blog
 Slug: list_blog
 Summary:
 
+收集一些独立博客
+
 trawor
 http://imi.im/
 http://imi.im/feed
@@ -15,14 +17,6 @@ OneV's Den
 http://onevcat.com/#blog
 http://about.onevcat.com/#/welcome
 
-
 http://lextang.com/
 
-
 http://podcast.avosapps.com/api/feed/163
-
-经纬中国的班夫电影节
-
-
-
-http://fir.im/

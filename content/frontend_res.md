@@ -1,11 +1,10 @@
 Title: frontend_res
-Date: 2014-03-06
-Tags: log, life, think
+Date: 1990-01-01
+Tags: res
 Slug: frontend res
 Summary:
 
-http://nvd3.org/
-http://lab.hakim.se/reveal-js/#/
-http://emberjs.com/
-http://emberjs.com/
-http://lodash.com/
+- http://nvd3.org/
+- http://lab.hakim.se/reveal-js/#/
+- http://emberjs.com/
+- http://lodash.com/

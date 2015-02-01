@@ -1,9 +1,2 @@
-*~
-*.swp
 *.pyc
-
-tmp
-.sublime-project.sublime-workspace
-.idea
-
-.DS_Store
+tmp_*

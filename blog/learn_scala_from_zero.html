@@ -83,20 +83,19 @@ Archives
             </div>
             <p>接触过各种编程语言，c, php，python, nodejs，java，go，lisp，其实都只会一点皮毛。一直认为语言得于具体的使用需求联系才能产生作用。
 公司技术选型选定scala，现在学习新的语言scala，希望能更深入些。</p>
-<p>先从一份中文资料看起
-<a href="http://qiujj.com/static/Scala-Handbook.htm">http://qiujj.com/static/Scala-Handbook.htm</a></p>
+<p>以下是随意记录，仅仅当做备忘</p>
 <ul>
-<li>以下是一些摘录，//后面是吐槽</li>
+<li><a href="http://qiujj.com/static/Scala-Handbook.htm">http://qiujj.com/static/Scala-Handbook.htm</a></li>
 <li>“和别人分享你的知识，那才是永恒之道”——somebody</li>
-<li>Scala很好玩很有趣 //真是这样的话，我喜欢</li>
+<li>Scala很好玩很有趣</li>
 <li>语言特色能够塑造编程者的思维： C++也能使用抽象基类设计多重继承，但Java的接口引导你走得更远；Java也能设计类型安全的静态方法(final static)，但Scala鼓励你这样做并逐步从OOP到达FP的彼岸，而且来去自如</li>
 <li>我们可以很容易地把过程语言、面向对象语言、函数式语言中的代码“翻译”成Scala代码。试想如果我们要把Haskell或者Lisp的某个尾递归算法翻译成Java代码，还得多花点时间；而要把C++的代码翻译成Hashkell，同样也不简单。Scala的混血性给我们的实际使用提供了便利。</li>
 <li>适当地选用OOP或者FP，能够使表达相对另一种更加清晰准确</li>
-<li>不用象动态语言那样测试代码比业务代码还多 //我目前的几个python小项目中测试代码很少，确实有很多运行中才发现的bug</li>
-<li>Scala虽然是一门彻头彻底的静态语言，但又具备了现代动态语言的很多方便和灵活 //really?</li>
+<li>不用象动态语言那样测试代码比业务代码还多</li>
+<li>Scala虽然是一门彻头彻底的静态语言，但又具备了现代动态语言的很多方便和灵活</li>
 <li>Put productivity &amp; creativity back in the hands of developers。其实不仅限于Scala，对于所有的编程语言来说，一门语言是否“好玩”有趣，能否激起创作欲，才是最关键的，这比语言风格、运行速度、工具支持、社区文化都来得重要。</li>
 <li>val 不可变，相当于const/final，但如果val为数组或者List，val的元素可以赋值</li>
-<li>val (x,y) = (10, "hello") //like python</li>
+<li>val (x,y) = (10, "hello") // like python</li>
 <li>向函数式风格推进的一个方式，就是尝试不用任何var来定义变量</li>
 <li>val regex = "(\d+)/(\d+)/(\d+)".r</li>
 <li>val regex(year, month, day) = "2010/1/13"</li>
@@ -106,15 +105,13 @@ Archives
 <li>def i = 10.asInstanceOf[Double]</li>
 <li>List('A','B','C').map(c=&gt;(c+32).asInstanceOf[Char])</li>
 <li>val b = 10.isInstanceOf[Int]</li>
-<li>而在match ... case 中可以直接判断而不用此方法 //? 等后文</li>
-<li>用Any统一了原生类型和引用类型 //不错</li>
 <li>-3.abs // 3 **</li>
 <li>-3 max -2 // -2</li>
 <li>-3 min -2 // -3</li>
 <li>1.4.round // 1 四舍五入 **</li>
 <li>1.1.ceil // 2.0 天花板 **</li>
 <li>1.1.floor // 1.0 地板 **</li>
-<li>def abs(n: Int): Int = if (n &gt; 0) n else -n </li>
+<li>def abs(n: Int): Int = if (n &gt; 0) n else -n</li>
 <li>def even(n:Int) = 0==(n &amp; 1)</li>
 <li>def odd(n:Int) = !even(n)</li>
 <li>BigInt("10000000000000000000000000")</li>
@@ -123,66 +120,86 @@ Archives
 <li>"12345" map (_.toInt) // **</li>
 <li>def  fac(n:Int):BigInt = if (n==0) 1 else fac(n-1)*n</li>
 <li>fac(1000)</li>
-<li>println("""|Welcome to Ultamix 3000.  </li>
+<li>println("""|Welcome to Ultamix 3000.</li>
 <li>|Type "HELP" for help.""".stripMargin)</li>
 <li>"abc" * 0 // ""</li>
+<li>"abc"+"abcww"</li>
+<li>"abc" * 0 // ""</li>
+<li>"abc"+"abcww"</li>
+<li>"google".reverse</li>
+<li>"Hello" map (_.toUpper) // 相当于 "Hello".toUpperCase</li>
+<li>"hello"=="Hello".toLowerCase()</li>
+<li>"101".toInt</li>
+<li>List("1","2","3") map (_.toInt)</li>
 <li>
-<p>"abc"+"abcww"</p>
-<p>"abc" * 0 // ""
-"abc"+"abcww"</p>
+<p>List("1","2","3") map Integer.parseInt</p>
 </li>
-</ul>
-<p>"google".reverse
-"Hello" map (<em>.toUpper) // 相当于 "Hello".toUpperCase
-"hello"=="Hello".toLowerCase()
-"101".toInt
-List("1","2","3") map (</em>.toInt)
-List("1","2","3") map Integer.parseInt</p>
-<p>val msg = java.text.MessageFormat.format(
-    "At {1,time} on {1,date}, there was {2} on planet {0}.",
-    "Hoth", new java.util.Date(), "a disturbance in the Force")</p>
-<p>"my name is %s, age is %d." format ("james", 30)
-"%s-%d：%1$s is %2$d." format ("james", 30)</p>
-<p>// Null
-// Trait，其唯一实例为null，是AnyRef的子类，<em>不是</em> AnyVal的子类
-// Nothing
-// Trait，所有类型（包括AnyRef和AnyVal）的子类，没有实例
-// None
-// Option的两个子类之一，另一个是Some，用于安全的函数返回值
-// Unit
-// 无返回值的函数的类型，和java的void对应
-// Nil
-// 长度为0的List</p>
-<p>val s1,s2 = "hello"
-val s3 = new String("hello")
-s1==s3 // true 值相同
-s1 eq s3 // false 不是同一个引用</p>
-<p>def p(map:Map[Int,Int]) = println(map get 3 getOrElse "...")
-p(Map(1-&gt;100,2-&gt;200)) // ...
-p(Map(1-&gt;100,3-&gt;300)) // 300</p>
+<li>
+<p>val msg = java.text.MessageFormat.format(</p>
+</li>
+<li>"At {1,time} on {1,date}, there was {2} on planet {0}.",</li>
+<li>
+<p>"Hoth", new java.util.Date(), "a disturbance in the Force")</p>
+</li>
+<li>
+<p>"my name is %s, age is %d." format ("james", 30)</p>
+</li>
+<li>
+<p>"%s-%d：%1$s is %2$d." format ("james", 30)</p>
+</li>
+<li>
+<p>Null Trait，其唯一实例为null，是AnyRef的子类，<em>不是</em> AnyVal的子类</p>
+</li>
+<li>Nothing Trait，所有类型（包括AnyRef和AnyVal）的子类，没有实例</li>
+<li>None Option的两个子类之一，另一个是Some，用于安全的函数返回值</li>
+<li>Unit 无返回值的函数的类型，和java的void对应</li>
+<li>
+<p>Nil 长度为0的List</p>
+</li>
+<li>
+<p>val s1,s2 = "hello"</p>
+</li>
+<li>val s3 = new String("hello")</li>
+<li>s1==s3 // true 值相同</li>
+<li>
+<p>s1 eq s3 // false 不是同一个引用</p>
+</li>
+<li>
+<p>def p(map:Map[Int,Int]) = println(map get 3 getOrElse "...")</p>
+</li>
+<li>p(Map(1-&gt;100,2-&gt;200)) // ...</li>
+<li>
+<p>p(Map(1-&gt;100,3-&gt;300)) // 300</p>
 <p>def f(v:Any) = v match {
     case null =&gt; "null"
     case i:Int =&gt; i*100
     case s:String =&gt; s
     case _ =&gt; "others"
 }</p>
-<p>def fac(n:Int) = ((1:BigInt) to n).product
-def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }</p>
-<p>1 to 11 by 2
-(1 to 3) forall (0&lt;)
-def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }
-更scalable的写法：
-def sum(L: Seq[Int]) = L.foldLeft(0)(<em> + </em>)
-def sum(L: List[Int]) = (0/:L){<em> + </em>}
-def multiply(L: Seq[Int]) = L.foldLeft(1)(<em> * </em>)
-// def multiply(L: List[Int]) = (1/:L){<em> * </em>}
-multiply(Seq(1,2,3,4,5)) // 120
-multiply(1 until 5+1) // 120
-List(1,2,3,4,5).scanLeft(0)(<em>+</em>)
-1 to 10 by 2 take 3 // Range(1, 3, 5)
-1 to 10 by 2 drop 3 // Range(7, 9)
-1 to 10 by 2 splitAt 2 // (Range(1, 3),Range(5, 7, 9))</p>
-<p>range(1,10,2)[::2]</p>
+</li>
+<li>
+<p>def fac(n:Int) = ((1:BigInt) to n).product</p>
+</li>
+<li>
+<p>def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }</p>
+</li>
+<li>
+<p>1 to 11 by 2</p>
+</li>
+<li>(1 to 3) forall (0&lt;)</li>
+<li>def f(n:Int) = { require(n!=0, "n can't be zero"); 1.0/n }</li>
+<li>更scalable的写法：</li>
+<li>def sum(L: Seq[Int]) = L.foldLeft(0)(<em> + </em>)</li>
+<li>def sum(L: List[Int]) = (0/:L){<em> + </em>}</li>
+<li>def multiply(L: Seq[Int]) = L.foldLeft(1)(<em> * </em>)</li>
+<li>// def multiply(L: List[Int]) = (1/:L){<em> * </em>}</li>
+<li>multiply(Seq(1,2,3,4,5)) // 120</li>
+<li>multiply(1 until 5+1) // 120</li>
+<li>List(1,2,3,4,5).scanLeft(0)(<em>+</em>)</li>
+<li>1 to 10 by 2 take 3 // Range(1, 3, 5)</li>
+<li>1 to 10 by 2 drop 3 // Range(7, 9)</li>
+<li>1 to 10 by 2 splitAt 2 // (Range(1, 3),Range(5, 7, 9))</li>
+</ul>
 <p>1 to 10 takeWhile (n=&gt;n<em>n&lt;25) // (1, 2, 3, 4)
 1 to 10 dropWhile (n=&gt;n</em>n&lt;25) // (5,6,7,8,9,10)
 List(1,0,1,0) span (<em>&gt;0) // ((1), (0,1,0))
@@ -321,11 +338,11 @@ List(1,2,3).zip(List(100,200,300)).toMap</p>
                     </h4>
                 </a>
             </li>
-            <li class="list-group-item tag-1">
-                <a href="http://askender.com/blog/tag/list.html">list</a>
+            <li class="list-group-item tag-0">
+                <a href="http://askender.com/blog/tag/log.html">log</a>
             </li>
             <li class="list-group-item tag-1">
-                <a href="http://askender.com/blog/tag/log.html">log</a>
+                <a href="http://askender.com/blog/tag/list.html">list</a>
             </li>
             <li class="list-group-item tag-1">
                 <a href="http://askender.com/blog/tag/anwen.html">anwen</a>
@@ -333,41 +350,41 @@ List(1,2,3).zip(List(100,200,300)).toMap</p>
             <li class="list-group-item tag-2">
                 <a href="http://askender.com/blog/tag/sayings.html">sayings</a>
             </li>
-            <li class="list-group-item tag-2">
-                <a href="http://askender.com/blog/tag/think.html">think</a>
-            </li>
-            <li class="list-group-item tag-2">
-                <a href="http://askender.com/blog/tag/life.html">life</a>
-            </li>
             <li class="list-group-item tag-3">
-                <a href="http://askender.com/blog/tag/coding.html">coding</a>
+                <a href="http://askender.com/blog/tag/life.html">life</a>
             </li>
             <li class="list-group-item tag-3">
                 <a href="http://askender.com/blog/tag/sf.html">sf</a>
             </li>
-            <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/mandela.html">mandela</a>
+            <li class="list-group-item tag-3">
+                <a href="http://askender.com/blog/tag/coding.html">coding</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/design.html">design</a>
+                <a href="http://askender.com/blog/tag/wander.html">wander</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/install.html">install</a>
+                <a href="http://askender.com/blog/tag/tech.html">tech</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/book.html">book</a>
+                <a href="http://askender.com/blog/tag/bash.html">bash</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/thing.html">thing</a>
+                <a href="http://askender.com/blog/tag/pelican.html">pelican</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/study.html">study</a>
+                <a href="http://askender.com/blog/tag/python.html">python</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/skill.html">skill</a>
+                <a href="http://askender.com/blog/tag/work.html">work</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/music.html">music</a>
+                <a href="http://askender.com/blog/tag/ande.html">ande</a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="http://askender.com/blog/tag/info.html">info</a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="http://askender.com/blog/tag/ai.html">AI</a>
             </li>
             <li class="list-group-item tag-4">
                 <a href="http://askender.com/blog/tag/aim.html">aim</a>
@@ -376,43 +393,40 @@ List(1,2,3).zip(List(100,200,300)).toMap</p>
                 <a href="http://askender.com/blog/tag/osx.html">osx</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/work.html">work</a>
+                <a href="http://askender.com/blog/tag/book.html">book</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/ai.html">AI</a>
-            </li>
-            <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/wander.html">wander</a>
+                <a href="http://askender.com/blog/tag/config.html">config</a>
             </li>
             <li class="list-group-item tag-4">
                 <a href="http://askender.com/blog/tag/blog.html">blog</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/info.html">info</a>
+                <a href="http://askender.com/blog/tag/music.html">music</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/pelican.html">pelican</a>
-            </li>
-            <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/tech.html">tech</a>
-            </li>
-            <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/python.html">python</a>
+                <a href="http://askender.com/blog/tag/mandela.html">mandela</a>
             </li>
             <li class="list-group-item tag-4">
                 <a href="http://askender.com/blog/tag/bitcoin.html">bitcoin</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/bash.html">bash</a>
+                <a href="http://askender.com/blog/tag/write.html">write</a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="http://askender.com/blog/tag/skill.html">skill</a>
             </li>
             <li class="list-group-item tag-4">
                 <a href="http://askender.com/blog/tag/res.html">res</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/write.html">write</a>
+                <a href="http://askender.com/blog/tag/study.html">study</a>
             </li>
             <li class="list-group-item tag-4">
-                <a href="http://askender.com/blog/tag/ande.html">ande</a>
+                <a href="http://askender.com/blog/tag/design.html">design</a>
+            </li>
+            <li class="list-group-item tag-4">
+                <a href="http://askender.com/blog/tag/think.html">think</a>
             </li>
         </ul>
     </section>

@@ -2,7 +2,7 @@ Title: 安问技术架构
 Date: 2013-10-17
 Tags: tech
 Slug: anwen_tech_architecture
-Summary: 
+Summary:
 
 从前向后说吧。
 安问的技术架构目前用在3个正在使用中的项目中

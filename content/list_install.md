@@ -1,7 +1,7 @@
-Title: some install
+Title: some config
 Date: 1980-01-01
-Tags: list, install
-Slug: list_install
+Tags: list, config
+Slug: list_config
 Summary:
 
 

@@ -4,12 +4,9 @@ Tags: list, python
 Slug: list_python
 Summary:
 
-https://github.com/dbader/schedule
-http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html
-http://pythontip.sinaapp.com/blog/post/10042/
 
+一些零碎的记录
 
-PyMongo中,这个方法是generation_time
-
-
-for dbase in *.db; do sqlite3 $dbase "vacuum;"; done
+- https://github.com/dbader/schedule
+- http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html
+- http://pythontip.sinaapp.com/blog/post/10042/

@@ -10,4 +10,4 @@ Full Stack Engineer
 Hacker
 self-motivator
 Founder
-an attitude to change and to create.
+an attitude to change and to create
