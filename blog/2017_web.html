@@ -154,21 +154,33 @@ ssserver -c /root/ssconfig.json -d start
 - iPhone https://www.wingy.site/appstore.html
 - 安卓和pc自行搜索shadowsocks</p>
 <p>测试youtube播放流畅，完成~~~</p>
-<p>如果是愿意折腾的开发者</p>
+<p><em>如果是愿意折腾的开发者</em></p>
 <div class="highlight"><pre><span></span>pip install shadowsocks # 客户端 在本地运行
-sslocal -s yourip -p 2334 -b 127.0.0.1 -l 1081 -k yourpwd -m aes-256-cfb
+vim /usr/local/etc/ssconfig.json
+{
+  &quot;method&quot; : &quot;aes-256-cfb&quot;,
+  &quot;server&quot; : &quot;yourip&quot;,
+  &quot;password&quot; : &quot;yourpwd&quot;,
+  &quot;local_address&quot; : &quot;127.0.0.1&quot;,
+  &quot;server_port&quot; : 2334,
+  &quot;auth&quot; : false,
+  &quot;timeout&quot; : 60,
+  &quot;local_port&quot; : 1081
+}
+sudo sslocal -c /usr/local/etc/ssconfig.json -d start
 </pre></div>
 
 
 <ul>
+<li>sslocal 的自动启动，可以自行配置，参考privoxy自动启动即可</li>
 <li>配置 chrome扩展「Proxy SwitchyOmega」 新建代理 socks5 localhost 1081 即可</li>
 <li>鸡蛋问题，chrome扩展商店被墙了，可以在系统里配置一下socks5代理先</li>
 <li>自己配置一个自动更新的好用的pac</li>
 </ul>
 <div class="highlight"><pre><span></span># 转为http代理
 brew install privoxy
-/usr/local/sbin/privoxy --no-daemon /usr/local/etc/privoxy/config_1
-# 配置如下
+# 配置如下 
+vim /usr/local/etc/privoxy/config_1
 listen-address 0.0.0.0:8118
 toggle  1
 enable-remote-toggle 1
@@ -195,6 +207,7 @@ forward    0.0.0.0/       .
 # forward .youtube.com 127.0.0.1:8123 .  # chain another http-proxy
 # forward-socks5 .google.com 127.0.0.1:1081 .
 
+/usr/local/sbin/privoxy --no-daemon /usr/local/etc/privoxy/config_1
 http_proxy=http://localhost:8118 curl ip.gs
 # ➜ 当前 IP： xxx 来自：美国加利福尼亚州旧金山 digitalocean.com
 </pre></div>
@@ -202,6 +215,15 @@ http_proxy=http://localhost:8118 curl ip.gs
 
 <p>于是 http_proxy=http://127.0.0.1:8118
 各种测试顺利，完成~~~</p>
+<h3>privoxy 自动启动</h3>
+<div class="highlight"><pre><span></span>cd ~
+touch org.privoxy.plist ; echo &#39;<span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</span><span class="nt">&lt;plist</span> <span class="na">version=</span><span class="s">&quot;1.0&quot;</span><span class="nt">&gt;&lt;dict&gt;&lt;key&gt;</span>Label<span class="nt">&lt;/key&gt;&lt;string&gt;</span>org.privoxy<span class="nt">&lt;/string&gt;&lt;key&gt;</span>ProgramArguments<span class="nt">&lt;/key&gt;&lt;array&gt;&lt;string&gt;</span>/usr/local/sbin/privoxy<span class="nt">&lt;/string&gt;&lt;string&gt;</span>/usr/local/etc/privoxy/config_1<span class="nt">&lt;/string&gt;&lt;/array&gt;&lt;key&gt;</span>RunAtLoad<span class="nt">&lt;/key&gt;&lt;true/&gt;&lt;/dict&gt;&lt;/plist&gt;</span>&#39; &gt; org.privoxy.plist
+sudo chown root:wheel org.privoxy.plist
+sudo mv org.privoxy.plist /Library/LaunchDaemons/
+launchctl load /Library/LaunchDaemons/org.privoxy.plist
+</pre></div>
+
+
 <h2>其他</h2>
 <ul>
 <li>一次性将这个问题解决好，接下来半年应该可以顺利度过</li>
