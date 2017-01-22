@@ -25,7 +25,7 @@ LINKS = (
 SOCIAL = (
     ('github', 'https://github.com/askender'),
     ('twitter', 'https://twitter.com/askenderlee'),
-    ('envelope', 'mailto:askender@gmail.com'),
+    ('envelope', 'mailto:askender43@gmail.com'),
     ('rss', '/blog/feeds/all.atom.xml'),
 )
 
