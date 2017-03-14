@@ -36,7 +36,8 @@ watch:
 
 preview:
 	@echo "preview askender at http://localhost:8004"
-	python -m SimpleHTTPServer 8004
+	# python -m SimpleHTTPServer 8004
+	python -m http.server 8004
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLICCONF) $(PELICANOPTS)

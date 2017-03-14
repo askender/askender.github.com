@@ -40,7 +40,7 @@ vim /root/ssconfig.json
     &amp;quot;server&amp;quot;:&amp;quot;yourip&amp;quot;,
     &amp;quot;server_port&amp;quot;:2334,
     &amp;quot;local_port&amp;quot;:1081,
-    &amp;quot;password&amp;quot;:&amp;quot;yourpwd&amp;quot;, 
+    &amp;quot;password&amp;quot;:&amp;quot;yourpwd&amp;quot;,
     &amp;quot;timeout&amp;quot;:600,
     &amp;quot;method&amp;quot;:&amp;quot;aes-256-cfb&amp;quot;
 }
@@ -79,7 +79,7 @@ sudo sslocal -c /usr/local/etc/ssconfig.json -d start
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# 转为http代理
 brew install privoxy
-# 配置如下 
+# 配置如下
 vim /usr/local/etc/privoxy/config_1
 listen-address 0.0.0.0:8118
 toggle  1
@@ -102,7 +102,7 @@ forward    10.*.*.*/      .
 forward    127.*.*.*/     .
 forward    0.0.0.0/       .
 
-# mode_blacklist  
+# mode_blacklist
 # forward / .
 # forward .youtube.com 127.0.0.1:8123 .  # chain another http-proxy
 # forward-socks5 .google.com 127.0.0.1:1081 .
