@@ -1,6 +1,6 @@
 Title: 我将写什么
 Date: 2017-03-15
-Category: Write
+Category: 读书笔记
 Tags: 思考
 Slug: what_i_will_write
 

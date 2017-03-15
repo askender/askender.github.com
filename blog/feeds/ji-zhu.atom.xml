@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog - 技术</title><link href="http://askender.com/blog/" rel="alternate"></link><link href="http://askender.com/blog/feeds/ji-zhu.atom.xml" rel="self"></link><id>http://askender.com/blog/</id><updated>2017-01-09T00:00:00+08:00</updated><entry><title>2017科学上网</title><link href="http://askender.com/blog/2017_web.html" rel="alternate"></link><published>2017-01-09T00:00:00+08:00</published><updated>2017-01-09T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.com,2017-01-09:/blog/2017_web.html</id><summary type="html">&lt;p&gt;proxy just for tech and fun&lt;/p&gt;</summary><content type="html">&lt;p&gt;写这篇是由于最近开发时偶尔翻墙问题，这次记录一下过程。&lt;/p&gt;
+&lt;p&gt;去年懒得折腾，使用的翻墙工具轻云是傻瓜版，无需客户端一个pac足够，自己的vps搭的ss服务器用的反而不多。找出其中http代理用于开发等。可是轻云刚刚已经阵亡了。&lt;/p&gt;
+&lt;p&gt;周围的同学使用各种翻墙工具的都有，但也许会遇到一些问题，希望探索出更好用的方式并记录一下，能帮到其他人当然更好。&lt;/p&gt;
+&lt;h2&gt;缘起&lt;/h2&gt;
+&lt;p&gt;翻墙不完美的现象比较常见，虽然有时认为轻微影响效率，集腋成裘，作为懂技术的应该处理得更好一点，给自己和身边的人一个好的工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;代理偶尔不能访问&lt;/li&gt;
+&lt;li&gt;一种代理总会有失败的时候，需要多备用几种&lt;/li&gt;
+&lt;li&gt;代理提供方可能也被监控&lt;/li&gt;
+&lt;li&gt;不够自由，pac的变动不太方便&lt;/li&gt;
+&lt;li&gt;一些代理配置较麻烦、会有兼容和使用上的小的问题，推荐给朋友不方便&lt;/li&gt;
+&lt;li&gt;代理没有自动切换机制，国外快了国内的反而慢&lt;/li&gt;
+&lt;li&gt;软件冲突，比如将端口写定无法变动，比如与tunnelblink 冲突&lt;/li&gt;
+&lt;li&gt;代理偶尔需要输入google验证码&lt;/li&gt;
+&lt;li&gt;不方便爬虫和命令行程序使用代理&lt;/li&gt;
+&lt;li&gt;有些代理提供商没有专业精神&lt;/li&gt;
+&lt;li&gt;有时候会调转到google.jp等，略有不方便的地方&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;现有方案&lt;/h2&gt;
+&lt;p&gt;理想的翻墙方式是推倒墙或者肉身翻墙，先不谈&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;类似曲径、轻云的pac提供商。前者已挂，后者也刚刚挂了。也提供手机自动配置，是最简易的一种&lt;/li&gt;
+&lt;li&gt;类似greenvpn 提供客户端。能用，但是有时不够稳定和自由&lt;/li&gt;
+&lt;li&gt;提供ss代理的服务商   ss作者被喝茶了，ss未来不太清楚&lt;/li&gt;
+&lt;li&gt;自己买国外vps，搭建ss服务器，本地也可以将socks5转为http代理 使用polipo 或者privoxy&lt;/li&gt;
+&lt;li&gt;cow 、goagentX 、 Lantern ...&lt;/li&gt;
+&lt;li&gt;国外VPS wget 500Mb/s 然后rscp到本地 10Mb/s(not MB), 适合下载大文件&lt;/li&gt;
+&lt;li&gt;以前博客教人翻墙的文章浏览量很高，互相帮助 ...&lt;/li&gt;
+&lt;li&gt;阵亡名单 GoAgent ...&lt;/li&gt;
+&lt;li&gt;刚换电脑，很久没有折腾这个，更好的方案需要大家和墙的共同参与&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;简明翻墙姿势&lt;/h2&gt;
+&lt;h3&gt;shadowsocks(简称ss)搭建教程精简版&lt;/h3&gt;
+&lt;p&gt;第一步 配置服务器，或者联系我，也有很多服务提供商&lt;/p&gt;
+&lt;p&gt;购买 digitalocean 旧金山服务器 最低配足够 $5&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install shadowsocks
+vim /root/ssconfig.json
+{
+    &amp;quot;server&amp;quot;:&amp;quot;yourip&amp;quot;,
+    &amp;quot;server_port&amp;quot;:2334,
+    &amp;quot;local_port&amp;quot;:1081,
+    &amp;quot;password&amp;quot;:&amp;quot;yourpwd&amp;quot;,
+    &amp;quot;timeout&amp;quot;:600,
+    &amp;quot;method&amp;quot;:&amp;quot;aes-256-cfb&amp;quot;
+}
+ssserver -c /root/ssconfig.json -d start
+# ssserver -d stop # 停止服务
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;第二步 安装shadowsocks客户端
+- Mac shadowsocks-ng 自带gfwlist-pac来区分国内网站
+- iPhone https://www.wingy.site/appstore.html
+- 安卓和pc自行搜索shadowsocks&lt;/p&gt;
+&lt;p&gt;测试youtube播放流畅，完成~~~&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;如果是愿意折腾的开发者&lt;/em&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install shadowsocks # 客户端 在本地运行
+vim /usr/local/etc/ssconfig.json
+{
+  &amp;quot;method&amp;quot; : &amp;quot;aes-256-cfb&amp;quot;,
+  &amp;quot;server&amp;quot; : &amp;quot;yourip&amp;quot;,
+  &amp;quot;password&amp;quot; : &amp;quot;yourpwd&amp;quot;,
+  &amp;quot;local_address&amp;quot; : &amp;quot;127.0.0.1&amp;quot;,
+  &amp;quot;server_port&amp;quot; : 2334,
+  &amp;quot;auth&amp;quot; : false,
+  &amp;quot;timeout&amp;quot; : 60,
+  &amp;quot;local_port&amp;quot; : 1081
+}
+sudo sslocal -c /usr/local/etc/ssconfig.json -d start
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;sslocal 的自动启动，可以自行配置，参考privoxy自动启动即可&lt;/li&gt;
+&lt;li&gt;配置 chrome扩展「Proxy SwitchyOmega」 新建代理 socks5 localhost 1081 即可&lt;/li&gt;
+&lt;li&gt;鸡蛋问题，chrome扩展商店被墙了，可以在系统里配置一下socks5代理先&lt;/li&gt;
+&lt;li&gt;自己配置一个自动更新的好用的pac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# 转为http代理
+brew install privoxy
+# 配置如下
+vim /usr/local/etc/privoxy/config_1
+listen-address 0.0.0.0:8118
+toggle  1
+enable-remote-toggle 1
+enable-remote-http-toggle 1
+enable-edit-actions 0
+enforce-blocks 0
+buffer-limit 4096
+forwarded-connect-retries  0
+accept-intercepted-requests 0
+allow-cgi-request-crunching 0
+split-large-forms 0
+keep-alive-timeout 5
+socket-timeout 60
+
+# mode_whitelist  # you can add pac
+forward-socks5 / 127.0.0.1:1081 .
+forward    192.168.*.*/   .
+forward    10.*.*.*/      .
+forward    127.*.*.*/     .
+forward    0.0.0.0/       .
+
+# mode_blacklist
+# forward / .
+# forward .youtube.com 127.0.0.1:8123 .  # chain another http-proxy
+# forward-socks5 .google.com 127.0.0.1:1081 .
+
+/usr/local/sbin/privoxy --no-daemon /usr/local/etc/privoxy/config_1
+http_proxy=http://localhost:8118 curl ip.gs
+# ➜ 当前 IP： xxx 来自：美国加利福尼亚州旧金山 digitalocean.com
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;于是 http_proxy=http://127.0.0.1:8118
+各种测试顺利，完成~~~&lt;/p&gt;
+&lt;h3&gt;privoxy 自动启动&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~
+touch org.privoxy.plist ; echo &amp;#39;&lt;span class="cp"&gt;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;lt;!DOCTYPE plist PUBLIC &amp;quot;-//Apple//DTD PLIST 1.0//EN&amp;quot; &amp;quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&amp;quot;&amp;gt;&lt;/span&gt;&lt;span class="nt"&gt;&amp;lt;plist&lt;/span&gt; &lt;span class="na"&gt;version=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;1.0&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&amp;lt;dict&amp;gt;&amp;lt;key&amp;gt;&lt;/span&gt;Label&lt;span class="nt"&gt;&amp;lt;/key&amp;gt;&amp;lt;string&amp;gt;&lt;/span&gt;org.privoxy&lt;span class="nt"&gt;&amp;lt;/string&amp;gt;&amp;lt;key&amp;gt;&lt;/span&gt;ProgramArguments&lt;span class="nt"&gt;&amp;lt;/key&amp;gt;&amp;lt;array&amp;gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/sbin/privoxy&lt;span class="nt"&gt;&amp;lt;/string&amp;gt;&amp;lt;string&amp;gt;&lt;/span&gt;/usr/local/etc/privoxy/config_1&lt;span class="nt"&gt;&amp;lt;/string&amp;gt;&amp;lt;/array&amp;gt;&amp;lt;key&amp;gt;&lt;/span&gt;RunAtLoad&lt;span class="nt"&gt;&amp;lt;/key&amp;gt;&amp;lt;true/&amp;gt;&amp;lt;/dict&amp;gt;&amp;lt;/plist&amp;gt;&lt;/span&gt;&amp;#39; &amp;gt; org.privoxy.plist
+sudo chown root:wheel org.privoxy.plist
+sudo mv org.privoxy.plist /Library/LaunchDaemons/
+launchctl load /Library/LaunchDaemons/org.privoxy.plist
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;其他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一次性将这个问题解决好，接下来半年应该可以顺利度过&lt;/li&gt;
+&lt;li&gt;proxychains-ng&lt;/li&gt;
+&lt;li&gt;ZeroNet&lt;/li&gt;
+&lt;li&gt;BitTorrent Sync&lt;/li&gt;
+&lt;li&gt;某同学写给ss的文章，不算愤青但用情很深 https://www.starduster.me/2015/08/21/say-goodbye-to-ss/ 不做评价&lt;/li&gt;
+&lt;li&gt;todo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;参考链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;https://www.loyalsoldier.me/fuck-the-gfw-with-my-own-shadowsocks-server/&lt;/li&gt;
+&lt;li&gt;https://www.logcg.com/archives/1296.html 以前用这个，只是用不了那么多切换&lt;/li&gt;
+&lt;li&gt;http://shadowsocks.blogspot.jp/&lt;/li&gt;
+&lt;li&gt;就一一不列举了，感兴趣自己搜&lt;/li&gt;
+&lt;/ul&gt;</content><category term="技术"></category><category term="工具"></category></entry></feed>
