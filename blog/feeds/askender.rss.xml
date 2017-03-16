@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>你一生的阅读</title><link>http://askender.com/blog/reading_of_your_life.html</link><description>&lt;p&gt;文章标题源于特德·姜的小说《你一生的故事》，一篇关于语言的科幻短篇小说，推荐一下，最近的《降临》基于这个改编，我还没看。这篇大致是我关于阅读和语言的笔记和随想。&lt;/p&gt;
-&lt;p&gt;一生会读和经历很多故事，用语言写下的故事更容易在任何时空快速接触，当然生活、音乐、电影、和游戏等也是故事的载体，互动性也更强，但对于我来说，从文字中听到的故事给我带来的震撼比其他形式更强一些。随意写一写感想和推荐。&lt;/p&gt;
-&lt;p&gt;阅读是很个人的事情，所以我感觉很难去给其他人推荐什么。而我们常常等待故事降临我们，很少主动去发现全新的世界。安问原本就是一个推荐阅读的网站，虽然暂停了，但是打算从今天开始拉一个微信群，大家可以交流阅读相关的东西。我的微信号是askender，加我可以拉你进来，以前参与安问的，如果愿意参与这个重启的安问，也十分欢迎。安问的使用方式之一是有用的分享会得到经济回报，类似做得不错的订阅号赞赏。&lt;/p&gt;
+<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Fri, 17 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>语言与智能，关于AI的近未来我们能玩些什么？</title><link>http://askender.com/blog/lang_and_ai_what_can_i_play.html</link><description>&lt;p&gt;这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。&lt;/p&gt;
+&lt;h2&gt;为什么做自然语言处理？&lt;/h2&gt;
+&lt;h3&gt;物质方面的原因是&lt;/h3&gt;
+&lt;p&gt;2011年做选择的时候，放弃了物理和其他行业，当年选择了互联网并在年底接触人工智能的可能性。互联网毕竟有太多资本运作的因素在里面，偏文艺的互联网创业豆瓣知乎也是要有早期氛围来起步的，所以只能业余做几个APP玩玩。选定了人工智能后，观望一圈，语音和图像已经有大厂做得还很不错了，未来肯定是提供接口和开源的，唯一的机会在于语言，so...&lt;/p&gt;
+&lt;h3&gt;非物质方面的原因是&lt;/h3&gt;
+&lt;p&gt;有趣的工作其实不算多。纯文科理科工科取得突破很难，对于我来说也没有足够的各种基础来支撑，也不一定完全适合我这种兴趣很杂的人，科幻和人工智能刚好适合我这种喜欢将多种东西融合在一起玩的人。&lt;/p&gt;
+&lt;h2&gt;现状&lt;/h2&gt;
+&lt;p&gt;学校和大公司资源多，如同在北上广风生水起的人。小公司捉襟见肘，如同在纠结还有多少天要撤离北上广的人。只不过很多小团队还是比较自信，想着总有长尾的机会被抓住。
+可现状是小公司的算法还没开发完，大公司就出了新算法和封装良好的工具，顶会上没有小公司的身影。拼的只是将成熟的东西转化为赚钱的产品的能力，探索的乐趣只能自己额外争取。
+真的如此不堪？
+- 也有少数一鸣惊人转眼被收购的小团队。
+- 现有的理论不足以解决推理等看似更高明的东西，靠的是感知。也许感知就足够，最近几年就能见分晓
+- 从对于语言的理解来看，现在做得还太弱。NMT只是一种简单的场景。
+所以，还是能玩的。向产品的转化、新的理论和算法 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Fri, 17 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-17:/blog/lang_and_ai_what_can_i_play.html</guid><category>NLU</category></item><item><title>你一生的阅读</title><link>http://askender.com/blog/reading_of_your_life.html</link><description>&lt;p&gt;文章标题源于特德·姜的小说《你一生的故事》，一篇关于语言的科幻短篇小说，推荐一下，最近的《降临》基于这个改编，我还没看。这篇大致是我关于阅读和语言的笔记和随想。&lt;/p&gt;
+&lt;p&gt;一生会读和经历很多故事，用语言写下的故事更容易在任何时空快速接触，当然生活、音乐、电影和游戏等也是故事的载体，互动性也更强，但对于我来说，从文字中读到的故事给我带来的震撼比其他形式更强一些。&lt;/p&gt;
+&lt;p&gt;阅读是很个人的事情，所以我感觉很难去给其他人推荐什么。而我们常常等待故事降临我们，很少主动去发现全新的世界。安问原本就是一个推荐阅读的网站，虽然暂停了，但是打算从今天开始拉一个微信群，大家可以交流阅读相关的东西。我的微信号是askender，加我可以拉你进来，以前参与安问的，如果还愿意回到这个重启的安问，也十分欢迎。安问的使用方式之一是有用的分享会得到经济回报，类似做得不错的订阅号赞赏。&lt;/p&gt;
 &lt;h2&gt;先说说阅读的工具，只有先有工具才能到达内容&lt;/h2&gt;
-&lt;p&gt;书店、纸质书、杂志、图书馆。小时候传统的工具越来越难以接触到，居无定所的我们还担心没有空间放书搬家麻烦。
-手机、各种电子设备、kindle，越来越方便，你的阅读乐趣增多了么？重拾尘封的kindle，也能找到捧着纸质书阅读的乐趣 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Thu, 16 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-16:/blog/reading_of_your_life.html</guid><category>思考</category></item><item><title>我将写什么</title><link>http://askender.com/blog/what_i_will_write.html</link><description>&lt;p&gt;停了几年博客之后，打算开始更新公众号和博客了。并非跟风，这个公众号已经存在好几年了，但一篇文章也没有写。可能主要的读者还是自己，只是打算顺带写给其他人看，如果有的话。&lt;/p&gt;
+&lt;p&gt;书店、纸质书、杂志、图书馆。小时候传统的工具越来越难以接触到，居无定所的我们还担心没有空间放书，搬家麻烦。
+手机、各种电子设备、kindle，越来越方便，你的阅读乐趣增多了么？重拾尘封的kindle，也能找到捧着纸质书阅读的乐趣。
+对了 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Thu, 16 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-16:/blog/reading_of_your_life.html</guid><category>思考</category></item><item><title>我将写什么</title><link>http://askender.com/blog/what_i_will_write.html</link><description>&lt;p&gt;停了几年博客之后，打算开始更新公众号和博客了。并非跟风，这个公众号已经存在好几年了，但一篇文章也没有写。可能主要的读者还是自己，只是打算顺带写给其他人看，如果有的话。&lt;/p&gt;
 &lt;p&gt;为什么写字？
 算是一种反思自我的方式，也是一种成长日志。写字的人太多，不求给他人带来多少价值，尽量让每篇文章对得起所花的时间，万一其他人看了某一句有所收获呢。&lt;/p&gt;
 &lt;p&gt;我将写什么
