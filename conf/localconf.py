@@ -35,7 +35,7 @@ DEFAULT_PAGINATION = 20
 # RELATIVE_URLS = True
 
 # THEME = 'themes/pelican-bootstrap3'
-# THEME = 'themes/pelican-bootstrap3'
+THEME = 'themes2/sneakyidea'
 DISPLAY_CATEGORIES_ON_MENU = False
 
 ABOUT_ME = 'My name is Bo Li, I\'m a free develolper interested in AI, NLP, reading, SciFi, dreaming.'

@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
         <title>柏舟志 askender's blog - 生活</title>
-        <link rel="stylesheet" href="http://askender.com/blog/theme/css/main.css" />
-        <link href="http://askender.com/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="柏舟志 askender's blog Atom Feed" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://askender.com/blog/theme/css/main.css" type="text/css" />
+        <link href="http://askender.com/blog/" type="application/atom+xml" rel="alternate" title="柏舟志 askender's blog ATOM Feed" />
+
 
         <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://askender.com/blog/css/ie.css"/>
+                <script src="http://askender.com/blog/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://askender.com/blog/css/ie6.css"/><![endif]-->
+
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="http://askender.com/blog/">柏舟志 askender's blog </a></h1>
+                <h1><a href="http://askender.com/blog">柏舟志 askender's blog </a></h1>
                 <nav><ul>
+                    <li ><a href="http://askender.com/blog/category/du-shu-bi-ji.html">读书笔记</a></li>
+                    <li ><a href="http://askender.com/blog/category/ji-zhu.html">技术</a></li>
+                    <li ><a href="http://askender.com/blog/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://askender.com/blog/clean.html">清空</a></h1>
+        
+        
+        <aside id="featured" class="body"><article>
+                <h1 class="entry-title"><a href="http://askender.com/blog/clean.html">清空</a></h1> 
 <footer class="post-info">
         <abbr class="published" title="2016-03-14T00:00:00+08:00">
-                Published: 一 14 三月 2016
+                一 14 三月 2016
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="http://askender.com/blog/author/askender.html">askender</a>
+                By <a class="url fn" href="http://askender.com/blog/author/askender.html">askender</a>
         </address>
-<p>In <a href="http://askender.com/blog/category/misc.html">misc</a>.</p>
-<p>tags: <a href="http://askender.com/blog/tag/sheng-huo.html">生活</a> </p>
-</footer><!-- /.post-info --><p>先清空一下博客，有空整理一下再部分放回。</p>
-<p>生活有时需要归零。</p><p>There are <a href="http://askender.com/blog/clean.html#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
+<p>In <a href="http://askender.com/blog/category/misc.html">misc</a>. </p>
+<p>tags: <a href="http://askender.com/blog/tag/sheng-huo.html">生活</a></p></p>
+</footer><!-- /.post-info -->                <p>先清空一下博客，有空整理一下再部分放回。</p>
+<p>生活有时需要归零。</p>
+<p>There are <a href="http://askender.com/blog/clean.html#disqus_thread">comments</a>.</p>                </article>
+                </aside><!-- /#featured -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
-                        <h2>links</h2>
+                        <h2>blogroll</h2>
                         <ul>
                             <li><a href="http://anwensf.com/">安问 - 创造和分享美好</a></li>
                         </ul>
@@ -44,7 +58,7 @@
                 <div class="social">
                         <h2>social</h2>
                         <ul>
-                            <li><a href="http://askender.com/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://askender.com/blog/" rel="alternate">atom feed</a></li>
 
                             <li><a href="https://github.com/askender">github</a></li>
                             <li><a href="https://twitter.com/askenderlee">twitter</a></li>
@@ -56,10 +70,11 @@
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                个人订阅号： 安问
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 <script type="text/javascript">
@@ -67,7 +82,7 @@
     (function () {
         var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
