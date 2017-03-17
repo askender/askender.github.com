@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Fri, 17 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>语言与智能，关于AI的近未来我们能玩些什么？</title><link>http://askender.com/blog/lang_and_ai_what_can_i_play.html</link><description>&lt;p&gt;这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。&lt;/p&gt;
+<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>游戏与智能，你全部不懂</title><link>http://askender.com/blog/game_and_ai_you_know_nothing.html</link><description>&lt;p&gt;以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己的要做的事情的一个蓝图。&lt;/p&gt;
+&lt;p&gt;我们很难清晰定义出智能和人工智能，但对于熵这样的词却能达成共识。&lt;/p&gt;
+&lt;p&gt;我给出一个自己瞎掰的定义：人工智能是让机器完成「人觉得有挑战的任务」，小黑之于小白的智能，在于小黑能完成小白觉得神奇的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;插播一句。从我的物理学知识出发，能得到另外一种不同的定义：能产生信息，就能减少熵（系统混乱的程度），这就是智能。这个过程需要消耗能量。所以麦克斯韦妖也是有智能的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;信息可以减少不确定性。&lt;/p&gt;
+&lt;p&gt;结合插播信息和上面的信息定义。我们可以用反证法证明瞎掰的定义：如果小黑不能做对于小白来说神奇的事情，并没有减少「小黑是不是傻X」这个事件对于小白的不确定性。于是小黑没有对小白提供信息，熵没有减少，小白很平静没有混乱（不会倾慕地对小黑说「你真是高智能生命」），综上所述：小黑不「智能」。证毕。
+小黑真是生不如麦克斯韦妖😇，死不如怪力乱神鬼👻。&lt;/p&gt;
+&lt;p&gt;现在我们习以为常的东西，可能在几百年前认为是人工智能黑科技高级魔法。而我们现在的各种人工智能探索，在后世看来可能是极其粗浅的尝试而不能算是人工智能。但这些尝试还是值得敬佩。 这是「智能」的历史观。&lt;/p&gt;
+&lt;p&gt;一个人认为的人工智能，在另外一个人看来可能只是一些简单的神经网络代码，并不厉害。  这是「智能 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Sat, 18 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-18:/blog/game_and_ai_you_know_nothing.html</guid><category>NLU</category></item><item><title>语言与智能，关于AI的近未来我们能玩些什么？</title><link>http://askender.com/blog/lang_and_ai_what_can_i_play.html</link><description>&lt;p&gt;这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。&lt;/p&gt;
 &lt;h2&gt;为什么做自然语言处理？&lt;/h2&gt;
 &lt;h3&gt;物质方面的原因是&lt;/h3&gt;
 &lt;p&gt;2011年做选择的时候，放弃了物理和其他行业，当年选择了互联网并在年底接触人工智能的可能性。互联网毕竟有太多资本运作的因素在里面，偏文艺的互联网创业豆瓣知乎也是要有早期氛围来起步的，所以只能业余做几个APP玩玩。选定了人工智能后，观望一圈，语音和图像已经有大厂做得还很不错了，未来肯定是提供接口和开源的，唯一的机会在于语言，so...&lt;/p&gt;

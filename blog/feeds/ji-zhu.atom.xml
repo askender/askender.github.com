@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog - 技术</title><link href="http://askender.com/blog/" rel="alternate"></link><link href="http://askender.com/blog/feeds/ji-zhu.atom.xml" rel="self"></link><id>http://askender.com/blog/</id><updated>2017-03-17T00:00:00+08:00</updated><entry><title>语言与智能，关于AI的近未来我们能玩些什么？</title><link href="http://askender.com/blog/lang_and_ai_what_can_i_play.html" rel="alternate"></link><published>2017-03-17T00:00:00+08:00</published><updated>2017-03-17T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.com,2017-03-17:/blog/lang_and_ai_what_can_i_play.html</id><summary type="html">&lt;p&gt;这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog - 技术</title><link href="http://askender.com/blog/" rel="alternate"></link><link href="http://askender.com/blog/feeds/ji-zhu.atom.xml" rel="self"></link><id>http://askender.com/blog/</id><updated>2017-03-18T00:00:00+08:00</updated><entry><title>游戏与智能，你全部不懂</title><link href="http://askender.com/blog/game_and_ai_you_know_nothing.html" rel="alternate"></link><published>2017-03-18T00:00:00+08:00</published><updated>2017-03-18T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.com,2017-03-18:/blog/game_and_ai_you_know_nothing.html</id><summary type="html">&lt;p&gt;以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己的要做的事情的一个蓝图。&lt;/p&gt;
+&lt;p&gt;我们很难清晰定义出智能和人工智能，但对于熵这样的词却能达成共识。&lt;/p&gt;
+&lt;p&gt;我给出一个自己瞎掰的定义：人工智能是让机器完成「人觉得有挑战的任务」，小黑之于小白的智能，在于小黑能完成小白觉得神奇的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;插播一句。从我的物理学知识出发，能得到另外一种不同的定义：能产生信息，就能减少熵（系统混乱的程度），这就是智能。这个过程需要消耗能量。所以麦克斯韦妖也是有智能的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;信息可以减少不确定性。&lt;/p&gt;
+&lt;p&gt;结合插播信息和上面的信息定义。我们可以用反证法证明瞎掰的定义：如果小黑不能做对于小白来说神奇的事情，并没有减少「小黑是不是傻X」这个事件对于小白的不确定性。于是小黑没有对小白提供信息，熵没有减少，小白很平静没有混乱（不会倾慕地对小黑说「你真是高智能生命」），综上所述：小黑不「智能」。证毕。
+小黑真是生不如麦克斯韦妖😇，死不如怪力乱神鬼👻。&lt;/p&gt;
+&lt;p&gt;现在我们习以为常的东西，可能在几百年前认为是人工智能黑科技高级魔法。而我们现在的各种人工智能探索，在后世看来可能是极其粗浅的尝试而不能算是人工智能。但这些尝试还是值得敬佩。 这是「智能」的历史观。&lt;/p&gt;
+&lt;p&gt;一个人认为的人工智能，在另外一个人看来可能只是一些简单的神经网络代码，并不厉害。  这是「智能 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己的要做的事情的一个蓝图。&lt;/p&gt;
+&lt;p&gt;我们很难清晰定义出智能和人工智能，但对于熵这样的词却能达成共识。&lt;/p&gt;
+&lt;p&gt;我给出一个自己瞎掰的定义：人工智能是让机器完成「人觉得有挑战的任务」，小黑之于小白的智能，在于小黑能完成小白觉得神奇的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;插播一句。从我的物理学知识出发，能得到另外一种不同的定义：能产生信息，就能减少熵（系统混乱的程度），这就是智能。这个过程需要消耗能量。所以麦克斯韦妖也是有智能的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;信息可以减少不确定性。&lt;/p&gt;
+&lt;p&gt;结合插播信息和上面的信息定义。我们可以用反证法证明瞎掰的定义：如果小黑不能做对于小白来说神奇的事情，并没有减少「小黑是不是傻X」这个事件对于小白的不确定性。于是小黑没有对小白提供信息，熵没有减少，小白很平静没有混乱（不会倾慕地对小黑说「你真是高智能生命」），综上所述：小黑不「智能」。证毕。
+小黑真是生不如麦克斯韦妖😇，死不如怪力乱神鬼👻。&lt;/p&gt;
+&lt;p&gt;现在我们习以为常的东西，可能在几百年前认为是人工智能黑科技高级魔法。而我们现在的各种人工智能探索，在后世看来可能是极其粗浅的尝试而不能算是人工智能。但这些尝试还是值得敬佩。 这是「智能」的历史观。&lt;/p&gt;
+&lt;p&gt;一个人认为的人工智能，在另外一个人看来可能只是一些简单的神经网络代码，并不厉害。  这是「智能」的相对论。&lt;/p&gt;
+&lt;p&gt;可以认为智能和非智能之间的界限是极其模糊镜花水月的。 这是「智能」的文学观。&lt;/p&gt;
+&lt;p&gt;一方面我们惊叹于围棋、各类电子游戏、语音识别等各种任务中AI的表现，又对现有的AI产品感到失望。
+比如，如果让AlphaGo和业余围棋高手来下双方从来没有尝试过的第一局23路围棋，人类的迁移能力应该能轻松应对。
+一如我们对于北上广深的爱与憾。&lt;/p&gt;
+&lt;p&gt;所以，对于「通用人工智能」「能理解语言的人工智能」似乎还是很遥远的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「智能主体是指一个可以观察周遭环境并作出行动以达致目标的系统。已经存在非人类的智能主体」  — 伪·维基百科
+居然没达到目标就不算智能主体，维基百科的定义太不严谨了，待会去维基百科加一下说明  :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;所以我在希望自己成为智能主体的同时，也想造一个机器智能主体（后世史称AndeAI），中文名暂时不告诉你了&lt;/p&gt;
+&lt;h2&gt;如何造智能？靠游戏？&lt;/h2&gt;
+&lt;p&gt;先考虑两种路径，自底向上和自顶向下&lt;/p&gt;
+&lt;h3&gt;我现在做的更多的是自底向上&lt;/h3&gt;
+&lt;p&gt;读几千万中英句对，慢慢就能翻译。读几千亿的句子，找出词之间的图的类比关系，慢慢收集常识回答问题而至回答更多问题。
+换句话说，「给系统输入大量文本数据；系统提取特征并提炼模式。」模式在句法树、语义图、知识图、常识图、上下文图等叠加起来的复杂结构中，即使是能力提升25%的syntaxnet也只是杯水车薪。算是一条极其艰苦而漫长的路。要命的是，除了要处理偷懒省略指代、语病语误等各种噪音外，还得忍受人类无意义的话语到处喷发、思维混乱令机器发指烧掉GPU、FPGA。
+绕了亿万的概率图模式识别和贝叶斯推理，还得一步步和语音图像视频等传感器结合再来亿亿亿亿的复杂神经网络结构才能处理更真实的问题。否则极少有人愿意整天陪机器玩文字游戏啊。
+读了亿万文字的机器书呆子是也。&lt;/p&gt;
+&lt;h3&gt;另外一条路 自顶向下&lt;/h3&gt;
+&lt;p&gt;如deepmind、OpenAI等构建越来越复杂的游戏环境并让多个机器代理互动来一步步向真实世界逼近。&lt;/p&gt;
+&lt;p&gt;搜索以下两行语义一致的文章也能得到一些中文解读
+OpenAI尝试打破“中文房间悖论”，让AI创造语言并自发交流
+让人工智能发明自己的语言：OpenAI语言理解研究新方向
+「证明通过训练，智能体是可以创造语言并进行交流的」&lt;/p&gt;
+&lt;p&gt;看看原文也不错  Emergence of Grounded Compositional Language in Multi-Agent Populations
+论文地址：https://arxiv.org/pdf/1703.04908.pdf&lt;/p&gt;
+&lt;p&gt;我也早想过一堆这条路各种玩法，比如做一些狼人杀的模拟，约定大家用同样的简化的表达语言来玩人机互动的模拟游戏，然后一步步增强语言复杂度。&lt;/p&gt;
+&lt;p&gt;嗯，只能说这条路适合有更好的研究环境的人来做。&lt;/p&gt;
+&lt;p&gt;听着像：一不小心完成外星屠异的《安德的游戏》里的天真游戏少年，说不定哪天就成长为充满人文关怀不再担心房价的满怀普适价值的可爱的《死者代言人》&lt;/p&gt;
+&lt;h2&gt;未来测不准，不确定性蔓延到此刻&lt;/h2&gt;
+&lt;p&gt;两条路我都会去玩一下，只是第二条路需要更好的游戏设备和时间。
+此刻先去休息好，然后学习「强化学习」再慢慢垒代码做实验了。
+也许必须同时成为书呆子和代言人，才能实现在她看来达成目标的「智能主体」，所以
+虽然随时可能game over和pause 换一盘游戏（在乡下与村姑来一局没有胜负的手谈），先就着下面简陋的游戏攻略和上古主机来一场。
+好奇（欲望）+学习+时间 -&amp;gt; 游戏=game=比赛=博弈=AI=智能 -&amp;gt; 逆熵代表的一切&lt;/p&gt;</content><category term="NLU"></category></entry><entry><title>语言与智能，关于AI的近未来我们能玩些什么？</title><link href="http://askender.com/blog/lang_and_ai_what_can_i_play.html" rel="alternate"></link><published>2017-03-17T00:00:00+08:00</published><updated>2017-03-17T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.com,2017-03-17:/blog/lang_and_ai_what_can_i_play.html</id><summary type="html">&lt;p&gt;这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。&lt;/p&gt;
 &lt;h2&gt;为什么做自然语言处理？&lt;/h2&gt;
 &lt;h3&gt;物质方面的原因是&lt;/h3&gt;
 &lt;p&gt;2011年做选择的时候，放弃了物理和其他行业，当年选择了互联网并在年底接触人工智能的可能性。互联网毕竟有太多资本运作的因素在里面，偏文艺的互联网创业豆瓣知乎也是要有早期氛围来起步的，所以只能业余做几个APP玩玩。选定了人工智能后，观望一圈，语音和图像已经有大厂做得还很不错了，未来肯定是提供接口和开源的，唯一的机会在于语言，so...&lt;/p&gt;
