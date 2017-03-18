@@ -1,8 +1,10 @@
-Title: 止固的世界
+Title: 止固的世界，米汤科幻
 Date: 2017-03-15
 Category: 读书笔记
 Tags: 科幻
 Slug: world_of_zhigu
+
+一篇随意写的故事，也许不算科幻，请不要对号入座。
 
 ## 楔子·荒寂
 
