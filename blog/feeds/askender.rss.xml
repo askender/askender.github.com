@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>游戏与智能，你全部不懂</title><link>http://askender.com/blog/game_and_ai_you_know_nothing.html</link><description>&lt;p&gt;以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己的要做的事情的一个蓝图。&lt;/p&gt;
+<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Sun, 19 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>止固的世界，米汤科幻</title><link>http://askender.com/blog/world_of_zhigu.html</link><description>&lt;p&gt;一篇随意写的故事，也许不算科幻，请不要对号入座。&lt;/p&gt;
+&lt;h2&gt;楔子·荒寂&lt;/h2&gt;
+&lt;h4&gt;542年前，蓝色海岸线天文台&lt;/h4&gt;
+&lt;p&gt;周止固打开电脑，并没有像往常一样连上星图服务器的终端，犹豫了一会儿，长叹一口气后敲下了对一份aes-256-cfb加密文件的破解程序，写完后悬停了一会的手轻轻按下回车，去接一杯水喝。
+这也许是他最后在天文台的日子，偷偷使用超级计算机来解密一份文件的事情让他纠结了好几天。好奇心使然，还是冒险做了，真的被开除也只能认了。&lt;/p&gt;
+&lt;p&gt;看着程序在不断的输出fail，他陷入了回忆。异地恋的女朋友还是在上周末分手了。难免的，她不爱看星空，想回到繁华的城市，听说观察看星星的方式能看出一个人的性格，也许吧，至少比星座靠谱很多，激情过后面对生活的琐碎和平淡，再强的人格魅力也留不住一个心不在此的人，何况自己也很平凡。&lt;/p&gt;
+&lt;p&gt;终于程序输出了OK, 有些紧张地擦掉手心的汗，文件不大，他cat查看了一下，是明文的一份邮件正文。匆匆读完，出了一身冷汗。这也太难以让人相信了。&lt;/p&gt;
+&lt;p&gt;可能是真的！应该不是恶作剧。
+如果是真的，他能将这消息告诉谁呢?
+由于国际形势紧张，国家已经关闭了国际互联网，局域网上发布消息都得实名，有机器人鉴别信息是否包含敏感信息，台里也没有局域网，其实自己也没什么朋友。&lt;/p&gt;
+&lt;p&gt;在这个寂静的天文台里，窗外月明星稀 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Sun, 19 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-19:/blog/world_of_zhigu.html</guid><category>科幻</category></item><item><title>游戏与智能，你全部不懂</title><link>http://askender.com/blog/game_and_ai_you_know_nothing.html</link><description>&lt;p&gt;以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己的要做的事情的一个蓝图。&lt;/p&gt;
 &lt;p&gt;我们很难清晰定义出智能和人工智能，但对于熵这样的词却能达成共识。&lt;/p&gt;
 &lt;p&gt;我给出一个自己瞎掰的定义：人工智能是让机器完成「人觉得有挑战的任务」，小黑之于小白的智能，在于小黑能完成小白觉得神奇的事情。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -38,14 +48,4 @@
 &lt;p&gt;名字的解释
 公众号名字是「安问」，是我的第一个创业项目，也是在继续的项目，虽然现在只是出于潜伏期。博客的名字「柏舟志 askender's blog」。起名字比较偷懒，大致源于天问，寻求终极的答案之意。&lt;/p&gt;
 &lt;p&gt;列举一些接下来写作的主题，算是计划和备忘吧。（名字是暂定）
-- 你一生的阅读。读过哪些，计划读哪些，怎么读，算是元阅读吧 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-15:/blog/what_i_will_write.html</guid><category>思考</category></item><item><title>止固的世界，米汤科幻</title><link>http://askender.com/blog/world_of_zhigu.html</link><description>&lt;p&gt;一篇随意写的故事，也许不算科幻，请不要对号入座。&lt;/p&gt;
-&lt;h2&gt;楔子·荒寂&lt;/h2&gt;
-&lt;h4&gt;542年前，蓝色海岸线天文台&lt;/h4&gt;
-&lt;p&gt;周止固打开电脑，并没有像往常一样连上星图服务器的终端，犹豫了一会儿，长叹一口气后敲下了对一份aes-256-cfb加密文件的破解程序，写完后悬停了一会的手轻轻按下回车，去接一杯水喝。
-这也许是他最后在天文台的日子，偷偷使用超级计算机来解密一份文件的事情让他纠结了好几天。好奇心使然，还是冒险做了，真的被开除也只能认了。&lt;/p&gt;
-&lt;p&gt;看着程序在不断的输出fail，他陷入了回忆。异地恋的女朋友还是在上周末分手了。难免的，她不爱看星空，想回到繁华的城市，听说观察看星星的方式能看出一个人的性格，也许吧，至少比星座靠谱很多，激情过后面对生活的琐碎和平淡，再强的人格魅力也留不住一个心不在此的人，何况自己也很平凡。&lt;/p&gt;
-&lt;p&gt;终于程序输出了OK, 有些紧张地擦掉手心的汗，文件不大，他cat查看了一下，是明文的一份邮件正文。匆匆读完，出了一身冷汗。这也太难以让人相信了。&lt;/p&gt;
-&lt;p&gt;可能是真的！应该不是恶作剧。
-如果是真的，他能将这消息告诉谁呢?
-由于国际形势紧张，国家已经关闭了国际互联网，局域网上发布消息都得实名，有机器人鉴别信息是否包含敏感信息，台里也没有局域网，其实自己也没什么朋友。&lt;/p&gt;
-&lt;p&gt;在这个寂静的天文台里，窗外月明星稀 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-15:/blog/world_of_zhigu.html</guid><category>科幻</category></item><item><title>2017科学上网</title><link>http://askender.com/blog/2017_web.html</link><description>&lt;p&gt;proxy just for tech and fun&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-01-09:/blog/2017_web.html</guid><category>技术</category><category>工具</category></item><item><title>清空</title><link>http://askender.com/blog/clean.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Mon, 14 Mar 2016 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2016-03-14:/blog/clean.html</guid><category>生活</category></item></channel></rss>
+- 你一生的阅读。读过哪些，计划读哪些，怎么读，算是元阅读吧 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-15:/blog/what_i_will_write.html</guid><category>思考</category></item><item><title>2017科学上网</title><link>http://askender.com/blog/2017_web.html</link><description>&lt;p&gt;proxy just for tech and fun&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Mon, 09 Jan 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-01-09:/blog/2017_web.html</guid><category>技术</category><category>工具</category></item><item><title>清空</title><link>http://askender.com/blog/clean.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Mon, 14 Mar 2016 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2016-03-14:/blog/clean.html</guid><category>生活</category></item></channel></rss>
