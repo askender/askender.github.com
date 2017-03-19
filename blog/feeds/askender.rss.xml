@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Sun, 19 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>止固的世界，米汤科幻</title><link>http://askender.com/blog/world_of_zhigu.html</link><description>&lt;p&gt;一篇随意写的故事，也许不算科幻，请不要对号入座。&lt;/p&gt;
+<rss version="2.0"><channel><title>柏舟志 askender's blog - askender</title><link>http://askender.com/blog/</link><description></description><lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0800</lastBuildDate><item><title>在不确定的世界里怀念贝叶斯</title><link>http://askender.com/blog/think_bayes_in_mad_world.html</link><description>&lt;p&gt;今天晚上看阿瑟·克拉克的《遥远的地球之歌》去了，推荐一下，人类哲学的终极命题也不过是一篇精彩科幻的小小注脚。于是订阅号的原计划的更新内容就延后了。用这篇感兴趣的人会比较少的文章替代。&lt;/p&gt;
+&lt;p&gt;生活对于我来说，就是一系列事件以某些概率发生在我身上，但我仍然不相信一切是注定的，自由意志听起来更有趣。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「命运鄙视地把畏首畏尾的人拒之门外。命运——这世上的另一位神，只愿意用热烈的双臂把勇敢者高高举起，送上英雄们的天堂。」——茨威格&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;其实这篇不是概率论的教程，也不讨论自由意志自我意识等抽象的话题，会尽量有趣地介绍一下贝叶斯定理（不感兴趣的自行略过），然后是我想做的东西的具体计划。
+最后介绍一下「最聪明」的大脑在想些啥以及，学习一下。&lt;/p&gt;
+&lt;p&gt;以下描述为了趣味性，用语不一定标准，也可能会有错误。&lt;/p&gt;
+&lt;p&gt;有两种不确定性，一种是量子力学里的不确定性原理。另一种就是上帝掷骰子🎲
+在这里我们不考虑量子力学，一个事情同时为真和假会让人晕掉。&lt;/p&gt;
+&lt;p&gt;1.1
+0&amp;lt;=概率&amp;lt;=1 我也不知道概率为2是什么意思。以下概率简写为p
+条件概率记为p(A|B)  B条件下A事件发生的概率。 符号什么的多看看就熟悉了
+很好理解，如果你B条件好，你做成A事情的可能性就大 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">askender</dc:creator><pubDate>Mon, 20 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:askender.com,2017-03-20:/blog/think_bayes_in_mad_world.html</guid><category>技术</category></item><item><title>止固的世界，米汤科幻</title><link>http://askender.com/blog/world_of_zhigu.html</link><description>&lt;p&gt;一篇随意写的故事，也许不算科幻，请不要对号入座。&lt;/p&gt;
 &lt;h2&gt;楔子·荒寂&lt;/h2&gt;
 &lt;h4&gt;542年前，蓝色海岸线天文台&lt;/h4&gt;
 &lt;p&gt;周止固打开电脑，并没有像往常一样连上星图服务器的终端，犹豫了一会儿，长叹一口气后敲下了对一份aes-256-cfb加密文件的破解程序，写完后悬停了一会的手轻轻按下回车，去接一杯水喝。
