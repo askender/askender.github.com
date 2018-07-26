@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.path.join(os.curdir, 'conf'))
 from localconf import *  # noqa
 
-SITEURL = 'http://askender.com/blog'
+SITEURL = 'http://askender.xyz/blog'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
