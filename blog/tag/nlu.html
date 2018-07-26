@@ -1,173 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+>
 <head>
-        <title>柏舟志 askender's blog - NLU</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="http://askender.com/blog/theme/css/main.css" type="text/css" />
-        <link href="http://askender.com/blog/" type="application/atom+xml" rel="alternate" title="柏舟志 askender's blog ATOM Feed" />
+    <title>NLU - 柏舟志 askender's blog</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://askender.com/blog/css/ie.css"/>
-                <script src="http://askender.com/blog/js/IE8.js" type="text/javascript"></script><![endif]-->
 
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://askender.com/blog/css/ie6.css"/><![endif]-->
+    <meta name="author" content="askender" />
+    <meta name="keywords" content="NLU" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="柏舟志 askender's blog" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="柏舟志 askender's blog"/>
+        <meta property="og:url" content="http://askender.xyz/blog"/>
+        <meta property="og:description" content="柏舟志 askender's blog"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://askender.xyz/blog/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://askender.xyz/blog/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://askender.xyz/blog/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://askender.xyz/blog/theme/css/style.css" type="text/css"/>
+        <link href="http://askender.xyz/blog/theme/css/local.css" rel="stylesheet">
+
+        <link href="http://askender.xyz/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="柏舟志 askender's blog ATOM Feed"/>
 
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://askender.com/blog">柏舟志 askender's blog </a></h1>
-                <nav><ul>
-                    <li ><a href="http://askender.com/blog/category/du-shu-bi-ji.html">读书笔记</a></li>
-                    <li ><a href="http://askender.com/blog/category/ji-zhu.html">技术</a></li>
-                    <li ><a href="http://askender.com/blog/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-        
-        
-        <aside id="featured" class="body"><article>
-                <h1 class="entry-title"><a href="http://askender.com/blog/game_and_ai_you_know_nothing.html">游戏与智能，你全部不懂</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2017-03-18T00:00:00+08:00">
-                六 18 三月 2017
-        </abbr>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://askender.xyz/blog/" class="navbar-brand">
+柏舟志 askender's blog            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://askender.xyz/blog/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
 
-        <address class="vcard author">
-                By <a class="url fn" href="http://askender.com/blog/author/askender.html">askender</a>
-        </address>
-<p>In <a href="http://askender.com/blog/category/ji-zhu.html">技术</a>. </p>
-<p>tags: <a href="http://askender.com/blog/tag/nlu.html">NLU</a></p></p>
-</footer><!-- /.post-info -->                <p>以下是一些观点简单描述，对于理解智能和玩游戏没有帮助。只是自己要做的事情的一个蓝图。</p>
-<p>我们很难清晰定义出智能和人工智能，但对于熵这样的词却能达成共识。</p>
-<p>我给出一个自己瞎掰的定义：人工智能是让机器完成「人觉得有挑战的任务」，小黑之于小白的智能，在于小黑能完成小白觉得神奇的事情。</p>
-<blockquote>
-<p>插播一句。从我的物理学知识出发，能得到另外一种不同的定义：能产生信息，就能减少熵（系统混乱的程度），这就是智能。这个过程需要消耗能量。所以麦克斯韦妖也是有智能的。</p>
-</blockquote>
-<p>信息可以减少不确定性。</p>
-<p>结合插播信息和上面的信息定义。我们可以用反证法证明瞎掰的定义：如果小黑不能做对于小白来说神奇的事情，并没有减少「小黑是不是傻X」这个事件对于小白的不确定性。于是小黑没有对小白提供信息，熵没有减少，小白很平静没有混乱（不会倾慕地对小黑说「你真是高智能生命」），综上所述：小黑不「智能」。证毕。
-小黑真是生不如麦克斯韦妖😇，死不如怪力乱神鬼👻。</p>
-<p>现在我们习以为常的东西，可能在几百年前认为是人工智能黑科技高级魔法。而我们现在的各种人工智能探索，在后世看来可能是极其粗浅的尝试而不能算是人工智能。但这些尝试还是值得敬佩。 这是「智能」的历史观。</p>
-<p>一个人认为的人工智能，在另外一个人看来可能只是一些简单的神经网络代码，并不厉害。  这是「智能」的相对论。</p>
-<p>可以认为智能和非智能之间的界限是极其模糊镜花水月的。 这是「智能」的文学观。</p>
-<p>一方面我们惊叹于围棋、各类电子游戏、语音识别等各种任务中AI的表现，又对现有的AI产品感到失望。
-比如，如果让AlphaGo和业余围棋高手来下双方从来没有尝试过的第一局23路围棋，人类的迁移能力应该能轻松应对。
-一如我们对于北上广深的爱与憾。</p>
-<p>所以，对于「通用人工智能」「能理解语言的人工智能」似乎还是很遥远的事情。</p>
-<blockquote>
-<p>「智能主体是指一个可以观察周遭环境并作出行动以达致目标的系统。已经存在非人类的智能主体」  — 伪·维基百科
-居然没达到目标就不算智能主体，维基百科的定义太不严谨了，待会去维基百科加一下说明  :)</p>
-</blockquote>
-<p>所以我在希望自己成为智能主体的同时，也想造一个机器智能主体（后世史称AndeAI），中文名暂时不告诉你了</p>
-<h2>如何造智能？靠游戏？</h2>
-<p>先考虑两种路径，自底向上和自顶向下</p>
-<h3>我现在做的更多的是自底向上</h3>
-<p>读几千万中英句对，慢慢就能翻译。读几千亿的句子，找出词之间的图的类比关系，慢慢收集常识回答问题而至回答更多问题。
-换句话说，「给系统输入大量文本数据；系统提取特征并提炼模式。」模式在句法树、语义图、知识图、常识图、上下文图等叠加起来的复杂结构中，即使是能力提升25%的syntaxnet也只是杯水车薪。算是一条极其艰苦而漫长的路。要命的是，除了要处理偷懒省略指代、语病语误等各种噪音外，还得忍受人类无意义的话语到处喷发、思维混乱令机器发指烧掉GPU、FPGA。
-绕了亿万的概率图模式识别和贝叶斯推理，还得一步步和语音图像视频等传感器结合再来亿亿亿亿的复杂神经网络结构才能处理更真实的问题。否则极少有人愿意整天陪机器玩文字游戏啊。
-读了亿万文字的机器书呆子是也。</p>
-<h3>另外一条路 自顶向下</h3>
-<p>如deepmind、OpenAI等构建越来越复杂的游戏环境并让多个机器代理互动来一步步向真实世界逼近。</p>
-<p>搜索以下两行语义一致的文章也能得到一些中文解读
-OpenAI尝试打破“中文房间悖论”，让AI创造语言并自发交流
-让人工智能发明自己的语言：OpenAI语言理解研究新方向
-「证明通过训练，智能体是可以创造语言并进行交流的」</p>
-<p>看看原文也不错  Emergence of Grounded Compositional Language in Multi-Agent Populations
-论文地址：https://arxiv.org/pdf/1703.04908.pdf</p>
-<p>我也早想过一堆这条路各种玩法，比如做一些狼人杀的模拟，约定大家用同样的简化的表达语言来玩人机互动的模拟游戏，然后一步步增强语言复杂度。</p>
-<p>嗯，只能说这条路适合有更好的研究环境的人来做。</p>
-<p>听着像：一不小心完成外星屠异的《安德的游戏》里的天真游戏少年，说不定哪天就成长为充满人文关怀不再担心房价的满怀普适价值的可爱的《死者代言人》</p>
-<h2>未来测不准，不确定性蔓延到此刻</h2>
-<p>两条路我都会去玩一下，只是第二条路需要更好的游戏设备和时间。
-此刻先去休息好，然后学习「强化学习」再慢慢垒代码做实验了。
-也许必须同时成为书呆子和代言人，才能实现在她看来达成目标的「智能主体」，所以</p>
-<p>虽然随时可能game over和pause 换一盘游戏（在乡下与村姑来一局没有胜负的手谈），先就着下面简陋的游戏攻略和上古主机来一场。</p>
-<hr>
-<p>好奇（欲望）+学习+时间 -&gt; 游戏=game=比赛=博弈=AI=智能 -&gt; 逆熵代表的一切</p>
-<p>There are <a href="http://askender.com/blog/game_and_ai_you_know_nothing.html#disqus_thread">comments</a>.</p>                </article>
-                </aside><!-- /#featured -->
-            <section id="content" class="body">
-                <h1>Other articles</h1>
-                <hr />
-                    <ol id="posts-list" class="hfeed">
-        
- 
-        <li><article class="hentry">    
-                <header>
-                        <h1><a href="http://askender.com/blog/lang_and_ai_what_can_i_play.html" rel="bookmark" title="Permalink to 语言与智能，关于AI的近未来我们能玩些什么？">语言与智能，关于AI的近未来我们能玩些什么？</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2017-03-17T00:00:00+08:00">
-                五 17 三月 2017
-        </abbr>
+            <article>
+                <h2><a href="http://askender.xyz/blog/game_and_ai_you_know_nothing.html">游戏与智能，你全部不懂</a></h2>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="http://askender.xyz/blog/lang_and_ai_what_can_i_play.html">语言与智能，关于AI的近未来我们能玩些什么？</a></h2>
+            </article>
+            <hr/>
 
-        <address class="vcard author">
-                By <a class="url fn" href="http://askender.com/blog/author/askender.html">askender</a>
-        </address>
-<p>In <a href="http://askender.com/blog/category/ji-zhu.html">技术</a>. </p>
-<p>tags: <a href="http://askender.com/blog/tag/nlu.html">NLU</a></p></p>
-</footer><!-- /.post-info -->                <p>这个话题很难写，真正的干货是直接发高质量论文和做出让世人为之一惊的demo，文字过多的表述往往流于形式，但尽量写出一点有趣有用的东西，至少是对自己。</p>
-<h2>为什么做自然语言处理？</h2>
-<h3>物质方面的原因是</h3>
-<p>2011年做选择的时候，放弃了物理和其他行业，当年选择了互联网并在年底接触人工智能的可能性。互联网毕竟有太多资本运作的因素在里面，偏文艺的互联网创业豆瓣知乎也是要有早期氛围来起步的，所以只能业余做几个APP玩玩。选定了人工智能后，观望一圈，语音和图像已经有大厂做得还很不错了，未来肯定是提供接口和开源的，唯一的机会在于语言，so...</p>
-<h3>非物质方面的原因是</h3>
-<p>想找有趣的工作。纯文科理科工科等没有足够的各种基础来支撑，也不一定完全适合我这样兴趣很杂的人，科幻和人工智能刚好适合我，将多种东西融合在一起玩。</p>
-<h2>现状</h2>
-<p>学校和大公司资源多，如同在北上广风生水起的人。小公司捉襟见肘，如同在纠结还有多少天要撤离北上广的人。只不过很多小团队还是比较自信，想着总有长尾的机会被抓住。
-可现状是小公司的算法还没开发完，大公司就出了新算法和封装良好的工具，顶会上没有小公司的身影。拼的只是将成熟的东西转化为赚钱的产品的能力，探索的乐趣只能自己额外争取。
-真的如此不堪？
-- 也有少数一鸣惊人转眼被收购的小团队。
-- 现有的理论不足以解决推理等看似更高明的东西，靠的是感知。也许感知就足够，最近几年就能见分晓
-- 从对于语言的理解来看，现在做得还太弱。NMT只是一种简单的场景。
-所以，还是能玩的。向产品的转化、新的理论和算法 …</p>
-                <a class="readmore" href="http://askender.com/blog/lang_and_ai_what_can_i_play.html">read more</a>
-<p>There are <a href="http://askender.com/blog/lang_and_ai_what_can_i_play.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://anwensf.com/">安问 - 创造和分享美好</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://askender.com/blog/" rel="alternate">atom feed</a></li>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<div id="aboutme">
+    <p>
+        <strong>About askender</strong><br/>
+        My name is Bo Li, I'm a free develolper interested in AI, NLP, reading, SciFi, dreaming.
+    </p>
+</div>
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/askender"><i class="fa fa-github-square fa-lg"></i> github</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/askenderlee"><i class="fa fa-twitter-square fa-lg"></i> twitter</a></li>
+                <li class="list-group-item"><a href="mailto:askender43@gmail.com"><i class="fa fa-envelope-square fa-lg"></i> envelope</a></li>
+                <li class="list-group-item"><a href="/blog/feeds/all.atom.xml"><i class="fa fa-rss-square fa-lg"></i> rss</a></li>
+              </ul>
+            </li>
 
-                            <li><a href="https://github.com/askender">github</a></li>
-                            <li><a href="https://twitter.com/askenderlee">twitter</a></li>
-                            <li><a href="mailto:askender43@gmail.com">envelope</a></li>
-                            <li><a href="/blog/feeds/all.atom.xml">rss</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                个人订阅号： 安问
-                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://smashingmagazine.com">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+            <li class="list-group-item"><a href="http://askender.xyz/blog/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://anwensf.com/" target="_blank">
+                安问 - 创造和分享美好
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 askender
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://askender.xyz/blog/theme/js/jquery.min.js"></script>
 
-<script type="text/javascript">
-    var disqus_shortname = 'askender-blog';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://askender.xyz/blog/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://askender.xyz/blog/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'askender-blog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+
 </body>
 </html>
