@@ -23,18 +23,20 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('github', 'https://github.com/askender'),
     ('twitter', 'https://twitter.com/askenderlee'),
+    ('github', 'https://github.com/askender'),
     ('envelope', 'mailto:askender43@gmail.com'),
     ('rss', '/blog/feeds/all.atom.xml'),
 )
+
 
 DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME = 'themes/pelican-bootstrap3'
+THEME = 'themes/attila'
+# THEME = 'themes/pelican-bootstrap3'
 # THEME = 'themes2/sneakyidea'
 DISPLAY_CATEGORIES_ON_MENU = False
 
@@ -48,3 +50,28 @@ TAG_CLOUD_MAX_ITEMS = 8
 # superhero 1
 # united red
 # cyborg black
+
+
+# for theme: attila
+# HEADER_COVER = 'static/my_image.png'
+HEADER_COLOR = 'black'
+# COLOR_SCHEME_CSS = 'monokai.css'
+# CSS_OVERRIDE = ['css/myblog.css']
+
+AUTHORS_BIO = {
+    "askender": {
+        "name": "Askender",
+        "cover": "/avatar.png",
+        "image": "/avatar.png",
+        "website": "http://askender.xyz",
+        "location": "Hangzhou",
+        "bio": "This is the place for blog"
+    }
+}
+
+# GOOGLE_ANALYTICS
+# GAUGES
+# GOOGLE_SITE_VERIFICATION
+# SHOW_FULL_ARTICLE
+
+# article meta: header_cover
