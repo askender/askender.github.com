@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog - askender</title><link href="http://askender.xyz/blog/" rel="alternate"></link><link href="http://askender.xyz/blog/feeds/askender.atom.xml" rel="self"></link><id>http://askender.xyz/blog/</id><updated>2019-06-23T00:00:00+08:00</updated><entry><title>log-刷手机</title><link href="http://askender.xyz/blog/190623_log.html" rel="alternate"></link><published>2019-06-23T00:00:00+08:00</published><updated>2019-06-23T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.xyz,2019-06-23:/blog/190623_log.html</id><summary type="html">&lt;p&gt;my log&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天出了趟门与一朋友聊天，回来后午睡数小时，刷手机数小时，晚上想起flag。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>柏舟志 askender's blog - askender</title><link href="http://askender.xyz/blog/" rel="alternate"></link><link href="http://askender.xyz/blog/feeds/askender.atom.xml" rel="self"></link><id>http://askender.xyz/blog/</id><updated>2019-08-22T00:00:00+08:00</updated><entry><title>log-技术 x 阅读 = SF</title><link href="http://askender.xyz/blog/190822_log.html" rel="alternate"></link><published>2019-08-22T00:00:00+08:00</published><updated>2019-08-22T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.xyz,2019-08-22:/blog/190822_log.html</id><summary type="html">&lt;p&gt;my log&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天看到一句话，改写一下：沉默不语不是厚积薄发，是将错误隐藏，将灵感丢弃。&lt;/p&gt;
+&lt;p&gt;无论写的多烂，还是得记录下来。&lt;/p&gt;
+&lt;h2&gt;一 论文与实用&lt;/h2&gt;
+&lt;p&gt;最近NLP等领域没什么大的新闻， 和朋友偶然提到没惊喜的芝麻街命名后续 https://arxiv.org/pdf/1906.01604.pdf   KERMIT: Generative Insertion-Based Modeling for Sequences  他提到关于实用性的问题。&lt;/p&gt;
+&lt;p&gt;我的想法如下：
+即使是更好的asr或者mt或者chatbot等，感觉还是不够让人有惊喜。&lt;/p&gt;
+&lt;p&gt;如果是完美结合现有的所有技术，做出了一个能执行多种任务的有记忆能学习的robot，能用于做什么呢?  提高人类的效率？人类的效率提高了然后做什么呢？&lt;/p&gt;
+&lt;p&gt;不是所有人都爱创造，那么大部分的人就是体验各种文艺作品和大自然？貌似在创造新科技和艺术方面机器能起到的作用只是提高时间利用效率。   效率总是会提高的，我们急着加速一点效率提升的额外作用是什么呢？
+已读&lt;/p&gt;
+&lt;h2&gt;二 动画与阅读&lt;/h2&gt;
+&lt;p&gt;最近看到一部动画，搜了一下知乎讨论： https://www.zhihu.com/question/22575701
+在LAIN世界中占用重要地位的NAVI，名字来源于 “Knowledge Navigator”一词。苹果电脑公司1983到1993年的CEO John Sculley在他的名为“Odyssey的书中描述了Knowledge Nacigator。Knowledge Navigator是他对21世纪苹果电脑的构想。在精确地预言了许多由万维网最终带来的变化的同时，预想中的Knowledge Navigator将帮助在世界各地的人们互相交流，其同一个巨大的共享超文本信息数据库相连，也将利用智能代理或人工智能来搜索感兴趣的信息。&lt;/p&gt;
+&lt;p&gt;Knowledge Navigator这样单纯的想象和我一直想做的倒是比较接近，不过我设想的不是靠不断刷一个数据集榜单来完成，刷只能占很小一部分，更大的部分在于怎么连接整个世界形成一个正反馈能自我增强。    只要能构建出一个能自我驱动和完善的系统，广义上来说就算是智能。    也就是维基百科也是人工智能，因为还能自发让人辅助其改进&lt;/p&gt;
+&lt;p&gt;我的业余项目是提高人们找到感兴趣的东西的一个阅读工具，计划超越RSS和推荐信息流以及孤岛式的订阅号。我发现大家的阅读源趋同，同质化严重。我尝试通过网络拼命搜索一些东西之后，发现难以长期坚持。回到订阅号的常规低效阅读。 今天仔细一想，其效率和深度还是比书籍差的远，不过看什么书对于我来说也是一个问题，打算改为经常使用我的十几个阅读书籍的APP，观其大略。&lt;/p&gt;
+&lt;h2&gt;三 小圈子&lt;/h2&gt;
+&lt;p&gt;另外，想到一个常见的观点，年轻人更活跃，更容易聚集成一些亚文化的小圈子，不过看现在的趋势，还会继续碎片下去，变为亚亚文化。 科幻这么多年了，在中国还是一个小圈子，影视化的薄弱导致还是得靠高质量的文本来支撑，而互联网的兴起导致人们的注意力更加短暂，更容易接受视频类的作品。&lt;/p&gt;
+&lt;p&gt;今天偶然逛到了北大未名论坛科幻版块，发现现在一个月难有一个帖子，发现download部分还是Telnet相关的，时代变迁的遗迹。&lt;/p&gt;
+&lt;p&gt;如果安问的重新起步得一个个小圈子来做的话，我还是愿意从科幻开始。&lt;/p&gt;
+&lt;h2&gt;三 关于安问-科幻版块的构想&lt;/h2&gt;
+&lt;p&gt;在我以前的观点里，科幻影视不算科幻，主要是经典作品太少。而科幻文字作品也有断档的感觉。只能努力发掘一些新东西了。
+我的计划是内容和社区一起做，这样容易长期共同坚持。&lt;/p&gt;
+&lt;p&gt;现在有氛围的科幻社区几乎没有，列一下一些站点留作备忘和分析&lt;/p&gt;
+&lt;p&gt;（在google搜索相关关键词得到，覆盖不全）
+- https://www.zhihu.com/topic/19552214/hot 没特色
+- http://www.wcsfa.com/ 老网站，思路还是征文
+- http://www.faa2001.com/  其公众号：不存在  看起来比较专业，但是感觉发展比较慢
+- https://www.vmovier.com/channel/fiction 「科幻」相关的短片
+- https://www.jianshu.com/p/f4b0bef0a22e https://www.zhihu.com/question/22821972 公众号列表&lt;/p&gt;
+&lt;h2&gt;四 末尾&lt;/h2&gt;
+&lt;p&gt;分享一个之前看的短片， 《爱，死亡与机器人》中《Zima Blue》， 对于我来说，这样的作品类似《朝闻道》，本身比较简单，但能启发你对终极答案进行思考，就够了。&lt;/p&gt;</content><category term="兴趣"></category></entry><entry><title>log-刷手机</title><link href="http://askender.xyz/blog/190623_log.html" rel="alternate"></link><published>2019-06-23T00:00:00+08:00</published><updated>2019-06-23T00:00:00+08:00</updated><author><name>askender</name></author><id>tag:askender.xyz,2019-06-23:/blog/190623_log.html</id><summary type="html">&lt;p&gt;my log&lt;/p&gt;</summary><content type="html">&lt;p&gt;今天出了趟门与一朋友聊天，回来后午睡数小时，刷手机数小时，晚上想起flag。&lt;/p&gt;
 &lt;p&gt;据说人在吃饱的情况下，更容易丧失自控力。&lt;/p&gt;
 &lt;p&gt;在某些情况下，任由兴趣驱动也不是坏事，刷手机会尽量不是只在一个平台，从一个兴趣点跳转到另外一个。只是获得纯粹的乐趣。由此想到一个观点，没有外链的文章不是好文章。&lt;/p&gt;
 &lt;p&gt;晚上还有其他事，列一些todo list，明天再好好写文章。&lt;/p&gt;
