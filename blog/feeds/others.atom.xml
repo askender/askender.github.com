@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Askender's Blog - Others</title><link href="https://askender.xyz/blog/" rel="alternate"></link><link href="https://askender.xyz/blog/feeds/others.atom.xml" rel="self"></link><id>https://askender.xyz/blog/</id><updated>2021-07-09T00:00:00+08:00</updated><entry><title>工作计划</title><link href="https://askender.xyz/blog/work-plan.html" rel="alternate"></link><published>2021-07-09T00:00:00+08:00</published><updated>2021-07-09T00:00:00+08:00</updated><author><name>Askender</name></author><id>tag:askender.xyz,2021-07-09:/blog/work-plan.html</id><summary type="html">&lt;p&gt;工作计划01&lt;/p&gt;</summary><content type="html">&lt;p&gt;dweb搜索引擎 &lt;a href="https://dweb-search.on.fleek.co/"&gt;https://dweb-search.on.fleek.co/&lt;/a&gt; &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;完成ipfs搜索&lt;/li&gt;
+&lt;li&gt;完成slingshot搜索&lt;/li&gt;
+&lt;li&gt;完成独立博客RSS搜索&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Others"></category></entry><entry><title>重启博客</title><link href="https://askender.xyz/blog/restart-blog.html" rel="alternate"></link><published>2021-07-08T00:00:00+08:00</published><updated>2021-07-08T00:00:00+08:00</updated><author><name>Askender</name></author><id>tag:askender.xyz,2021-07-08:/blog/restart-blog.html</id><summary type="html">&lt;p&gt;兼容ipfs的博客&lt;/p&gt;</summary><content type="html">&lt;p&gt;重新开始写博客。并将此前的博文删除（可能整理后重新发出）。&lt;/p&gt;
+&lt;p&gt;原因之一是，静态博客兼容ipfs，目前正在做一个dweb搜索引擎 &lt;a href="https://dweb-search.on.fleek.co/"&gt;https://dweb-search.on.fleek.co/&lt;/a&gt; 。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.getpelican.com/en/latest/publish.html"&gt;https://docs.getpelican.com/en/latest/publish.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;make devserver
+make publish
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Others"></category></entry></feed>
