@@ -1,8 +1,1 @@
-*.pyc
-tmp_*
-
-themes/pelican-bootstrap3
-content_old1/
-themes2
-
-local_resume/
+_old

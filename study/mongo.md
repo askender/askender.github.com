@@ -1,5 +1,0 @@
-MongoDB时间戳在id里
-
-如果你使用了默认的ObjectId作为_id值，并且你还存在一个addtime字段保存添加时间，那么你已经在犯错了。因为MongoDB默认的ObjectId本身就保存了一些信息。其中就包括本条记录生成的时间。
-
-ObjectId.getTimestamp()可以达到创建的时间戳. PyMongo中,这个方法是generation_time
